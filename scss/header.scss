@@ -1,18 +1,18 @@
 #navbar {
-	height: 90px;
+	min-height: 90px;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
-	transition: 0.8s;
+	transition: 0.5s;
+	background: #0a0908;
 
 	nav {
 		display: flex;
 		align-items: center;
+		width: 100%;
 		// height: 90px;
-
-		padding: 4.92vh 8vw 2.4vh;
-
+		// padding: 4.92vh 8vw 2.4vh;
 		.logo {
 			img {
 				width: 89.73px;
@@ -24,6 +24,63 @@
 			img {
 				width: 17.95px;
 				height: 6.23px;
+			}
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		nav {
+			// padding: 3vh 3vw;
+			.logo {
+				img {
+					width: 93.6px;
+					height: 29.86px;
+				}
+			}
+			.hamburger_open {
+				img {
+					width: 19.18px;
+					height: 6.66px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+	}
+
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		nav {
+			padding-top: 1.9vh;
+			.logo {
+				img {
+					width: 113.56px;
+					height: 36.22px;
+				}
+			}
+			.hamburger_open {
+				img {
+					width: 27px;
+					height: 9px;
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1900px) {
+		nav {
+			padding-left: -20px;
+			.logo {
+				img {
+					margin-left: -20px;
+					width: 141.1px;
+					height: 45.25px;
+				}
+			}
+			.hamburger_open {
+				img {
+					margin-right: -20px;
+					width: 30px;
+					height: 10px;
+				}
 			}
 		}
 	}

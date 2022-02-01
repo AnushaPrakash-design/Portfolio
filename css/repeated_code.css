@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * img {
+    display: block; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0a0908; }
+  body p,
+  body h1,
+  body h2,
+  body h3,
+  body h5,
+  body h6,
+  body a {
+    color: #fafafa; }

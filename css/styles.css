@@ -1,15 +1,15 @@
 #navbar {
-  height: 90px;
+  min-height: 90px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  transition: 0.5s; }
+  transition: 0.5s;
+  background: #0a0908; }
   #navbar nav {
     display: flex;
     align-items: center;
-    height: 90px;
-    padding: 4.92vh 8vw 2.4vh; }
+    width: 100%; }
     #navbar nav .logo img {
       width: 89.73px;
       height: 28.77px; }
@@ -18,12 +18,37 @@
       #navbar nav .hamburger_open img {
         width: 17.95px;
         height: 6.23px; }
+  @media only screen and (min-width: 768px) {
+    #navbar nav .logo img {
+      width: 93.6px;
+      height: 29.86px; }
+    #navbar nav .hamburger_open img {
+      width: 19.18px;
+      height: 6.66px; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    #navbar nav {
+      padding-top: 1.9vh; }
+      #navbar nav .logo img {
+        width: 113.56px;
+        height: 36.22px; }
+      #navbar nav .hamburger_open img {
+        width: 27px;
+        height: 9px; } }
+  @media only screen and (min-width: 1900px) {
+    #navbar nav {
+      padding-left: -20px; }
+      #navbar nav .logo img {
+        margin-left: -20px;
+        width: 141.1px;
+        height: 45.25px; }
+      #navbar nav .hamburger_open img {
+        margin-right: -20px;
+        width: 30px;
+        height: 10px; } }
 
 .landing {
   height: 200vh;
-  width: 100vw;
-  position: absolute;
-  margin-top: 150px; }
+  width: 100%; }
 
 * {
   margin: 0;
