@@ -5,12 +5,11 @@
   top: 0;
   left: 0;
   transition: 0.5s;
-  background: #0a0908;
-  padding: 4.92vh 8vw 2.4vh; }
+  background: #0a0908; }
   #navbar nav {
     display: flex;
     align-items: center;
-    width: 100%; }
+    margin: 4.92vh 8vw 2.4vh; }
     #navbar nav .logo img {
       width: 89.73px;
       height: 28.77px; }
@@ -20,24 +19,26 @@
         width: 17.95px;
         height: 6.23px; }
   @media only screen and (min-width: 768px) {
-    #navbar nav .logo img {
-      width: 93.6px;
-      height: 29.86px; }
-    #navbar nav .hamburger_open img {
-      width: 19.18px;
-      height: 6.66px; } }
+    #navbar nav {
+      margin: 5vh 6vw 2vh; }
+      #navbar nav .logo img {
+        width: 93.6px;
+        height: 29.86px; }
+      #navbar nav .hamburger_open img {
+        width: 19.18px;
+        height: 6.66px; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     #navbar nav {
-      padding-top: 1.9vh; }
+      margin: 6.8vh 6.9vw 3vh; }
       #navbar nav .logo img {
         width: 113.56px;
         height: 36.22px; }
       #navbar nav .hamburger_open img {
         width: 27px;
         height: 9px; } }
-  @media only screen and (min-width: 1900px) {
+  @media only screen and (min-width: 1920px) {
     #navbar nav {
-      padding-left: -20px; }
+      margin: 7.4vh 6.7vw 3.2vh; }
       #navbar nav .logo img {
         margin-left: -20px;
         width: 141.1px;

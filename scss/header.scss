@@ -6,13 +6,13 @@
 	left: 0;
 	transition: 0.5s;
 	background: #0a0908;
-	padding: 4.92vh 8vw 2.4vh;
 
 	nav {
 		display: flex;
 		align-items: center;
-		width: 100%;
+		// width: 100%;
 		// height: 90px;
+		margin: 4.92vh 8vw 2.4vh;
 
 		.logo {
 			img {
@@ -30,7 +30,7 @@
 	}
 	@media only screen and (min-width: 768px) {
 		nav {
-			// padding: 3vh 3vw;
+			margin: 5vh 6vw 2vh;
 			.logo {
 				img {
 					width: 93.6px;
@@ -50,7 +50,7 @@
 
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 		nav {
-			padding-top: 1.9vh;
+			margin: 6.8vh 6.9vw 3vh;
 			.logo {
 				img {
 					width: 113.56px;
@@ -66,9 +66,9 @@
 		}
 	}
 
-	@media only screen and (min-width: 1900px) {
+	@media only screen and (min-width: 1920px) {
 		nav {
-			padding-left: -20px;
+			margin: 7.4vh 6.7vw 3.2vh;
 			.logo {
 				img {
 					margin-left: -20px;
