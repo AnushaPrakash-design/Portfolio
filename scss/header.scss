@@ -1,0 +1,30 @@
+#navbar {
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: 0.8s;
+
+	nav {
+		display: flex;
+		align-items: center;
+		// height: 90px;
+
+		padding: 4.92vh 8vw 2.4vh;
+
+		.logo {
+			img {
+				width: 89.73px;
+				height: 28.77px;
+			}
+		}
+		.hamburger_open {
+			margin-left: auto;
+			img {
+				width: 17.95px;
+				height: 6.23px;
+			}
+		}
+	}
+}

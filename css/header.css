@@ -18,30 +18,3 @@
       #navbar nav .hamburger_open img {
         width: 17.95px;
         height: 6.23px; }
-
-.landing {
-  height: 200vh;
-  width: 100vw;
-  position: absolute;
-  margin-top: 150px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-  * img {
-    display: block; }
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #0a0908; }
-  body p,
-  body h1,
-  body h2,
-  body h3,
-  body h5,
-  body h6,
-  body a {
-    color: #fafafa; }
