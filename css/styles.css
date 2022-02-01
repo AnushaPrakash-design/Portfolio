@@ -5,7 +5,8 @@
   top: 0;
   left: 0;
   transition: 0.5s;
-  background: #0a0908; }
+  background: #0a0908;
+  padding: 4.92vh 8vw 2.4vh; }
   #navbar nav {
     display: flex;
     align-items: center;

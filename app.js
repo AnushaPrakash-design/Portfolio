@@ -22,23 +22,22 @@ window.addEventListener("scroll", function () {
 	lastScrollTop = scrollTop; //New Position Stored
 });
 
-window.onscroll = function () {
-	scrollFunction();
-};
+// window.onscroll = function () {
+// 	scrollFunction();
+// };
 
-function scrollFunction() {
-	if (
-		document.body.scrollTop > 80 ||
-		document.documentElement.scrollTop > 80
-	) {
-		document.getElementById("navbar").style.padding = "4vh 8vw 2.4vh  ";
-	} else {
-		document.getElementById("navbar").style.padding = "4.92vh 8vw 2.4vh";
-	}
-	// var mq = window.matchMedia("(min-width: 768px)");
-	// if (mq.matches) {
-	// 	document.getElementById("navbar").style.padding = "5vh 5.5vw 2.5vh  ";
-	// } else {
-	// 	document.getElementById("navbar").style.padding = "5vh 5.5vw 2.5vh";
-	// }
-}
+// function scrollFunction() {
+// 	if (
+// 		document.body.scrollTop > 80 ||
+// 		document.documentElement.scrollTop > 80
+// 	) {
+// 		document.getElementById("navbar").style.padding = "4vh 8vw 2.4vh  ";
+// 	} else {
+// 		document.getElementById("navbar").style.padding = "4.92vh 8vw 2.4vh";
+// 	}
+// var mq = window.matchMedia("(min-width: 768px)");
+// if (mq.matches) {
+// 	document.getElementById("navbar").style.padding = "5vh 5.5vw 2.5vh  ";
+// } else {
+// 	document.getElementById("navbar").style.padding = "5vh 5.5vw 2.5vh";
+// }
