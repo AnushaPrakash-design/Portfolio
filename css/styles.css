@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 #navbar {
   min-height: 90px;
   width: 100%;
@@ -36,7 +37,7 @@
       #navbar nav .hamburger_open img {
         width: 27px;
         height: 9px; } }
-  @media only screen and (min-width: 1920px) {
+  @media only screen and (min-width: 1900px) {
     #navbar nav {
       margin: 7.4vh 6.7vw 3.2vh; }
       #navbar nav .logo img {
@@ -63,7 +64,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #0a0908; }
+  background: #0a0908;
+  font-family: sans-serif; }
   body p,
   body h1,
   body h2,
@@ -72,3 +74,24 @@ body {
   body h6,
   body a {
     color: #fafafa; }
+  body .single_words h2 {
+    font-family: Sainte Colombe;
+    font-style: italic;
+    font-size: 39.81px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    opacity: 0.65;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 0, 114, 0.5); }
+  body .main_heading h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 39.81px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    font-style: normal; }
+
+@font-face {
+  font-family: Sainte Colombe;
+  src: url("../fonts/Sainte Colombe Italic.otf");
+  font-weight: normal; }

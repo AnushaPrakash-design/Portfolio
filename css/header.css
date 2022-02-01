@@ -36,7 +36,7 @@
       #navbar nav .hamburger_open img {
         width: 27px;
         height: 9px; } }
-  @media only screen and (min-width: 1920px) {
+  @media only screen and (min-width: 1900px) {
     #navbar nav {
       margin: 7.4vh 6.7vw 3.2vh; }
       #navbar nav .logo img {

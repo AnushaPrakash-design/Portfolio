@@ -9,7 +9,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #0a0908; }
+  background: #0a0908;
+  font-family: sans-serif; }
   body p,
   body h1,
   body h2,
@@ -18,3 +19,19 @@ body {
   body h6,
   body a {
     color: #fafafa; }
+  body .single_words h2 {
+    font-family: Sainte Colombe;
+    font-style: italic;
+    font-size: 39.81px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    opacity: 0.65;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 0, 114, 0.5); }
+  body .main_heading h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 39.81px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    font-style: normal; }
