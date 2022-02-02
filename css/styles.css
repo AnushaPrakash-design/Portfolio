@@ -75,8 +75,9 @@
     .landing .landing_image img {
       opacity: 0.8;
       border-radius: 20px;
-      width: auto;
-      height: 63vh; }
+      margin: 0 15vw;
+      height: 63vh;
+      object-fit: cover; }
   .landing .main_heading {
     position: absolute;
     display: flex;
