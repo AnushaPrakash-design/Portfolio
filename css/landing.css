@@ -1,3 +1,35 @@
 .landing {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .landing .single_words .word1 {
+    position: absolute;
+    top: 14vh;
+    left: 57vw; }
+  .landing .single_words .word2 {
+    position: absolute;
+    top: 54.3vh;
+    left: 8vw; }
+  .landing .single_words .word3 {
+    position: absolute;
+    top: 78.6vh;
+    left: 62vw; }
+  .landing .landing_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; }
+    .landing .landing_image img {
+      opacity: 0.8;
+      border-radius: 20px;
+      width: auto;
+      height: 63vh; }
+  .landing .main_heading {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 250px; }

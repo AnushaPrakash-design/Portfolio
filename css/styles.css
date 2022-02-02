@@ -51,7 +51,39 @@
 
 .landing {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .landing .single_words .word1 {
+    position: absolute;
+    top: 14vh;
+    left: 57vw; }
+  .landing .single_words .word2 {
+    position: absolute;
+    top: 54.3vh;
+    left: 8vw; }
+  .landing .single_words .word3 {
+    position: absolute;
+    top: 78.6vh;
+    left: 62vw; }
+  .landing .landing_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; }
+    .landing .landing_image img {
+      opacity: 0.8;
+      border-radius: 20px;
+      width: auto;
+      height: 63vh; }
+  .landing .main_heading {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 250px; }
 
 * {
   margin: 0;
@@ -68,28 +100,29 @@ body {
   font-family: sans-serif; }
   body p,
   body h1,
-  body h2,
   body h3,
   body h5,
   body h6,
   body a {
     color: #fafafa; }
-  body .single_words h2 {
-    font-family: Sainte Colombe;
-    font-style: italic;
-    font-size: 39.81px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    opacity: 0.65;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(255, 0, 114, 0.5); }
-  body .main_heading h1 {
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 39.81px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    font-style: normal; }
+
+.single_words h2 {
+  font-family: Sainte Colombe;
+  font-style: italic;
+  font-size: 39.81px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  opacity: 0.65;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 0, 114, 0.5); }
+
+.main_heading h1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 39.81px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  font-style: normal; }
 
 @font-face {
   font-family: Sainte Colombe;
