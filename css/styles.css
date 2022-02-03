@@ -56,35 +56,41 @@
   overflow: hidden; }
   .landing .single_words .word1 {
     position: absolute;
-    top: 14vh;
+    top: 17.5vh;
     left: 57vw; }
   .landing .single_words .word2 {
     position: absolute;
-    top: 54.3vh;
+    top: 51.3vh;
     left: 8vw; }
   .landing .single_words .word3 {
     position: absolute;
-    top: 78.6vh;
+    top: 75.5vh;
     left: 62vw; }
   .landing .landing_image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%; }
+    height: 56.6vh;
+    width: 61.6vw;
+    margin: 21.6vh auto 0; }
     .landing .landing_image img {
       opacity: 0.8;
       border-radius: 20px;
-      margin: 0 15vw;
-      height: 63vh;
-      object-fit: cover; }
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: rotate(180deg); }
   .landing .main_heading {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 250px; }
+    top: 43.8vh; }
+    .landing .main_heading .line1 {
+      margin-left: 8vw; }
+    .landing .main_heading .line2 {
+      margin-left: 22vw; }
+  @media only screen and (min-width: 768px) {
+    .landing .single_words h2 {
+      font-size: 82.56px;
+      opacity: 0.5; }
+    .landing .single_words .word1 {
+      top: 17.5vh;
+      left: 57vw; } }
 
 * {
   margin: 0;
@@ -124,6 +130,16 @@ body {
   line-height: 100%;
   letter-spacing: -0.02em;
   font-style: normal; }
+
+span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 39.81px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #ff0072;
+  margin-left: -7px; }
 
 @font-face {
   font-family: Sainte Colombe;
