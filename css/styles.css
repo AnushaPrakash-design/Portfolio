@@ -19,7 +19,7 @@
       #navbar nav .hamburger_open img {
         width: 17.95px;
         height: 6.23px; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 700px) {
     #navbar nav {
       margin: 5vh 6vw 2vh; }
       #navbar nav .logo img {
@@ -84,13 +84,43 @@
       margin-left: 8vw; }
     .landing .main_heading .line2 {
       margin-left: 22vw; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 700px) {
     .landing .single_words h2 {
       font-size: 82.56px;
       opacity: 0.5; }
     .landing .single_words .word1 {
-      top: 17.5vh;
-      left: 57vw; } }
+      top: 11.3vh;
+      left: 62.2vw; }
+    .landing .single_words .word2 {
+      top: 56.2vh;
+      left: 6vw; }
+    .landing .single_words .word3 {
+      top: 78.4vh;
+      left: 66.4vw; }
+    .landing .landing_image {
+      height: 65.2vh;
+      width: 56vw;
+      margin: 17.3vh auto 0; }
+    .landing .main_heading {
+      font-size: 82.56px; }
+      .landing .main_heading .line1 {
+        margin-left: 6vw;
+        font-size: 82.56px; }
+      .landing .main_heading .line2 {
+        margin-left: 21.8vw;
+        font-size: 82.56px; }
+        .landing .main_heading .line2 span {
+          font-size: 82.56px;
+          margin-left: -19px; } }
+  @media only screen and (min-width: 1024px) {
+    .landing .single_words .word1 {
+      top: 11.8vh; }
+    .landing .single_words .word2 {
+      left: 10vw; }
+    .landing .main_heading .line1 {
+      margin-left: 10vw; }
+    .landing .main_heading .line2 {
+      margin-left: 31.7vw; } }
 
 * {
   margin: 0;

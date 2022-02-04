@@ -70,8 +70,7 @@
 			margin-left: 22vw;
 		}
 	}
-
-	@media only screen and (min-width: 768px) {
+	@media only screen and (min-width: 700px) {
 		.single_words {
 			h2 {
 				font-size: 82.56px;
@@ -79,12 +78,56 @@
 			}
 
 			.word1 {
-				top: 17.5vh;
-				left: 57vw;
+				top: 11.3vh;
+				left: 62.2vw;
+			}
+			.word2 {
+				top: 56.2vh;
+				left: 6vw;
+			}
+			.word3 {
+				top: 78.4vh;
+				left: 66.4vw;
+			}
+		}
+		.landing_image {
+			height: 65.2vh;
+			width: 56vw;
+			margin: 17.3vh auto 0;
+		}
+		.main_heading {
+			font-size: 82.56px;
+			.line1 {
+				margin-left: 6vw;
+				font-size: 82.56px;
+			}
+			.line2 {
+				margin-left: 21.8vw;
+				font-size: 82.56px;
+				span {
+					font-size: 82.56px;
+					margin-left: -19px;
+				}
 			}
 		}
 	}
 	@media only screen and (min-width: 1024px) {
+		.single_words {
+			.word1 {
+				top: 11.8vh;
+			}
+			.word2 {
+				left: 10vw;
+			}
+		}
+		.main_heading {
+			.line1 {
+				margin-left: 10vw;
+			}
+			.line2 {
+				margin-left: 31.7vw;
+			}
+		}
 	}
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 	}
