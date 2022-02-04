@@ -130,6 +130,47 @@
 		}
 	}
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.single_words {
+			h2 {
+				font-size: 118.88px;
+			}
+			.word1 {
+				top: 18.5vh;
+				left: 66.5vw;
+			}
+			.word2 {
+				top: 61vh;
+				left: 6.9vw;
+			}
+			.word3 {
+				top: 65.3vh;
+				left: 70vw;
+			}
+		}
+		.landing_image {
+			height: 83.1vh;
+			width: 30.1vw;
+			// margin: 28.7vh auto 0;
+
+			img {
+				transform: rotate(270deg);
+				margin: 28.7vh auto 0;
+			}
+		}
+		.main_heading {
+			.line1 {
+				margin-left: 6.9vw;
+				font-size: 118.88px;
+			}
+			.line2 {
+				margin-left: 31.8vw;
+				font-size: 118.88px;
+				span {
+					font-size: 118.88px;
+					margin-left: -29px;
+				}
+			}
+		}
 	}
 	@media only screen and (min-width: 1900px) {
 	}
