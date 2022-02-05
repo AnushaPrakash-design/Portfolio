@@ -54,18 +54,21 @@
   width: 100%;
   position: relative;
   overflow: hidden; }
-  .landing .single_words .word1 {
-    position: absolute;
-    top: 17.5vh;
-    left: 57vw; }
-  .landing .single_words .word2 {
-    position: absolute;
-    top: 51.3vh;
-    left: 8vw; }
-  .landing .single_words .word3 {
-    position: absolute;
-    top: 75.5vh;
-    left: 62vw; }
+  .landing .single_words {
+    height: 100%;
+    opacity: 0.65; }
+    .landing .single_words .word1 {
+      position: absolute;
+      top: 17.5vh;
+      left: 57vw; }
+    .landing .single_words .word2 {
+      position: absolute;
+      top: 51.3vh;
+      left: 8vw; }
+    .landing .single_words .word3 {
+      position: absolute;
+      top: 75.5vh;
+      left: 62vw; }
   .landing .landing_image {
     height: 56.6vh;
     width: 61.6vw;
@@ -90,7 +93,10 @@
       opacity: 0.5; }
     .landing .single_words .word1 {
       top: 11.3vh;
-      left: 62.2vw; }
+      left: 62.2vw;
+      width: 265.33px;
+      height: 85.39px;
+      opacity: 0.5; }
     .landing .single_words .word2 {
       top: 56.2vh;
       left: 6vw; }
