@@ -55,7 +55,6 @@
   position: relative;
   overflow: hidden; }
   .landing .single_words {
-    height: 100%;
     opacity: 0.65; }
     .landing .single_words .word1 {
       position: absolute;
@@ -99,10 +98,16 @@
       opacity: 0.5; }
     .landing .single_words .word2 {
       top: 56.2vh;
-      left: 6vw; }
+      left: 6vw;
+      width: 285px;
+      height: 65.57px;
+      opacity: 0.5; }
     .landing .single_words .word3 {
       top: 78.4vh;
-      left: 66.4vw; }
+      left: 66.4vw;
+      width: 224.17px;
+      height: 65.57px;
+      opacity: 0.5; }
     .landing .landing_image {
       height: 65.2vh;
       width: 56vw;
@@ -119,10 +124,6 @@
           font-size: 82.56px;
           margin-left: -19px; } }
   @media only screen and (min-width: 1024px) {
-    .landing .single_words .word1 {
-      top: 11.8vh; }
-    .landing .single_words .word2 {
-      left: 10vw; }
     .landing .main_heading .line1 {
       margin-left: 10vw; }
     .landing .main_heading .line2 {
@@ -132,13 +133,19 @@
       font-size: 118.88px; }
     .landing .single_words .word1 {
       top: 18.5vh;
-      left: 66.5vw; }
+      left: 66.5vw;
+      width: 381.12px;
+      height: 122.07px; }
     .landing .single_words .word2 {
       top: 61vh;
-      left: 6.9vw; }
+      left: 6.9vw;
+      width: 409.5px;
+      height: 93.54px; }
     .landing .single_words .word3 {
       top: 65.3vh;
-      left: 70vw; }
+      left: 70vw;
+      width: 321.91px;
+      height: 93.54px; }
     .landing .landing_image {
       height: 83.1vh;
       width: 30.1vw; }
@@ -154,6 +161,18 @@
       .landing .main_heading .line2 span {
         font-size: 118.88px;
         margin-left: -29px; } }
+  @media only screen and (min-width: 1900px) {
+    .landing .single_words .word1 {
+      top: 11.8vh;
+      width: 456.94px;
+      height: 146.09px; }
+    .landing .single_words .word2 {
+      left: 10vw;
+      width: 491.02px;
+      height: 111.85px; }
+    .landing .single_words .word3 {
+      width: 385.9px;
+      height: 111.85px; } }
 
 * {
   margin: 0;

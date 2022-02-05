@@ -6,7 +6,7 @@
 	overflow: hidden;
 	// z-index: 1;
 	.single_words {
-		height: 100%;
+		// height: 100%;
 		// width: 100;
 		// margin: 0 8vw;
 		// height: 100%;
@@ -88,10 +88,16 @@
 			.word2 {
 				top: 56.2vh;
 				left: 6vw;
+				width: 285px;
+				height: 65.57px;
+				opacity: 0.5;
 			}
 			.word3 {
 				top: 78.4vh;
 				left: 66.4vw;
+				width: 224.17px;
+				height: 65.57px;
+				opacity: 0.5;
 			}
 		}
 		.landing_image {
@@ -116,14 +122,6 @@
 		}
 	}
 	@media only screen and (min-width: 1024px) {
-		.single_words {
-			.word1 {
-				top: 11.8vh;
-			}
-			.word2 {
-				left: 10vw;
-			}
-		}
 		.main_heading {
 			.line1 {
 				margin-left: 10vw;
@@ -141,14 +139,20 @@
 			.word1 {
 				top: 18.5vh;
 				left: 66.5vw;
+				width: 381.12px;
+				height: 122.07px;
 			}
 			.word2 {
 				top: 61vh;
 				left: 6.9vw;
+				width: 409.5px;
+				height: 93.54px;
 			}
 			.word3 {
 				top: 65.3vh;
 				left: 70vw;
+				width: 321.91px;
+				height: 93.54px;
 			}
 		}
 		.landing_image {
@@ -177,5 +181,21 @@
 		}
 	}
 	@media only screen and (min-width: 1900px) {
+		.single_words {
+			.word1 {
+				top: 11.8vh;
+				width: 456.94px;
+				height: 146.09px;
+			}
+			.word2 {
+				left: 10vw;
+				width: 491.02px;
+				height: 111.85px;
+			}
+			.word3 {
+				width: 385.9px;
+				height: 111.85px;
+			}
+		}
 	}
 }
