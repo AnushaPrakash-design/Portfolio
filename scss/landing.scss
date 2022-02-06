@@ -125,28 +125,29 @@
 			}
 		}
 	}
+
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 		.single_words {
 			.word1 {
-				top: 19.8vh;
+				top: 15.8vh;
 				left: 66.5vw;
 				font-size: 118.88px;
 			}
 			.word2 {
-				top: 62vh;
+				top: 60vh;
 				left: 6.9vw;
 				font-size: 118.88px;
 			}
 			.word3 {
-				top: 66.6vh;
+				top: 68.6vh;
 				left: 70.56vw;
 				font-size: 118.88px;
 			}
 		}
 		.landing_image {
-			height: 42.4vh;
+			height: 48vh;
 			width: 59.1vw;
-			margin: 28.7vh auto 0;
+			margin: 26.7vh auto 0;
 			// margin: 28.7vh auto 0;
 			.small_img {
 				display: none;

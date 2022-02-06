@@ -126,21 +126,21 @@
       margin-left: 31.7vw; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .landing .single_words .word1 {
-      top: 19.8vh;
+      top: 15.8vh;
       left: 66.5vw;
       font-size: 118.88px; }
     .landing .single_words .word2 {
-      top: 62vh;
+      top: 60vh;
       left: 6.9vw;
       font-size: 118.88px; }
     .landing .single_words .word3 {
-      top: 66.6vh;
+      top: 68.6vh;
       left: 70.56vw;
       font-size: 118.88px; }
     .landing .landing_image {
-      height: 42.4vh;
+      height: 48vh;
       width: 59.1vw;
-      margin: 28.7vh auto 0; }
+      margin: 26.7vh auto 0; }
       .landing .landing_image .small_img {
         display: none; }
       .landing .landing_image .large_img {
