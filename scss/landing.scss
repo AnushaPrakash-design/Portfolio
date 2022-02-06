@@ -1,42 +1,58 @@
 .landing {
-	height: 100vh;
+	height: 90vh;
 	width: 100%;
 	position: relative;
 	// margin: 0 8vw;
 	overflow: hidden;
 	// z-index: 1;
+	// display: grid;
+	// place-items: center;
+	// grid-template-columns: 0fr 1fr;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	.single_words {
-		// height: 100%;
-		// width: 100;
+		position: absolute;
+		top: 13%;
+		height: 64%;
+		width: 88vw;
+		display: flex;
+		flex-direction: column;
+		// justify-content: flex-end;
+		align-items: flex-end;
+		justify-content: space-between;
 		// margin: 0 8vw;
 		// height: 100%;
-
+		opacity: 0.65;
+		h2 {
+			width: min-content;
+		}
 		.word1 {
-			position: absolute;
-			opacity: 0.65;
-			// z-index: 2;
-			top: 17.7vh;
-			left: 57.6vw;
+			// position: absolute;
+			// // z-index: 2;
+			// // top: 17.7vh;
+			// top: 18%;
+			// left: 58%;
 		}
 		.word2 {
-			position: absolute;
-			opacity: 0.65;
-			// z-index: 2;
-			top: 56.2vh;
-			left: 8vw;
+			// position: absolute;
+			// // z-index: 2;
+			// top: 56%;
+			// left: 8%;
+			align-self: start;
+			margin-top: 17vh;
 		}
 		.word3 {
-			position: absolute;
-			opacity: 0.65;
-			// z-index: 2;
-			top: 76.2vh;
-			left: 62.8vw;
+			// position: absolute;
+			// // z-index: 2;
+			// top: 77%;
+			// left: 63%;
 		}
 	}
 	.landing_image {
-		height: 56.6vh;
-		width: 61.6vw;
-		margin: 21.7vh auto 0;
+		height: 57vh;
+		width: 60vw;
+		// margin: 21.7vh auto 0;
 		.large_img {
 			display: none;
 		}
@@ -51,7 +67,6 @@
 			// height: 63vh;
 			height: 100%;
 			object-fit: cover;
-			display: block;
 		}
 	}
 
@@ -62,139 +77,17 @@
 		// flex-direction: column;
 		// align-items: center;
 		// justify-content: center;
-		top: 44.8vh;
-		.line1 {
-			margin-left: 8vw;
-			// margin-bottom: 10px;
-		}
-		.line2 {
-			margin-left: 20vw;
-			// width: max-content;
-		}
-	}
-	@media only screen and (min-width: 700px) {
-		.single_words {
-			h2 {
-				font-size: 82.56px;
-			}
+		// top: 45%;
+		top: 50%;
+		transform: translateY(-50%);
 
-			.word1 {
-				opacity: 0.5;
-				top: 12vh;
-				left: 62.1vw;
-			}
-			.word2 {
-				opacity: 0.5;
-				top: 56.9vh;
-				left: 6vw;
-			}
-			.word3 {
-				opacity: 0.5;
-				top: 79.1vh;
-				left: 66.9vw;
-			}
-		}
-		.landing_image {
-			height: 65.2vh;
-			width: 56vw;
-			margin: 17.3vh auto 0;
-		}
-		.main_heading {
-			top: 43vh;
-			.line1 {
-				margin-left: 6vw;
-				font-size: 82.56px;
-			}
-			.line2 {
-				margin-left: 21.8vw;
-				font-size: 82.56px;
-				span {
-					font-size: 82.56px;
-					margin-left: -19px;
-				}
-			}
-		}
-	}
-	@media only screen and (min-width: 1024px) {
-		.main_heading {
-			.line1 {
-				margin-left: 10vw;
-			}
-			.line2 {
-				margin-left: 31.7vw;
-			}
-		}
-	}
-
-	@media only screen and (min-width: 1440px) and (orientation: landscape) {
-		.single_words {
-			.word1 {
-				top: 15.8vh;
-				left: 66.5vw;
-				font-size: 118.88px;
-			}
-			.word2 {
-				top: 60vh;
-				left: 6.9vw;
-				font-size: 118.88px;
-			}
-			.word3 {
-				top: 68.6vh;
-				left: 70.56vw;
-				font-size: 118.88px;
-			}
-		}
-		.landing_image {
-			height: 48vh;
-			width: 59.1vw;
-			margin: 26.7vh auto 0;
-			// margin: 28.7vh auto 0;
-			.small_img {
-				display: none;
-			}
-
-			.large_img {
-				display: block;
-				opacity: 0.8;
-				border-radius: 20px;
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
-			}
-		}
-		.main_heading {
-			top: 39.2vh;
-			.line1 {
-				margin-left: 12.3vw;
-				font-size: 118.88px;
-			}
-			.line2 {
-				margin-left: 33.9vw;
-				font-size: 118.88px;
-				span {
-					font-size: 118.88px;
-					margin-left: -29px;
-				}
-			}
-		}
-	}
-
-	@media only screen and (min-width: 1900px) {
-		.single_words {
-			.word1 {
-				top: 11.8vh;
-				width: 456.94px;
-				height: 146.09px;
-			}
-			.word2 {
-				left: 10vw;
-				width: 491.02px;
-				height: 111.85px;
-			}
-			.word3 {
-				width: 385.9px;
-				height: 111.85px;
-			}
-		}
+		// .line1 {
+		// 	// margin-left: 8vw;
+		// 	// margin-bottom: 10px;
+		// }
+		// .line2 {
+		// 	// margin-left: 20vw;
+		// 	// width: max-content;
+		// }
 	}
 }

@@ -1,7 +1,6 @@
 @import "header.scss";
 @import "hamburger.scss";
 @import "landing.scss";
-@import "landing2.scss";
 @import "about.scss";
 @import "project_main.scss";
 @import "contact.scss";
@@ -14,15 +13,4 @@
 	font-family: Sainte Colombe;
 	src: url("../fonts/Sainte\ Colombe\ Italic.otf");
 	font-weight: normal;
-}
-
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 1024px) {
-}
-@media only screen and (min--width: 1360px) {
-}
-@media only screen and (min-width: 1440px) and (orientation: landscape) {
-}
-@media only screen and (min-width: 1900px) {
 }
