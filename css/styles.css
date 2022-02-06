@@ -54,66 +54,62 @@
   width: 100%;
   position: relative;
   overflow: hidden; }
-  .landing .single_words {
-    opacity: 0.65; }
-    .landing .single_words .word1 {
-      position: absolute;
-      top: 17.5vh;
-      left: 57vw; }
-    .landing .single_words .word2 {
-      position: absolute;
-      top: 51.3vh;
-      left: 8vw; }
-    .landing .single_words .word3 {
-      position: absolute;
-      top: 75.5vh;
-      left: 62vw; }
+  .landing .single_words .word1 {
+    position: absolute;
+    opacity: 0.65;
+    top: 17.7vh;
+    left: 57.6vw; }
+  .landing .single_words .word2 {
+    position: absolute;
+    opacity: 0.65;
+    top: 56.2vh;
+    left: 8vw; }
+  .landing .single_words .word3 {
+    position: absolute;
+    opacity: 0.65;
+    top: 76.2vh;
+    left: 62.8vw; }
   .landing .landing_image {
     height: 56.6vh;
     width: 61.6vw;
-    margin: 21.6vh auto 0; }
-    .landing .landing_image img {
+    margin: 21.7vh auto 0; }
+    .landing .landing_image .large_img {
+      display: none; }
+    .landing .landing_image .small_img {
       opacity: 0.8;
       border-radius: 20px;
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transform: rotate(180deg); }
+      display: block; }
   .landing .main_heading {
     position: absolute;
-    top: 43.8vh; }
+    top: 44.8vh; }
     .landing .main_heading .line1 {
       margin-left: 8vw; }
     .landing .main_heading .line2 {
-      margin-left: 22vw; }
+      margin-left: 20vw; }
   @media only screen and (min-width: 700px) {
     .landing .single_words h2 {
-      font-size: 82.56px;
-      opacity: 0.5; }
+      font-size: 82.56px; }
     .landing .single_words .word1 {
-      top: 11.3vh;
-      left: 62.2vw;
-      width: 265.33px;
-      height: 85.39px;
-      opacity: 0.5; }
+      opacity: 0.5;
+      top: 12vh;
+      left: 62.1vw; }
     .landing .single_words .word2 {
-      top: 56.2vh;
-      left: 6vw;
-      width: 285px;
-      height: 65.57px;
-      opacity: 0.5; }
+      opacity: 0.5;
+      top: 56.9vh;
+      left: 6vw; }
     .landing .single_words .word3 {
-      top: 78.4vh;
-      left: 66.4vw;
-      width: 224.17px;
-      height: 65.57px;
-      opacity: 0.5; }
+      opacity: 0.5;
+      top: 79.1vh;
+      left: 66.9vw; }
     .landing .landing_image {
       height: 65.2vh;
       width: 56vw;
       margin: 17.3vh auto 0; }
     .landing .main_heading {
-      font-size: 82.56px; }
+      top: 43vh; }
       .landing .main_heading .line1 {
         margin-left: 6vw;
         font-size: 82.56px; }
@@ -129,38 +125,42 @@
     .landing .main_heading .line2 {
       margin-left: 31.7vw; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
-    .landing .single_words h2 {
-      font-size: 118.88px; }
-    .landing .single_words .word1 {
-      top: 18.5vh;
+    .landing .landing .single_words .word1 {
+      top: 19.8vh;
       left: 66.5vw;
-      width: 381.12px;
-      height: 122.07px; }
-    .landing .single_words .word2 {
-      top: 61vh;
+      font-size: 118.88px; }
+    .landing .landing .single_words .word2 {
+      top: 62vh;
       left: 6.9vw;
-      width: 409.5px;
-      height: 93.54px; }
-    .landing .single_words .word3 {
-      top: 65.3vh;
-      left: 70vw;
-      width: 321.91px;
-      height: 93.54px; }
-    .landing .landing_image {
-      height: 83.1vh;
-      width: 30.1vw; }
-      .landing .landing_image img {
-        transform: rotate(270deg);
-        margin: 28.7vh auto 0; }
-    .landing .main_heading .line1 {
-      margin-left: 6.9vw;
       font-size: 118.88px; }
-    .landing .main_heading .line2 {
-      margin-left: 31.8vw;
+    .landing .landing .single_words .word3 {
+      top: 66.6vh;
+      left: 70.56vw;
       font-size: 118.88px; }
-      .landing .main_heading .line2 span {
-        font-size: 118.88px;
-        margin-left: -29px; } }
+    .landing .landing .landing_image {
+      height: 42.4vh;
+      width: 59.1vw;
+      margin: 28.7vh auto 0; }
+      .landing .landing .landing_image .small_img {
+        display: none; }
+      .landing .landing .landing_image .large_img {
+        display: block;
+        opacity: 0.8;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .landing .landing .main_heading {
+      top: 39.2vh; }
+      .landing .landing .main_heading .line1 {
+        margin-left: 12.3vw;
+        font-size: 118.88px; }
+      .landing .landing .main_heading .line2 {
+        margin-left: 33.9vw;
+        font-size: 118.88px; }
+        .landing .landing .main_heading .line2 span {
+          font-size: 118.88px;
+          margin-left: -29px; } }
   @media only screen and (min-width: 1900px) {
     .landing .single_words .word1 {
       top: 11.8vh;
@@ -201,9 +201,9 @@ body {
   font-size: 39.81px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  opacity: 0.65;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(255, 0, 114, 0.5); }
+  opacity: 0.5;
+  -webkit-text-fill-color: #0a0908;
+  text-shadow: 1px 0 0 rgba(255, 0, 114, 0.5), 0 -1px 0 rgba(255, 0, 114, 0.5), 0 1px 0 rgba(255, 0, 114, 0.5), -1px 0 0 rgba(255, 0, 114, 0.5); }
 
 .main_heading h1 {
   font-family: Montserrat;
