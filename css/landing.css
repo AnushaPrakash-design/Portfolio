@@ -8,7 +8,7 @@
   justify-content: center; }
   .landing .single_words {
     position: absolute;
-    top: 17%;
+    top: 17.5%;
     height: 64%;
     width: 88vw;
     display: flex;
@@ -36,5 +36,9 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     top: 50%;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    width: 88vw; }
+    .landing .main_heading .line2 {
+      align-self: end; }

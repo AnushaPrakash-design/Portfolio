@@ -6,11 +6,13 @@
   top: 0;
   left: 0;
   transition: 0.5s;
-  background: #0a0908; }
+  z-index: 999; }
   #navbar nav {
     display: flex;
     align-items: center;
-    margin: 4.92vh 8vw 2.4vh; }
+    padding: 4.92vh 8vw 2.4vh;
+    background: #0a0908;
+    z-index: 999; }
     #navbar nav .logo img {
       width: 89.73px;
       height: 28.77px; }
@@ -20,34 +22,28 @@
         width: 17.95px;
         height: 6.23px; }
   @media only screen and (min-width: 700px) {
-    #navbar nav {
-      margin: 5vh 6vw 2vh; }
-      #navbar nav .logo img {
-        width: 93.6px;
-        height: 29.86px; }
-      #navbar nav .hamburger_open img {
-        width: 19.18px;
-        height: 6.66px; } }
+    #navbar nav .logo img {
+      width: 93.6px;
+      height: 29.86px; }
+    #navbar nav .hamburger_open img {
+      width: 19.18px;
+      height: 6.66px; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
-    #navbar nav {
-      margin: 6.8vh 6.9vw 3vh; }
-      #navbar nav .logo img {
-        width: 113.56px;
-        height: 36.22px; }
-      #navbar nav .hamburger_open img {
-        width: 27px;
-        height: 9px; } }
+    #navbar nav .logo img {
+      width: 113.56px;
+      height: 36.22px; }
+    #navbar nav .hamburger_open img {
+      width: 27px;
+      height: 9px; } }
   @media only screen and (min-width: 1900px) {
-    #navbar nav {
-      margin: 7.4vh 6.7vw 3.2vh; }
-      #navbar nav .logo img {
-        margin-left: -20px;
-        width: 141.1px;
-        height: 45.25px; }
-      #navbar nav .hamburger_open img {
-        margin-right: -20px;
-        width: 30px;
-        height: 10px; } }
+    #navbar nav .logo img {
+      margin-left: -20px;
+      width: 141.1px;
+      height: 45.25px; }
+    #navbar nav .hamburger_open img {
+      margin-right: -20px;
+      width: 30px;
+      height: 10px; } }
 
 .landing {
   height: 100vh;
@@ -59,7 +55,7 @@
   justify-content: center; }
   .landing .single_words {
     position: absolute;
-    top: 17%;
+    top: 17.5%;
     height: 64%;
     width: 88vw;
     display: flex;
@@ -87,8 +83,15 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     top: 50%;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    width: 88vw; }
+    .landing .main_heading .line2 {
+      align-self: end; }
+
+.about {
+  height: 128vh; }
 
 * {
   margin: 0;
@@ -138,9 +141,11 @@ span {
   color: #ff0072;
   margin-left: -7px; }
 
-.lol {
-  height: 100vh;
-  background: #ff0072; }
+p {
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 142.4%;
+  letter-spacing: -0.02em; }
 
 @font-face {
   font-family: Sainte Colombe;
