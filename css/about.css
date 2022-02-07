@@ -1,35 +1,37 @@
-.about {
-  height: 100vh;
+.about_section .about {
+  height: 82vh;
   width: 100%;
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
-  .about .single_words {
+  flex-direction: column;
+  margin-top: 30px; }
+  .about_section .about .single_words {
     position: absolute;
-    top: 6%;
-    height: 73%;
+    top: 10%;
+    height: 72vh;
     width: 88vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    opacity: 0.65; }
-    .about .single_words .word2 {
+    opacity: 0.65;
+    z-index: -2; }
+    .about_section .about .single_words .word2 {
       align-self: start; }
-  .about .image_wrapper {
+  .about_section .about .about_image {
     position: relative;
     width: 76vw;
     height: 56vh; }
-    .about .image_wrapper .about_image img {
+    .about_section .about .about_image img {
       position: absolute;
       width: 100%;
       height: 100%;
       object-fit: cover;
       border-radius: 15px; }
-    .about .image_wrapper .image_overlay {
+    .about_section .about .about_image .image_overlay {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -37,23 +39,32 @@
       background: #7b2243;
       opacity: 0.3;
       border-radius: 15px; }
-  .about .main_heading {
+  .about_section .about .main_heading {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    top: 68%;
+    top: 84%;
     transform: translateY(-50%);
     width: 96vw; }
-    .about .main_heading .line2 {
+    .about_section .about .main_heading h1 {
+      line-height: 90%; }
+    .about_section .about .main_heading .line2 {
       align-self: end; }
-  .about .para_aboutme {
+
+.about_section .about_me {
+  margin-top: -10%; }
+  .about_section .about_me .para_aboutme {
     width: 88vw;
-    margin: 56px auto 200px; }
-  .about .content_wrapper p {
-    font-size: 14px;
-    font-family: Montserrat;
-    opacity: 0.5;
-    margin-bottom: 10px; }
-  .about .content_wrapper img {
-    margin: 0 auto 30px; }
+    margin: 0px auto 200px;
+    z-index: 5; }
+
+.content_wrapper p {
+  width: max-content;
+  font-size: 14px;
+  font-family: Montserrat;
+  opacity: 0.5;
+  margin: 0 auto 8px; }
+
+.content_wrapper img {
+  margin: 0 auto 30px; }
