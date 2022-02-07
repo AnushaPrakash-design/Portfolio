@@ -41,3 +41,43 @@ window.addEventListener("scroll", function () {
 // } else {
 // 	document.getElementById("navbar").style.padding = "5vh 5.5vw 2.5vh";
 // }
+
+// document.documentElement?.clientHeight || window.innerHeight
+
+// const vH = document.documentElement?.clientHeight || window.innerHeight;
+// const landingSection = document.querySelector(".landing");
+// console.log(vH);
+// // landingSection.style.height = vH * 0.5;
+// landingSection.css
+
+// window.addEventListener("resize", function (event) {
+// 	// landingSection.style("height", vH + px);
+// 	console.log(vH);
+// 	console.log(landingSection);
+
+// });
+
+// landing page- 100vh
+
+const landSection = document.querySelector(".landing");
+
+const measureHeight = () => {
+	return document.documentElement?.clientHeight || window.innerHeight;
+};
+
+const setHeight = (val) => {
+	landSection.style.height = val + "px";
+};
+
+console.log(measureHeight());
+
+// First time load
+let vH = measureHeight();
+setHeight(vH);
+
+// On every resize
+window.addEventListener("resize", () => {
+	vH = measureHeight();
+	setHeight(vH);
+	// console.log(measureHeight());
+});

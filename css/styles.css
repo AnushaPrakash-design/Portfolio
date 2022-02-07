@@ -50,7 +50,7 @@
         height: 10px; } }
 
 .landing {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -59,7 +59,7 @@
   justify-content: center; }
   .landing .single_words {
     position: absolute;
-    top: 13%;
+    top: 17%;
     height: 64%;
     width: 88vw;
     display: flex;
@@ -85,6 +85,8 @@
       object-fit: cover; }
   .landing .main_heading {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 50%;
     transform: translateY(-50%); }
 
@@ -135,6 +137,10 @@ span {
   letter-spacing: -0.02em;
   color: #ff0072;
   margin-left: -7px; }
+
+.lol {
+  height: 100vh;
+  background: #ff0072; }
 
 @font-face {
   font-family: Sainte Colombe;

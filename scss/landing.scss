@@ -1,5 +1,5 @@
 .landing {
-	height: 90vh;
+	height: 100vh;
 	width: 100%;
 	position: relative;
 	// margin: 0 8vw;
@@ -13,7 +13,8 @@
 	justify-content: center;
 	.single_words {
 		position: absolute;
-		top: 13%;
+		// top: 13%;
+		top: 17%;
 		height: 64%;
 		width: 88vw;
 		display: flex;
@@ -27,13 +28,13 @@
 		h2 {
 			width: min-content;
 		}
-		.word1 {
-			// position: absolute;
-			// // z-index: 2;
-			// // top: 17.7vh;
-			// top: 18%;
-			// left: 58%;
-		}
+		// .word1 {
+		// 	// position: absolute;
+		// 	// // z-index: 2;
+		// 	// // top: 17.7vh;
+		// 	// top: 18%;
+		// 	// left: 58%;
+		// }
 		.word2 {
 			// position: absolute;
 			// // z-index: 2;
@@ -42,12 +43,12 @@
 			align-self: start;
 			margin-top: 17vh;
 		}
-		.word3 {
-			// position: absolute;
-			// // z-index: 2;
-			// top: 77%;
-			// left: 63%;
-		}
+		// .word3 {
+		// 	// position: absolute;
+		// 	// // z-index: 2;
+		// 	// top: 77%;
+		// 	// left: 63%;
+		// }
 	}
 	.landing_image {
 		height: 57vh;
@@ -73,10 +74,8 @@
 	.main_heading {
 		position: absolute;
 		// z-index: 4;
-		// display: flex;
-		// flex-direction: column;
-		// align-items: center;
-		// justify-content: center;
+		display: flex;
+		flex-direction: column;
 		// top: 45%;
 		top: 50%;
 		transform: translateY(-50%);
