@@ -51,7 +51,10 @@
   .work .torii .main_text,
   .work .firewatch .main_text {
     position: absolute;
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 47.78px;
     letter-spacing: -0.02em;
-    text-decoration: none; }
+    text-decoration: none;
+    line-height: 90%;
+    text-align: center; }

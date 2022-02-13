@@ -214,10 +214,61 @@
   .work .torii .main_text,
   .work .firewatch .main_text {
     position: absolute;
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 47.78px;
     letter-spacing: -0.02em;
-    text-decoration: none; }
+    text-decoration: none;
+    line-height: 90%;
+    text-align: center; }
+
+.contact {
+  height: 80vh;
+  width: 100vw;
+  position: relative; }
+  .contact .content_wrapper .single_words {
+    position: absolute;
+    top: 18%;
+    left: -4%;
+    width: 93.3vw;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    opacity: 0.65;
+    z-index: -2; }
+    .contact .content_wrapper .single_words .word1 {
+      align-self: start; }
+  .contact .content_wrapper .main_heading {
+    position: absolute;
+    top: 23%;
+    width: 96vw;
+    margin-left: 8vw; }
+    .contact .content_wrapper .main_heading h1 {
+      line-height: 100%;
+      font-size: 47.78px;
+      font-weight: 700; }
+    .contact .content_wrapper .main_heading .line3 {
+      font-family: Playfair Display;
+      font-style: italic;
+      font-weight: 700;
+      font-size: 47.78px;
+      line-height: 64px;
+      text-transform: lowercase; }
+  .contact .form {
+    position: absolute;
+    top: 47vh; }
+    .contact .form form {
+      display: flex;
+      flex-direction: column;
+      width: 83.7vw; }
+      .contact .form form .name {
+        width: 100%;
+        padding: 30px 2px 10px;
+        margin-left: 8vw;
+        background: #0a0908;
+        border-bottom: 1px solid rgba(255, 0, 114, 0.5); }
 
 * {
   margin: 0;
