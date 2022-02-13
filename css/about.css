@@ -11,8 +11,8 @@
   .about_section .about .single_words {
     position: absolute;
     top: 10%;
-    height: 72vh;
     width: 88vw;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    top: 84%;
+    top: 81%;
     transform: translateY(-50%);
     width: 96vw; }
     .about_section .about .main_heading h1 {
@@ -53,11 +53,11 @@
       align-self: end; }
 
 .about_section .about_me {
-  margin-top: -10%; }
+  margin-top: -10%;
+  margin-bottom: 200px; }
   .about_section .about_me .para_aboutme {
     width: 88vw;
-    margin: 0px auto 200px;
-    z-index: 5; }
+    margin: 0px auto; }
 
 .content_wrapper p {
   width: max-content;
