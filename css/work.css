@@ -1,0 +1,57 @@
+.work .food,
+.work .torii,
+.work .firewatch {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .work .food .food_image,
+  .work .food .torii_image,
+  .work .food .firewatch_image,
+  .work .torii .food_image,
+  .work .torii .torii_image,
+  .work .torii .firewatch_image,
+  .work .firewatch .food_image,
+  .work .firewatch .torii_image,
+  .work .firewatch .firewatch_image {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .work .food .food_image img,
+    .work .food .torii_image img,
+    .work .food .firewatch_image img,
+    .work .torii .food_image img,
+    .work .torii .torii_image img,
+    .work .torii .firewatch_image img,
+    .work .firewatch .food_image img,
+    .work .firewatch .torii_image img,
+    .work .firewatch .firewatch_image img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .work .food .food_image .image_overlay,
+    .work .food .torii_image .image_overlay,
+    .work .food .firewatch_image .image_overlay,
+    .work .torii .food_image .image_overlay,
+    .work .torii .torii_image .image_overlay,
+    .work .torii .firewatch_image .image_overlay,
+    .work .firewatch .food_image .image_overlay,
+    .work .firewatch .torii_image .image_overlay,
+    .work .firewatch .firewatch_image .image_overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: #7b2243;
+      opacity: 0.2; }
+  .work .food .main_text,
+  .work .torii .main_text,
+  .work .firewatch .main_text {
+    position: absolute;
+    font-weight: 800;
+    font-size: 47.78px;
+    letter-spacing: -0.02em;
+    text-decoration: none; }

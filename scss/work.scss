@@ -1,0 +1,40 @@
+.work {
+	.food,
+	.torii,
+	.firewatch {
+		position: relative;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.food_image,
+		.torii_image,
+		.firewatch_image {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			img {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			.image_overlay {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				background: #7b2243;
+				opacity: 0.2;
+			}
+		}
+		.main_text {
+			position: absolute;
+			font-weight: 800;
+			font-size: 47.78px;
+			letter-spacing: -0.02em;
+			text-decoration: none;
+		}
+	}
+}
