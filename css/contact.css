@@ -59,3 +59,7 @@
           background-color: #0a0908;
           border: none;
           border-bottom: 1px solid rgba(255, 0, 114, 0.5); }
+      .contact .form_wrapper form .submit {
+        height: 60px;
+        width: 40px;
+        margin: 0px 8vw; }
