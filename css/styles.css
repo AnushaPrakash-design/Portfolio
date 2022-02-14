@@ -243,7 +243,6 @@
   .contact .content_wrapper .main_heading {
     position: absolute;
     top: 23%;
-    width: 96vw;
     margin-left: 8vw; }
     .contact .content_wrapper .main_heading h1 {
       line-height: 100%;
@@ -256,19 +255,34 @@
       font-size: 47.78px;
       line-height: 64px;
       text-transform: lowercase; }
-  .contact .form {
+  .contact .form_wrapper {
     position: absolute;
     top: 47vh; }
-    .contact .form form {
+    .contact .form_wrapper form {
       display: flex;
       flex-direction: column;
       width: 83.7vw; }
-      .contact .form form .name {
+      .contact .form_wrapper form .name,
+      .contact .form_wrapper form .email,
+      .contact .form_wrapper form .message {
         width: 100%;
         padding: 30px 2px 10px;
         margin-left: 8vw;
         background: #0a0908;
-        border-bottom: 1px solid rgba(255, 0, 114, 0.5); }
+        border: none;
+        border-bottom: 1px solid rgba(255, 0, 114, 0.5);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #5a5a5a;
+        caret-color: #ff0072; }
+        .contact .form_wrapper form .name:focus,
+        .contact .form_wrapper form .email:focus,
+        .contact .form_wrapper form .message:focus {
+          background-color: #0a0908;
+          border: none;
+          border-bottom: 1px solid rgba(255, 0, 114, 0.5); }
 
 * {
   margin: 0;
