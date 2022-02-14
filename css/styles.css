@@ -276,7 +276,8 @@
         font-size: 16px;
         letter-spacing: -0.02em;
         color: #5a5a5a;
-        caret-color: #ff0072; }
+        caret-color: #ff0072;
+        resize: none; }
         .contact .form_wrapper form .name:focus,
         .contact .form_wrapper form .email:focus,
         .contact .form_wrapper form .message:focus {
