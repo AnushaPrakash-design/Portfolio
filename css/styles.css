@@ -290,7 +290,8 @@
         margin: 0px 8vw; }
 
 .footer {
-  height: 20vh; }
+  height: 20vh;
+  overflow: hidden; }
   .footer .icons {
     height: 100%;
     display: flex;
@@ -304,6 +305,21 @@
   box-sizing: border-box; }
   * img {
     display: block; }
+
+html::-webkit-scrollbar {
+  width: 6px; }
+
+html::-webkit-scrollbar-track {
+  background-color: #0a0908;
+  border-radius: 10px; }
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: rgba(255, 0, 114, 0.5); }
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #ff0072;
+  border-radius: 20px; }
 
 body {
   margin: 0;

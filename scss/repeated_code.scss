@@ -10,6 +10,49 @@
 	}
 }
 
+//  SCROLLBAR   //
+
+html::-webkit-scrollbar {
+	width: 6px;
+}
+
+html::-webkit-scrollbar-track {
+	background-color: #0a0908;
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background-color: rgba(255, 0, 114, 0.5);
+	// opacity: 0.2;
+	// box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+html::-webkit-scrollbar-thumb:hover {
+	background: #ff0072;
+	border-radius: 20px;
+}
+
+//   preloader   //
+
+// #preloader {
+// 	background: #0a0908;
+// 	height: 100%;
+// 	width: 100%;
+// 	top: 0;
+// 	left: 0;
+// 	// position: fixed;
+// 	position: absolute;
+// 	z-index: 999999;
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: center;
+// 	img {
+// 		width: 125.49px;
+// 		height: 84.53px;
+// 	}
+// }
+
 //   BODY   //
 
 body {
@@ -26,8 +69,8 @@ body {
 		color: #fafafa;
 	}
 	font-family: sans-serif;
+	// overflow-y: hidden;
 }
-//   preloader   //
 
 //   SINGLE WORDS  //
 .single_words h2 {

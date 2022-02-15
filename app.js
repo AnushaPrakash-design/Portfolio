@@ -25,6 +25,7 @@ window.addEventListener("scroll", function () {
 	}
 	lastScrollTop = scrollTop; //New Position Stored
 });
+
 // landing page- 100vh
 
 const landSection = document.querySelector(".landing");
