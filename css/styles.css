@@ -368,6 +368,85 @@ p {
   line-height: 142.4%;
   letter-spacing: -0.02em; }
 
+body {
+  overflow: hidden; }
+
+#navbar nav .hamburger_close {
+  margin-left: auto; }
+
+.hamburger_container {
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .hamburger_container h1 {
+    font-family: Sainte Colombe;
+    font-style: italic;
+    font-size: 47.78px;
+    letter-spacing: -0.02em;
+    opacity: 0.65;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    -webkit-text-fill-color: #0a0908;
+    text-shadow: 1px 0 0 rgba(255, 0, 114, 0.5), 0 -1px 0 rgba(255, 0, 114, 0.5), 0 1px 0 rgba(255, 0, 114, 0.5), -1px 0 0 rgba(255, 0, 114, 0.5); }
+  .hamburger_container .main_nav {
+    text-align: -webkit-center;
+    list-style-type: none;
+    margin-top: -23px;
+    z-index: 2; }
+    .hamburger_container .main_nav li {
+      margin-bottom: 20px;
+      position: relative;
+      display: block;
+      cursor: pointer; }
+      .hamburger_container .main_nav li .nav_links {
+        text-decoration: none; }
+        .hamburger_container .main_nav li .nav_links .number {
+          font-family: Lato;
+          font-style: italic;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 100%;
+          text-align: center;
+          letter-spacing: -0.06em;
+          text-transform: uppercase;
+          color: #ff0072;
+          opacity: 0.5;
+          margin-right: 10px; }
+        .hamburger_container .main_nav li .nav_links .part1 {
+          font-family: Playfair Display;
+          font-style: italic;
+          font-weight: 600;
+          font-size: 47.78px;
+          line-height: 100%;
+          text-align: center;
+          letter-spacing: -0.06em;
+          text-transform: uppercase;
+          color: #fafafa;
+          margin-right: 5px; }
+        .hamburger_container .main_nav li .nav_links .part2 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 47.78px;
+          line-height: 100%;
+          text-align: center;
+          letter-spacing: -0.06em;
+          text-transform: uppercase;
+          color: #fafafa; }
+
+.footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footer .icons {
+    margin-left: 0;
+    overflow: hidden; }
+
 @font-face {
   font-family: Sainte Colombe;
   src: url("../fonts/Sainte Colombe Italic.otf");
