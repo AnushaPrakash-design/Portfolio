@@ -1,0 +1,64 @@
+.work_landing {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .work_landing .single_words {
+    position: absolute;
+    top: 20%;
+    height: 54vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    opacity: 0.65; }
+    .work_landing .single_words h2 {
+      width: min-content;
+      font-size: 47.78px; }
+    .work_landing .single_words .word2 {
+      align-self: start;
+      margin-top: 17vh;
+      margin-left: -14%; }
+  .work_landing .landing_image {
+    position: absolute;
+    height: 44.3vh;
+    width: 84vw; }
+    .work_landing .landing_image .large_img {
+      display: none; }
+    .work_landing .landing_image .small_img {
+      border-radius: 18px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .work_landing .landing_image .image_overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: #7b2243;
+      opacity: 0.2;
+      border-radius: 18px; }
+  .work_landing .main_heading {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center; }
+    .work_landing .main_heading h1 {
+      font-size: 47.78px; }
+  .work_landing .content_wrapper {
+    position: absolute;
+    top: 94%; }
+    .work_landing .content_wrapper img {
+      margin-bottom: 10px; }
+
+.project_details {
+  width: 88vw;
+  margin: 0 auto; }
+  .project_details .about_food {
+    margin-top: 70px; }
