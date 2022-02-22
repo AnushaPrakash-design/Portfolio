@@ -1,9 +1,9 @@
 // PRELOADER
 
-// var loader = document.getElementById("preloader");
-// window.addEventListener("load", function () {
-// 	loader.style.display = "none";
-// });
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+	loader.style.display = "none";
+});
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 let lastScrollTop;

@@ -34,24 +34,24 @@ html::-webkit-scrollbar-thumb:hover {
 
 //   preloader   //
 
-// #preloader {
-// 	background: #0a0908;
-// 	height: 100%;
-// 	width: 100%;
-// 	top: 0;
-// 	left: 0;
-// 	// position: fixed;
-// 	position: absolute;
-// 	z-index: 999999;
-// 	display: flex;
-// 	flex-direction: column;
-// 	align-items: center;
-// 	justify-content: center;
-// 	img {
-// 		width: 125.49px;
-// 		height: 84.53px;
-// 	}
-// }
+#preloader {
+	background: #0a0908;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	// position: absolute;
+	z-index: 999999;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	img {
+		width: 125.49px;
+		height: 84.53px;
+	}
+}
 
 //   BODY   //
 

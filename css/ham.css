@@ -1,5 +1,8 @@
 #navbar nav .hamburger_close {
   margin-left: auto; }
+  #navbar nav .hamburger_close img {
+    width: 10.85px;
+    height: 10.85px; }
 
 .hamburger_container {
   height: 85vh;

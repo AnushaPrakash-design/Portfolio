@@ -20,6 +20,22 @@ html::-webkit-scrollbar-thumb:hover {
   background: #ff0072;
   border-radius: 20px; }
 
+#preloader {
+  background: #0a0908;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #preloader img {
+    width: 125.49px;
+    height: 84.53px; }
+
 body {
   margin: 0;
   padding: 0;
