@@ -227,51 +227,51 @@
     text-align: center; }
 
 .contact {
-  height: 80vh;
-  width: 100vw;
   position: relative; }
-  .contact .content_wrapper .single_words {
-    position: absolute;
-    top: 18%;
-    left: -4%;
-    width: 93.3vw;
-    height: 26vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    opacity: 0.65;
-    z-index: -2; }
-    .contact .content_wrapper .single_words .word1 {
-      align-self: start; }
-  .contact .content_wrapper .main_heading {
-    position: absolute;
-    top: 23%;
-    margin-left: 8vw; }
-    .contact .content_wrapper .main_heading h1 {
-      line-height: 100%;
-      font-size: 47.78px;
-      font-weight: 700; }
-    .contact .content_wrapper .main_heading .line3 {
-      font-family: Playfair Display;
-      font-style: italic;
-      font-weight: 700;
-      font-size: 47.78px;
-      line-height: 64px;
-      text-transform: lowercase; }
-  .contact .form_wrapper {
-    position: absolute;
-    top: 47vh; }
-    .contact .form_wrapper form {
+  .contact .content_wrapper {
+    height: 50vh; }
+    .contact .content_wrapper .single_words {
+      position: absolute;
+      top: 20%;
+      left: -4%;
+      width: 93.3vw;
+      height: 26vh;
       display: flex;
       flex-direction: column;
-      width: 83.7vw; }
+      align-items: flex-end;
+      justify-content: space-between;
+      opacity: 0.65;
+      z-index: -2; }
+      .contact .content_wrapper .single_words .word1 {
+        align-self: start; }
+    .contact .content_wrapper .main_heading {
+      position: absolute;
+      top: 23%;
+      margin-left: 8vw; }
+      .contact .content_wrapper .main_heading h1 {
+        line-height: 100%;
+        font-size: 47.78px;
+        font-weight: 700; }
+      .contact .content_wrapper .main_heading .line3 {
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 47.78px;
+        line-height: 64px;
+        text-transform: lowercase; }
+  .contact .form_wrapper {
+    height: 45vh;
+    width: 84vw;
+    margin: 0 auto; }
+    .contact .form_wrapper form {
+      display: flex;
+      flex-direction: column; }
       .contact .form_wrapper form .name,
       .contact .form_wrapper form .email,
       .contact .form_wrapper form .message {
         width: 100%;
+        display: block;
         padding: 30px 2px 10px;
-        margin-left: 8vw;
         background: #0a0908;
         border: none;
         border-bottom: 1px solid rgba(255, 0, 114, 0.5);
@@ -279,27 +279,29 @@
         font-weight: 400;
         font-size: 16px;
         letter-spacing: -0.02em;
-        color: #5a5a5a;
+        color: #fafafa;
         caret-color: #ff0072;
-        resize: none; }
+        resize: none;
+        outline: none; }
         .contact .form_wrapper form .name:focus,
         .contact .form_wrapper form .email:focus,
         .contact .form_wrapper form .message:focus {
-          background-color: #0a0908;
-          border: none;
-          border-bottom: 1px solid rgba(255, 0, 114, 0.5); }
+          background: #0a0908;
+          border-bottom: 1px solid rgba(255, 0, 114, 0.5);
+          transition: all 0.5s;
+          color: #fafafa; }
       .contact .form_wrapper form .submit {
-        height: 60px;
         width: 40px;
-        margin: 0px 8vw; }
+        margin: 50px 0px 0px 0px; }
 
-.footer {
-  height: 20vh;
-  overflow: hidden; }
-  .footer .icons {
+.contact_footer {
+  overflow: hidden;
+  margin-bottom: 60px; }
+  .contact_footer .icons {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin-left: 8vw;
     grid-gap: 30px; }
 
@@ -406,6 +408,15 @@ p {
   .btn:hover {
     background: #ff0072; }
 
+.footer {
+  margin-bottom: 60px; }
+  .footer .icons {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px; }
+
 #navbar nav .hamburger_close {
   margin-left: auto; }
   #navbar nav .hamburger_close img {
@@ -419,16 +430,8 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .hamburger_container h1 {
-    font-family: Sainte Colombe;
-    font-style: italic;
-    font-size: 47.78px;
-    letter-spacing: -0.02em;
-    opacity: 0.65;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    -webkit-text-fill-color: #0a0908;
-    text-shadow: 1px 0 0 rgba(255, 0, 114, 0.5), 0 -1px 0 rgba(255, 0, 114, 0.5), 0 1px 0 rgba(255, 0, 114, 0.5), -1px 0 0 rgba(255, 0, 114, 0.5); }
+  .hamburger_container h2 {
+    font-size: 47.78px; }
   .hamburger_container .main_nav {
     text-align: -webkit-center;
     list-style-type: none;
@@ -438,52 +441,32 @@ p {
       margin-bottom: 20px;
       position: relative;
       display: block;
-      cursor: pointer; }
+      cursor: pointer;
+      width: max-content; }
       .hamburger_container .main_nav li .nav_links {
-        text-decoration: none; }
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.06em; }
         .hamburger_container .main_nav li .nav_links .number {
           font-family: Lato;
           font-style: italic;
           font-weight: 600;
           font-size: 16px;
-          line-height: 100%;
-          text-align: center;
-          letter-spacing: -0.06em;
-          text-transform: uppercase;
           color: #ff0072;
-          opacity: 0.5;
-          margin-right: 10px; }
-        .hamburger_container .main_nav li .nav_links .part1 {
-          font-family: Playfair Display;
-          font-style: italic;
-          font-weight: 600;
-          font-size: 47.78px;
-          line-height: 100%;
-          text-align: center;
-          letter-spacing: -0.06em;
-          text-transform: uppercase;
-          color: #fafafa;
-          margin-right: 5px; }
+          opacity: 0.5; }
+        .hamburger_container .main_nav li .nav_links .part1,
         .hamburger_container .main_nav li .nav_links .part2 {
-          font-family: Poppins;
           font-style: normal;
           font-weight: 600;
           font-size: 47.78px;
-          line-height: 100%;
-          text-align: center;
-          letter-spacing: -0.06em;
-          text-transform: uppercase;
           color: #fafafa; }
-
-.footer {
-  height: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .footer .icons {
-    margin-left: 0;
-    overflow: hidden; }
+        .hamburger_container .main_nav li .nav_links .part1 {
+          font-family: Playfair Display;
+          font-style: italic; }
+        .hamburger_container .main_nav li .nav_links .part2 {
+          font-family: Poppins; }
 
 .work_landing {
   height: 90vh;
@@ -608,9 +591,6 @@ p {
       letter-spacing: -0.02em;
       color: #fafafa;
       text-decoration: none; }
-
-.footer {
-  margin-bottom: 50px; }
 
 .work_landing .landing_image img {
   border-radius: 18px;

@@ -100,3 +100,12 @@ p {
   transition: all 0.2s ease-in-out; }
   .btn:hover {
     background: #ff0072; }
+
+.footer {
+  margin-bottom: 60px; }
+  .footer .icons {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px; }
