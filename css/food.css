@@ -48,7 +48,8 @@
     flex-direction: column;
     top: 50%;
     transform: translateY(-50%);
-    text-align: center; }
+    text-align: center;
+    z-index: 5; }
     .work_landing .main_heading h1 {
       font-size: 47.78px; }
   .work_landing .content_wrapper {
@@ -58,67 +59,35 @@
       margin-bottom: 10px; }
 
 .project_details {
+  width: 100vw;
   width: 88vw;
-  margin: 70px auto 100px; }
+  margin: 100px auto 100px; }
   .project_details .about_food {
     margin-bottom: 60px; }
   .project_details .year,
   .project_details .tech,
   .project_details .livesite,
   .project_details .code {
-    margin-bottom: 20px; }
+    margin-bottom: 16px; }
     .project_details .year h2,
-    .project_details .tech h2,
-    .project_details .livesite h2,
-    .project_details .code h2 {
-      font-family: Lato;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 100%;
-      letter-spacing: -0.02em;
-      opacity: 0.5;
-      margin-bottom: 5px; }
     .project_details .year h3,
+    .project_details .tech h2,
     .project_details .tech h3,
+    .project_details .livesite h2,
     .project_details .livesite h3,
+    .project_details .code h2,
     .project_details .code h3 {
       font-family: Lato;
       font-weight: 400;
       font-size: 16px;
       line-height: 100%;
       letter-spacing: -0.02em; }
-    .project_details .year a,
-    .project_details .tech a,
-    .project_details .livesite a,
-    .project_details .code a {
-      font-family: Lato;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 100%;
-      letter-spacing: -0.02em;
-      color: #fafafa; }
-  .project_details .livesite .live,
-  .project_details .livesite .git,
-  .project_details .code .live,
-  .project_details .code .git {
-    cursor: pointer;
-    background-color: transparent;
-    opacity: 0.5;
-    border: 1px solid #ff0072;
-    border-radius: 5px;
-    padding: 8px 16px;
-    font-family: Lato;
-    letter-spacing: -0.02em;
-    font-size: 13.33px;
-    line-height: 78%;
-    color: #fafafa;
-    transition: all 0.2s ease-in-out; }
-    .project_details .livesite .live:hover,
-    .project_details .livesite .git:hover,
-    .project_details .code .live:hover,
-    .project_details .code .git:hover {
-      background: #ff0072;
-      opacity: 0.4; }
+    .project_details .year h2,
+    .project_details .tech h2,
+    .project_details .livesite h2,
+    .project_details .code h2 {
+      opacity: 0.5;
+      margin-bottom: 8px; }
 
 .image_wrapper {
   height: 100vh;

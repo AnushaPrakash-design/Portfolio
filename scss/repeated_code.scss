@@ -122,3 +122,25 @@ p {
 	line-height: 142.4%;
 	letter-spacing: -0.02em;
 }
+
+// BUTTON
+
+.btn {
+	cursor: pointer;
+	background-color: transparent;
+	// opacity: 0.5;
+	border: 1px solid #ff0072;
+	color: #fafafa;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-family: Lato;
+	letter-spacing: -0.02em;
+	font-size: 14px;
+	line-height: 78%;
+
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		background: #ff0072;
+		// opacity: 0.4;
+	}
+}

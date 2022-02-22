@@ -68,3 +68,18 @@ p {
   font-weight: 400;
   line-height: 142.4%;
   letter-spacing: -0.02em; }
+
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #ff0072;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: Lato;
+  letter-spacing: -0.02em;
+  font-size: 14px;
+  line-height: 78%;
+  transition: all 0.2s ease-in-out; }
+  .btn:hover {
+    background: #ff0072; }
