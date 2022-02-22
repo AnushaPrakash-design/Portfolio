@@ -210,6 +210,10 @@
       top: 0;
       background: #7b2243;
       opacity: 0.2; }
+  .work .food .food_image .large_img,
+  .work .torii .food_image .large_img,
+  .work .firewatch .food_image .large_img {
+    display: none; }
   .work .food .main_text,
   .work .torii .main_text,
   .work .firewatch .main_text {
@@ -342,7 +346,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #0a0908;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  overflow-x: hidden; }
   body p,
   body h1,
   body h2,
