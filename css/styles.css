@@ -460,6 +460,37 @@
         position: absolute;
         right: 8vw;
         top: 35%; } }
+  @media only screen and (min-width: 1900px) {
+    .contact .content_wrapper .single_words {
+      top: 25%;
+      width: 57vw;
+      height: 60vh; }
+      .contact .content_wrapper .single_words .word1,
+      .contact .content_wrapper .single_words .word2 {
+        font-size: 142.66px; }
+    .contact .content_wrapper .main_heading {
+      top: 32%; }
+      .contact .content_wrapper .main_heading h1 {
+        font-size: 142.66px; }
+      .contact .content_wrapper .main_heading .line3,
+      .contact .content_wrapper .main_heading .pink_dot {
+        font-size: 142.66px; }
+    .contact .form_wrapper {
+      width: 350px;
+      height: 0;
+      margin: 0px;
+      position: absolute;
+      right: 15vw;
+      top: 35%; } }
+  @media only screen and (min-width: 2560px) {
+    .contact .content_wrapper .single_words {
+      top: 25%;
+      width: 57vw;
+      height: 44vh; }
+    .contact .content_wrapper .form_wrapper {
+      width: 400px;
+      right: 23vw;
+      top: 35%; } }
 
 .contact_footer {
   overflow: hidden;

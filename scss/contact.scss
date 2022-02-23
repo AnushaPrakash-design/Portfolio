@@ -152,4 +152,49 @@
 			top: 35%;
 		}
 	}
+	@media only screen and (min-width: 1900px) {
+		.content_wrapper {
+			.single_words {
+				top: 25%;
+				width: 57vw;
+				height: 60vh;
+				.word1,
+				.word2 {
+					font-size: 142.66px;
+				}
+			}
+			.main_heading {
+				top: 32%;
+				h1 {
+					font-size: 142.66px;
+				}
+				.line3,
+				.pink_dot {
+					font-size: 142.66px;
+				}
+			}
+		}
+		.form_wrapper {
+			width: 350px;
+			height: 0;
+			margin: 0px;
+			position: absolute;
+			right: 15vw;
+			top: 35%;
+		}
+	}
+	@media only screen and (min-width: 2560px) {
+		.content_wrapper {
+			.single_words {
+				top: 25%;
+				width: 57vw;
+				height: 44vh;
+			}
+			.form_wrapper {
+				width: 400px;
+				right: 23vw;
+				top: 35%;
+			}
+		}
+	}
 }
