@@ -423,6 +423,21 @@ p {
     width: 10.85px;
     height: 10.85px; }
 
+@media only screen and (min-width: 768px) {
+  #navbar nav .hamburger_close img {
+    width: 15.85px;
+    height: 15.85px; } }
+
+@media only screen and (min-width: 1024px) {
+  #navbar nav .hamburger_close img {
+    width: 18.85px;
+    height: 18.85px; } }
+
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+  #navbar nav .hamburger_close img {
+    width: 21.85px;
+    height: 21.85px; } }
+
 .hamburger_container {
   height: 85vh;
   width: 100vw;
@@ -446,7 +461,7 @@ p {
       .hamburger_container .main_nav li .nav_links {
         text-decoration: none;
         text-transform: uppercase;
-        line-height: 100%;
+        line-height: 160%;
         text-align: center;
         letter-spacing: -0.06em; }
         .hamburger_container .main_nav li .nav_links .number {
@@ -467,6 +482,19 @@ p {
           font-style: italic; }
         .hamburger_container .main_nav li .nav_links .part2 {
           font-family: Poppins; }
+    .hamburger_container .main_nav .word1 .nav_links {
+      display: flex;
+      align-items: flex-end;
+      grid-gap: 14px;
+      margin-left: -15px; }
+    .hamburger_container .main_nav .word2 .nav_links {
+      display: flex;
+      align-items: flex-end;
+      margin-right: -30px; }
+    .hamburger_container .main_nav .word3 {
+      margin-left: -10px; }
+    .hamburger_container .main_nav .word4 {
+      margin-right: -22px; }
 
 .work_landing {
   height: 90vh;

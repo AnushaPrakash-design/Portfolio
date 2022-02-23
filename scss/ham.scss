@@ -8,6 +8,37 @@
 			}
 		}
 	}
+	@media only screen and (min-width: 768px) {
+		nav {
+			.hamburger_close {
+				img {
+					width: 15.85px;
+					height: 15.85px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+		nav {
+			.hamburger_close {
+				img {
+					width: 18.85px;
+					height: 18.85px;
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		nav {
+			.hamburger_close {
+				img {
+					width: 21.85px;
+					height: 21.85px;
+				}
+			}
+		}
+	}
 }
 
 .hamburger_container {
@@ -35,7 +66,7 @@
 			.nav_links {
 				text-decoration: none;
 				text-transform: uppercase;
-				line-height: 100%;
+				line-height: 160%;
 				text-align: center;
 				letter-spacing: -0.06em;
 
@@ -66,11 +97,28 @@
 				}
 			}
 		}
-		.word2,
-		.word4 {
-			.number {
-				// margin-left: 5px;
+		.word1 {
+			.nav_links {
+				display: flex;
+				align-items: flex-end;
+				grid-gap: 14px;
+				margin-left: -15px;
 			}
+			// position: absolute;
+		}
+		.word2 {
+			.nav_links {
+				display: flex;
+				align-items: flex-end;
+				// grid-gap: 5px;
+				margin-right: -30px;
+			}
+		}
+		.word3 {
+			margin-left: -10px;
+		}
+		.word4 {
+			margin-right: -22px;
 		}
 	}
 }
