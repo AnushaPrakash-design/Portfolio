@@ -62,3 +62,29 @@
     text-decoration: none;
     line-height: 90%;
     text-align: center; }
+
+@media only screen and (min-width: 700px) {
+  .work .food .main_text,
+  .work .torii .main_text,
+  .work .firewatch .main_text {
+    font-size: 99.07px; } }
+
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+  .work .food .food_image .small_img,
+  .work .torii .food_image .small_img,
+  .work .firewatch .food_image .small_img {
+    display: none; }
+  .work .food .food_image .large_img,
+  .work .torii .food_image .large_img,
+  .work .firewatch .food_image .large_img {
+    display: block; }
+  .work .food .main_text,
+  .work .torii .main_text,
+  .work .firewatch .main_text {
+    font-size: 118.88px; } }
+
+@media only screen and (min-width: 1900px) {
+  .work .food .main_text,
+  .work .torii .main_text,
+  .work .firewatch .main_text {
+    font-size: 142.66px; } }

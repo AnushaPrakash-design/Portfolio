@@ -45,4 +45,42 @@
 			text-align: center;
 		}
 	}
+	@media only screen and (min-width: 700px) {
+		.food,
+		.torii,
+		.firewatch {
+			.main_text {
+				font-size: 99.07px;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.food,
+		.torii,
+		.firewatch {
+			.food_image {
+				.small_img {
+					display: none;
+				}
+				.large_img {
+					display: block;
+				}
+			}
+			.main_text {
+				font-size: 118.88px;
+			}
+		}
+	}
+	@media only screen and (min-width: 1900px) {
+		.food,
+		.torii,
+		.firewatch {
+			.main_text {
+				font-size: 142.66px;
+			}
+		}
+	}
+	// @media only screen and (min-width: 2560px) {
+	// }
 }

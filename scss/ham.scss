@@ -8,7 +8,7 @@
 			}
 		}
 	}
-	@media only screen and (min-width: 768px) {
+	@media only screen and (min-width: 700px) {
 		nav {
 			.hamburger_close {
 				img {
@@ -121,17 +121,136 @@
 			margin-right: -22px;
 		}
 	}
-	@media only screen and (min-width: 700px) {
-	}
-	// @media only screen and (min-width: 1024px) {
-	// }
-	// @media only screen and (min--width: 1360px) {
-	// }
-	// @media only screen and (min-width: 1440px) and (orientation: landscape) {
-	// }
-	// @media only screen and (min-width: 1900px) {
-	// }
-	// @media only screen and (min-width: 2560px){
+}
 
-	// }
+@media only screen and (min-width: 700px) {
+	.hamburger_container {
+		height: 90vh;
+		h2 {
+			font-size: 99.07px;
+		}
+		.main_nav {
+			margin-top: -50px;
+			.word1,
+			.word2,
+			.word3,
+			.word4 {
+				.nav_links {
+					line-height: 240%;
+					.number {
+						font-family: Lato;
+						font-style: italic;
+						font-weight: 600;
+						font-size: 19.2px;
+					}
+					.part1,
+					.part2 {
+						font-style: normal;
+						font-weight: 600;
+						font-size: 99.07px;
+						color: #fafafa;
+					}
+					.part1 {
+						font-family: Playfair Display;
+						font-style: italic;
+						// margin-right: 5px;
+					}
+					.part2 {
+						font-family: Poppins;
+					}
+				}
+			}
+			.word1 {
+				.nav_links {
+					grid-gap: 25px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+	.hamburger_container {
+		height: 88vh;
+		h2 {
+			font-size: 118.88px;
+		}
+		.main_nav {
+			li {
+				margin-bottom: -5px;
+			}
+			margin-top: -60px;
+			.word1,
+			.word2,
+			.word3,
+			.word4 {
+				.nav_links {
+					line-height: 330%;
+					.number {
+						font-family: Lato;
+						font-style: italic;
+						font-weight: 600;
+						font-size: 23.04px;
+					}
+					.part1,
+					.part2 {
+						font-style: normal;
+						font-weight: 600;
+						font-size: 118.88px;
+						color: #fafafa;
+					}
+					.part1 {
+						font-family: Playfair Display;
+						font-style: italic;
+						// margin-right: 5px;
+					}
+					.part2 {
+						font-family: Poppins;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1900px) {
+	.hamburger_container {
+		height: 90vh;
+		h2 {
+			font-size: 142.66px;
+		}
+		.main_nav {
+			li {
+				margin-bottom: -10px;
+			}
+			margin-top: -80px;
+			.word1,
+			.word2,
+			.word3,
+			.word4 {
+				.nav_links {
+					line-height: 330%;
+					.number {
+						font-family: Lato;
+						font-style: italic;
+						font-weight: 600;
+						font-size: 27.65px;
+					}
+					.part1,
+					.part2 {
+						font-style: normal;
+						font-weight: 600;
+						font-size: 142.66px;
+						color: #fafafa;
+					}
+					.part1 {
+						font-family: Playfair Display;
+						font-style: italic;
+					}
+					.part2 {
+						font-family: Poppins;
+					}
+				}
+			}
+		}
+	}
 }
