@@ -8,3 +8,6 @@
     justify-content: flex-start;
     margin-left: 8vw;
     grid-gap: 30px; }
+  @media only screen and (min-width: 700px) {
+    .contact_footer {
+      margin-bottom: 100px; } }

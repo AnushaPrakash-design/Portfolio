@@ -81,7 +81,8 @@
   .hamburger_container {
     height: 90vh; }
     .hamburger_container h2 {
-      font-size: 99.07px; }
+      font-size: 99.07px;
+      opacity: 0.5; }
     .hamburger_container .main_nav {
       margin-top: -50px; }
       .hamburger_container .main_nav .word1 .nav_links,

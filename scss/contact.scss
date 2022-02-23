@@ -80,4 +80,76 @@
 			}
 		}
 	}
+	@media only screen and (min-width: 700px) {
+		.content_wrapper {
+			.single_words {
+				width: 94.7vw;
+				height: 30vh;
+				opacity: 0.5;
+				.word1,
+				.word2 {
+					font-size: 82.56px;
+				}
+			}
+			.main_heading {
+				top: 25%;
+				h1 {
+					font-size: 82.56px;
+				}
+				.line3 {
+					font-size: 82.56px;
+					line-height: 100px;
+				}
+			}
+		}
+		.form_wrapper {
+			width: 350px;
+			height: 40vh;
+			margin: 70px 0px 0px 8vw;
+		}
+	}
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		height: 90vh;
+		display: flex;
+		align-items: center;
+		.content_wrapper {
+			height: 0vh;
+			.single_words {
+				position: absolute;
+				top: 30%;
+				left: -3%;
+				width: 70vw;
+				height: 52vh;
+				.word1,
+				.word2 {
+					font-size: 118.88px;
+				}
+			}
+			.main_heading {
+				position: absolute;
+				top: 35%;
+				margin-left: 8vw;
+				h1 {
+					line-height: 100%;
+					font-size: 118.88px;
+				}
+				.line3,
+				.pink_dot {
+					font-family: Playfair Display;
+					font-style: italic;
+					font-weight: 700;
+					font-size: 118.88px;
+					line-height: 100%;
+				}
+			}
+		}
+		.form_wrapper {
+			width: 350px;
+			height: 0;
+			margin: 0px;
+			position: absolute;
+			right: 8vw;
+			top: 35%;
+		}
+	}
 }
