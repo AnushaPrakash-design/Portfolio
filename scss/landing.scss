@@ -57,7 +57,7 @@
 		}
 	}
 
-	@media only screen and (min-width: 740px) {
+	@media only screen and (min-width: 700px) {
 		.single_words {
 			top: 15%;
 			height: 72.6vh;
@@ -78,8 +78,13 @@
 		}
 	}
 	@media only screen and (min-width: 1024px) {
+	}
+	// @media only screen and (min--width: 1360px) {
+	// }
+
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 		.single_words {
-			top: 18.5%;
+			top: 15%;
 			height: 58.5vh;
 			width: 84vw;
 			h2 {
@@ -90,17 +95,17 @@
 			}
 		}
 		.landing_image {
-			height: 46vh;
+			height: 50vh;
 			width: 59vw;
 			.small_img {
 				display: none;
 			}
 			.large_img {
 				display: block;
-				opacity: 0.8;
-				border-radius: 20px;
 				width: 100%;
 				height: 100%;
+				opacity: 0.8;
+				border-radius: 20px;
 				object-fit: cover;
 			}
 		}
@@ -115,26 +120,19 @@
 			}
 		}
 	}
-	// @media only screen and (min--width: 1360px) {
-	// }
-	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+	@media only screen and (min-width: 1900px) {
 		.single_words {
-			top: 18.5%;
-			height: 58.5vh;
+			top: 13%;
+			height: 66.5vh;
 			width: 84vw;
 			h2 {
 				font-size: 142.66px;
 			}
-			.word2 {
-				margin-top: 28vh;
-			}
 		}
 		.landing_image {
-			height: 46vh;
+			height: 51.3vh;
 			width: 59vw;
-			.small_img {
-				display: none;
-			}
+
 			.large_img {
 				display: block;
 				opacity: 0.8;
@@ -146,7 +144,7 @@
 		}
 
 		.main_heading {
-			width: 75vw;
+			width: 72vw;
 			font-size: 142.66px;
 			.line1,
 			.line2,
@@ -155,6 +153,34 @@
 			}
 		}
 	}
-	// @media only screen and (min-width: 1900px) {
-	// }
+	@media only screen and (min-width: 2560px) {
+		.single_words {
+			top: 15%;
+			height: 66.5vh;
+			width: 78vw;
+		}
+		.landing_image {
+			height: 53vh;
+			width: 61vw;
+
+			.large_img {
+				display: block;
+				opacity: 0.8;
+				border-radius: 20px;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.main_heading {
+			width: 68vw;
+			// font-size: 171.19px;
+			// .line1,
+			// .line2,
+			// .pink_dot {
+			// 	// font-size: 171.19px;
+			// }
+		}
+	}
 }

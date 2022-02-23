@@ -43,7 +43,7 @@
     width: 88vw; }
     .landing .main_heading .line2 {
       align-self: end; }
-  @media only screen and (min-width: 740px) {
+  @media only screen and (min-width: 700px) {
     .landing .single_words {
       top: 15%;
       height: 72.6vh;
@@ -58,9 +58,9 @@
       .landing .main_heading .line2,
       .landing .main_heading .pink_dot {
         font-size: 82.56px; } }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .landing .single_words {
-      top: 18.5%;
+      top: 15%;
       height: 58.5vh;
       width: 84vw; }
       .landing .single_words h2 {
@@ -68,16 +68,16 @@
       .landing .single_words .word2 {
         margin-top: 28vh; }
     .landing .landing_image {
-      height: 46vh;
+      height: 50vh;
       width: 59vw; }
       .landing .landing_image .small_img {
         display: none; }
       .landing .landing_image .large_img {
         display: block;
-        opacity: 0.8;
-        border-radius: 20px;
         width: 100%;
         height: 100%;
+        opacity: 0.8;
+        border-radius: 20px;
         object-fit: cover; }
     .landing .main_heading {
       width: 75vw;
@@ -86,20 +86,16 @@
       .landing .main_heading .line2,
       .landing .main_heading .pink_dot {
         font-size: 118.88px; } }
-  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+  @media only screen and (min-width: 1900px) {
     .landing .single_words {
-      top: 18.5%;
-      height: 58.5vh;
+      top: 13%;
+      height: 66.5vh;
       width: 84vw; }
       .landing .single_words h2 {
         font-size: 142.66px; }
-      .landing .single_words .word2 {
-        margin-top: 28vh; }
     .landing .landing_image {
-      height: 46vh;
+      height: 51.3vh;
       width: 59vw; }
-      .landing .landing_image .small_img {
-        display: none; }
       .landing .landing_image .large_img {
         display: block;
         opacity: 0.8;
@@ -108,9 +104,26 @@
         height: 100%;
         object-fit: cover; }
     .landing .main_heading {
-      width: 75vw;
+      width: 72vw;
       font-size: 142.66px; }
       .landing .main_heading .line1,
       .landing .main_heading .line2,
       .landing .main_heading .pink_dot {
         font-size: 142.66px; } }
+  @media only screen and (min-width: 2560px) {
+    .landing .single_words {
+      top: 15%;
+      height: 66.5vh;
+      width: 78vw; }
+    .landing .landing_image {
+      height: 53vh;
+      width: 61vw; }
+      .landing .landing_image .large_img {
+        display: block;
+        opacity: 0.8;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .landing .main_heading {
+      width: 68vw; } }
