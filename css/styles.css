@@ -175,76 +175,91 @@
     .landing .main_heading {
       width: 68vw; } }
 
-.about_section .about {
-  height: 82vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 30px; }
-  .about_section .about .single_words {
-    position: absolute;
-    top: 10%;
-    width: 88vw;
-    height: 65vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    opacity: 0.65;
-    z-index: -2; }
-    .about_section .about .single_words .word2 {
-      align-self: start; }
-  .about_section .about .about_image {
+.about_section {
+  position: relative; }
+  .about_section .about {
+    height: 82vh;
+    width: 100%;
     position: relative;
-    width: 76vw;
-    height: 56vh; }
-    .about_section .about .about_image img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 15px; }
-    .about_section .about .about_image .image_overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      background: #7b2243;
-      opacity: 0.3;
-      border-radius: 15px; }
-  .about_section .about .main_heading {
-    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
-    top: 81%;
-    transform: translateY(-50%);
-    width: 96vw; }
-    .about_section .about .main_heading h1 {
-      line-height: 90%; }
-    .about_section .about .main_heading .line2 {
-      align-self: end; }
-
-.about_section .about_me {
-  margin-top: -10%;
-  margin-bottom: 200px; }
-  .about_section .about_me .para_aboutme {
-    width: 88vw;
-    margin: 0px auto; }
-
-.content_wrapper p {
-  width: max-content;
-  font-size: 14px;
-  font-family: Montserrat;
-  opacity: 0.5;
-  margin: 0 auto 8px; }
-
-.content_wrapper img {
-  margin: 0 auto 30px; }
+    margin-top: 30px; }
+    .about_section .about .single_words {
+      position: absolute;
+      top: 10%;
+      width: 88vw;
+      height: 65vh;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      opacity: 0.65;
+      z-index: -2; }
+      .about_section .about .single_words .word2 {
+        align-self: start; }
+    .about_section .about .about_image {
+      position: relative;
+      width: 76vw;
+      height: 56vh; }
+      .about_section .about .about_image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px; }
+      .about_section .about .about_image .image_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: #7b2243;
+        opacity: 0.3;
+        border-radius: 15px; }
+    .about_section .about .main_heading {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      top: 81%;
+      transform: translateY(-50%);
+      width: 96vw; }
+      .about_section .about .main_heading h1 {
+        line-height: 90%; }
+      .about_section .about .main_heading .line2 {
+        align-self: end; }
+  .about_section .about_me {
+    margin-top: -10%;
+    margin-bottom: 200px; }
+    .about_section .about_me .para_aboutme {
+      width: 88vw;
+      margin: 0px auto; }
+  .about_section .content_wrapper {
+    margin-bottom: 30px; }
+    .about_section .content_wrapper p {
+      width: max-content;
+      font-size: 14px;
+      font-family: Montserrat;
+      opacity: 0.5;
+      margin: 0 auto 8px; }
+    .about_section .content_wrapper img {
+      margin: 0 auto; }
+  @media only screen and (min-width: 700px) {
+    .about_section {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center; }
+      .about_section .about {
+        margin-top: 0; }
+        .about_section .about .single_words {
+          top: 0;
+          width: 50vw;
+          height: 52vh; }
+        .about_section .about .about_image {
+          width: 76vw;
+          height: 56vh; } }
 
 .work .food,
 .work .torii,
