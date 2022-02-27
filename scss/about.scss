@@ -100,18 +100,63 @@
 		.about {
 			// height: 0;
 			margin-top: 0;
+			// margin-left: 8.3vw;
 			.single_words {
-				top: 0;
-				width: 50vw;
-				height: 52vh;
+				margin-left: 16.3vw;
+				top: 25%;
+				width: 62.8vw;
+				height: 44.3vh;
+				display: flex;
+				opacity: 0.5;
+				h2 {
+					font-size: 68.8px;
+				}
+				.word2 {
+					align-self: start;
+				}
 			}
 			.about_image {
-				width: 76vw;
-				height: 56vh;
+				width: 42.3vw;
+				height: 40.2vh;
+			}
+			.main_heading {
+				top: 50%;
+				transform: translateY(-30%);
+				width: 65vw;
+				margin-left: 45.3vw;
+				h1 {
+					line-height: 90%;
+					font-size: 68.8px;
+				}
+			}
+		}
+		.about_me {
+			margin-top: 0%;
+			margin-bottom: 0px;
+			.para_aboutme {
+				// position: relative;
+				width: 30vw;
+				margin-top: 32vh;
+			}
+		}
+		.content_wrapper {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			// margin: 0 auto;
+			p {
+				width: max-content;
+				font-size: 14px;
+				font-family: Montserrat;
+				opacity: 0.5;
+				margin: 0 auto 8px;
+			}
+			img {
+				margin: 0 auto;
 			}
 		}
 	}
-
 	// @media only screen and (min-width: 1440px) and (orientation: landscape) {
 	// }
 	// @media only screen and (min-width: 1900px) {
