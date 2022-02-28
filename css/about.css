@@ -1,38 +1,33 @@
 .about_section {
   position: relative; }
-  .about_section .about {
-    height: 82vh;
-    width: 100%;
-    position: relative;
+  .about_section .about .image_wrapper_about {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 30px; }
-    .about_section .about .single_words {
+    justify-content: center; }
+    .about_section .about .image_wrapper_about .single_words {
       position: absolute;
-      top: 10%;
+      height: 64vh;
       width: 88vw;
-      height: 65vh;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       justify-content: space-between;
-      opacity: 0.65;
-      z-index: -2; }
-      .about_section .about .single_words .word2 {
+      opacity: 0.65; }
+      .about_section .about .image_wrapper_about .single_words h2 {
+        width: min-content; }
+      .about_section .about .image_wrapper_about .single_words .word2 {
         align-self: start; }
-    .about_section .about .about_image {
+    .about_section .about .image_wrapper_about .image_wrap {
       position: relative;
       width: 76vw;
       height: 56vh; }
-      .about_section .about .about_image img {
+      .about_section .about .image_wrapper_about .image_wrap .about_image {
         position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 15px; }
-      .about_section .about .about_image .image_overlay {
+      .about_section .about .image_wrapper_about .image_wrap .image_overlay {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -40,80 +35,32 @@
         background: #7b2243;
         opacity: 0.3;
         border-radius: 15px; }
-    .about_section .about .main_heading {
+  .about_section .about .content_wrapper {
+    margin-top: -20%;
+    display: flex; }
+    .about_section .about .content_wrapper .main_heading {
       position: absolute;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      top: 81%;
-      transform: translateY(-50%);
-      width: 96vw; }
-      .about_section .about .main_heading h1 {
+      margin: 0 auto;
+      width: 96vw;
+      z-index: 10; }
+      .about_section .about .content_wrapper .main_heading h1 {
         line-height: 90%; }
-      .about_section .about .main_heading .line2 {
+      .about_section .about .content_wrapper .main_heading .line2 {
         align-self: end; }
-  .about_section .about_me {
-    margin-top: -10%;
-    margin-bottom: 200px; }
-    .about_section .about_me .para_aboutme {
+    .about_section .about .content_wrapper p {
       width: 88vw;
-      margin: 0px auto; }
-  .about_section .content_wrapper {
+      margin: 100px auto 200px; }
+  .about_section .title_wrapper {
+    bottom: 10%;
     margin-bottom: 30px; }
-    .about_section .content_wrapper p {
+    .about_section .title_wrapper p {
       width: max-content;
       font-size: 14px;
       font-family: Montserrat;
       opacity: 0.5;
       margin: 0 auto 8px; }
-    .about_section .content_wrapper img {
+    .about_section .title_wrapper img {
       margin: 0 auto; }
-  @media only screen and (min-width: 700px) {
-    .about_section {
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      align-items: center; }
-      .about_section .about {
-        margin-top: 0; }
-        .about_section .about .single_words {
-          margin-left: 16.3vw;
-          top: 25%;
-          width: 62.8vw;
-          height: 44.3vh;
-          display: flex;
-          opacity: 0.5; }
-          .about_section .about .single_words h2 {
-            font-size: 68.8px; }
-          .about_section .about .single_words .word2 {
-            align-self: start; }
-        .about_section .about .about_image {
-          width: 42.3vw;
-          height: 40.2vh; }
-        .about_section .about .main_heading {
-          top: 50%;
-          transform: translateY(-30%);
-          width: 65vw;
-          margin-left: 45.3vw; }
-          .about_section .about .main_heading h1 {
-            line-height: 90%;
-            font-size: 68.8px; }
-      .about_section .about_me {
-        margin-top: 0%;
-        margin-bottom: 0px; }
-        .about_section .about_me .para_aboutme {
-          width: 30vw;
-          margin-top: 32vh; }
-      .about_section .content_wrapper {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%); }
-        .about_section .content_wrapper p {
-          width: max-content;
-          font-size: 14px;
-          font-family: Montserrat;
-          opacity: 0.5;
-          margin: 0 auto 8px; }
-        .about_section .content_wrapper img {
-          margin: 0 auto; } }
