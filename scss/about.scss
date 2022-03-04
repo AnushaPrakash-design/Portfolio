@@ -101,6 +101,7 @@
 		padding-bottom: 30px;
 		p {
 			opacity: 0.5;
+			font-size: 14px;
 		}
 	}
 
@@ -159,11 +160,125 @@
 				}
 			}
 		}
-		// @media only screen and (min-width: 1440px) and (orientation: landscape) {
-		// }
-		// @media only screen and (min-width: 1900px) {
-		// }
-		// @media only screen and (min-width: 2560px) {
-		// }
+	}
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.top {
+			.image_wrapper {
+				width: 24vw;
+				height: 480px;
+				margin-left: -5%;
+				.single_words {
+					h2 {
+						font-size: 99.07px;
+					}
+
+					.word1 {
+						margin-right: -52%;
+					}
+					.word2 {
+						align-self: start;
+						margin-bottom: 0%;
+						margin-left: -30%;
+					}
+				}
+			}
+			.content_wrapper {
+				width: 34vw;
+				.main_heading {
+					width: 64vw;
+					margin-left: -45%;
+					h1,
+					.pink_dot {
+						font-size: 99.07px;
+					}
+					.pink_dot {
+						margin-left: -18px;
+					}
+				}
+				p {
+					margin-left: 40px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1900px) {
+		.top {
+			.image_wrapper {
+				width: 21vw;
+				height: 555px;
+				margin-left: -5%;
+				.single_words {
+					h2 {
+						font-size: 118.88px;
+					}
+
+					.word1 {
+						margin-right: -52%;
+					}
+					.word2 {
+						align-self: start;
+						margin-bottom: 0%;
+						margin-left: -30%;
+					}
+				}
+			}
+			.content_wrapper {
+				width: 34vw;
+				.main_heading {
+					width: 58vw;
+					margin-left: -45%;
+					h1,
+					.pink_dot {
+						font-size: 118.88px;
+						line-height: 85%;
+					}
+					.pink_dot {
+						margin-left: -18px;
+					}
+				}
+				p {
+					width: 19vw;
+					margin-left: 40px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 2560px) {
+		.top {
+			.image_wrapper {
+				width: 23vw;
+				height: 650px;
+				margin-left: 0%;
+				.single_words {
+					.word1 {
+						margin-right: -35%;
+					}
+					.word2 {
+						margin-left: -20%;
+					}
+				}
+			}
+			.content_wrapper {
+				width: 34vw;
+				grid-gap: 50px;
+				.main_heading {
+					width: 43vw;
+					margin-left: -40%;
+					h1,
+					.pink_dot {
+						font-size: 118.88px;
+					}
+				}
+				p {
+					width: 15vw;
+				}
+			}
+		}
+		.bottom {
+			padding-bottom: 50px;
+			p {
+				font-size: 16px;
+			}
+		}
 	}
 }
