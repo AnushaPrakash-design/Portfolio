@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css"
+    "scss": "node-sass --watch scss -o css && node-sass --watch scss/work -o css/work"
   },
   "author": "Anusha",
   "license": "ISC",
