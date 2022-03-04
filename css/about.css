@@ -1,66 +1,33 @@
 .about_section {
-  position: relative;
-  overflow: visible; }
-  .about_section .top .image_wrapper {
+  padding-top: 130px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .about_section .top {
     display: flex;
     align-items: center;
-    justify-content: center; }
-    .about_section .top .image_wrapper .single_words {
-      position: absolute;
-      top: 10%;
-      height: 64vh;
-      width: 88vw;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      justify-content: space-between;
-      opacity: 0.65; }
-      .about_section .top .image_wrapper .single_words h2 {
-        width: min-content; }
-      .about_section .top .image_wrapper .single_words .word2 {
-        align-self: start; }
-    .about_section .top .image_wrapper .image_wrap {
+    flex-direction: column; }
+    .about_section .top .image_wrapper {
       position: relative;
-      width: 76vw;
-      height: 56vh; }
-      .about_section .top .image_wrapper .image_wrap .about_image {
+      width: 76%;
+      height: 455px; }
+      .about_section .top .image_wrapper .single_words {
         position: absolute;
-        top: 25%;
+        top: -7.5%;
+        left: -5%;
+        width: 110%;
+        height: 115%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        z-index: -1; }
+        .about_section .top .image_wrapper .single_words h2 {
+          opacity: 0.6; }
+        .about_section .top .image_wrapper .single_words .word2 {
+          align-self: start; }
+      .about_section .top .image_wrapper .image_wrap {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        overflow: hidden;
         border-radius: 15px; }
-      .about_section .top .image_wrapper .image_wrap .image_overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 25%;
-        background: #7b2243;
-        opacity: 0.3;
-        border-radius: 15px; }
-  .about_section .top .content_wrapper .main_heading {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 auto;
-    width: 96vw;
-    z-index: 10; }
-    .about_section .top .content_wrapper .main_heading h1 {
-      line-height: 90%; }
-    .about_section .top .content_wrapper .main_heading .line2 {
-      align-self: end; }
-  .about_section .top .content_wrapper p {
-    width: 88vw;
-    margin: 100px auto 200px; }
-  .about_section .bottom {
-    bottom: 10%;
-    margin-bottom: 30px; }
-    .about_section .bottom p {
-      width: max-content;
-      font-size: 14px;
-      font-family: Montserrat;
-      opacity: 0.5;
-      margin: 0 auto 8px; }
-    .about_section .bottom img {
-      margin: 0 auto; }

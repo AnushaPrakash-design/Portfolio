@@ -371,3 +371,107 @@
 // 	// @media only screen and (min-width: 2560px) {
 // 	// }
 // }
+
+// .about_section {
+// 	// 	height: 100vh;
+// 	// 	width: 100vw;
+// 	position: relative;
+// 	// overflow: visible;
+// 	.top {
+// 		.image_wrapper {
+// 			// height: 0px;
+// 			// width: 0px;
+// 			position: relative;
+// 			display: flex;
+// 			align-items: center;
+// 			justify-content: center;
+// 			.single_words {
+// 				position: absolute;
+// 				top: 10%;
+// 				height: 64vh;
+// 				width: 88vw;
+// 				display: flex;
+// 				flex-direction: column;
+// 				align-items: flex-end;
+// 				justify-content: space-between;
+// 				opacity: 0.65;
+// 				h2 {
+// 					width: min-content;
+// 				}
+// 				.word2 {
+// 					align-self: start;
+// 					// margin-top: 17vh;
+// 				}
+// 			}
+// 			.image_wrap {
+// 				position: relative;
+// 				width: 76vw;
+// 				height: 56vh;
+
+// 				.about_image {
+// 					position: absolute;
+// 					top: 25%;
+// 					width: 100%;
+// 					height: 100%;
+// 					object-fit: cover;
+// 					border-radius: 15px;
+// 				}
+
+// 				.image_overlay {
+// 					position: absolute;
+// 					width: 100%;
+// 					height: 100%;
+// 					top: 25%;
+// 					background: #7b2243;
+// 					opacity: 0.3;
+// 					border-radius: 15px;
+// 				}
+// 			}
+// 		}
+// 		.content_wrapper {
+// 			// margin-top: -20%;
+// 			// z-index: 10;
+// 			// display: flex;
+// 			// flex-direction: column;
+// 			// grid-gap: 30px;
+// 			.main_heading {
+// 				position: relative;
+// 				display: flex;
+// 				flex-direction: column;
+// 				align-items: flex-start;
+// 				// top: 81%;
+// 				// transform: translateY(-50%);
+// 				margin: 0 auto;
+// 				width: 96vw;
+// 				z-index: 10;
+// 				h1 {
+// 					line-height: 90%;
+// 				}
+// 				.line2 {
+// 					align-self: end;
+// 					// flex-wrap: wrap;
+// 				}
+// 			}
+// 			p {
+// 				// position: absolute;
+// 				width: 88vw;
+// 				margin: 100px auto 200px;
+// 			}
+// 		}
+// 	}
+// 	.bottom {
+// 		// position: absolute;
+// 		bottom: 10%;
+// 		margin-bottom: 30px;
+// 		p {
+// 			width: max-content;
+// 			font-size: 14px;
+// 			font-family: Montserrat;
+// 			opacity: 0.5;
+// 			margin: 0 auto 8px;
+// 		}
+// 		img {
+// 			margin: 0 auto;
+// 		}
+// 	}
+// }

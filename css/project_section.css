@@ -1,0 +1,90 @@
+.project_section .food,
+.project_section .torii,
+.project_section .firewatch {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .project_section .food .food_image,
+  .project_section .food .torii_image,
+  .project_section .food .firewatch_image,
+  .project_section .torii .food_image,
+  .project_section .torii .torii_image,
+  .project_section .torii .firewatch_image,
+  .project_section .firewatch .food_image,
+  .project_section .firewatch .torii_image,
+  .project_section .firewatch .firewatch_image {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .project_section .food .food_image img,
+    .project_section .food .torii_image img,
+    .project_section .food .firewatch_image img,
+    .project_section .torii .food_image img,
+    .project_section .torii .torii_image img,
+    .project_section .torii .firewatch_image img,
+    .project_section .firewatch .food_image img,
+    .project_section .firewatch .torii_image img,
+    .project_section .firewatch .firewatch_image img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .project_section .food .food_image .image_overlay,
+    .project_section .food .torii_image .image_overlay,
+    .project_section .food .firewatch_image .image_overlay,
+    .project_section .torii .food_image .image_overlay,
+    .project_section .torii .torii_image .image_overlay,
+    .project_section .torii .firewatch_image .image_overlay,
+    .project_section .firewatch .food_image .image_overlay,
+    .project_section .firewatch .torii_image .image_overlay,
+    .project_section .firewatch .firewatch_image .image_overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      background: #7b2243;
+      opacity: 0.2; }
+  .project_section .food .food_image .large_img,
+  .project_section .torii .food_image .large_img,
+  .project_section .firewatch .food_image .large_img {
+    display: none; }
+  .project_section .food .main_text,
+  .project_section .torii .main_text,
+  .project_section .firewatch .main_text {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 47.78px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    line-height: 90%;
+    text-align: center; }
+
+@media only screen and (min-width: 700px) {
+  .project_section .food .main_text,
+  .project_section .torii .main_text,
+  .project_section .firewatch .main_text {
+    font-size: 99.07px; } }
+
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+  .project_section .food .food_image .small_img,
+  .project_section .torii .food_image .small_img,
+  .project_section .firewatch .food_image .small_img {
+    display: none; }
+  .project_section .food .food_image .large_img,
+  .project_section .torii .food_image .large_img,
+  .project_section .firewatch .food_image .large_img {
+    display: block; }
+  .project_section .food .main_text,
+  .project_section .torii .main_text,
+  .project_section .firewatch .main_text {
+    font-size: 118.88px; } }
+
+@media only screen and (min-width: 1900px) {
+  .project_section .food .main_text,
+  .project_section .torii .main_text,
+  .project_section .firewatch .main_text {
+    font-size: 142.66px; } }
