@@ -5,7 +5,9 @@ window.addEventListener("load", function () {
 	loader.style.display = "none";
 });
 
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// Hamburger menu
+
+// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 let lastScrollTop;
 const navbar = document.getElementById("navbar");
 
