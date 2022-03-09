@@ -3,6 +3,14 @@
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function () {
 	loader.style.display = "none";
+	// setTimeout(function () {
+	// 	preloader(secs + 1);
+	// }, 3000);
+	window.onload = function () {
+		setInterval(function () {
+			alert("Hello");
+		}, 10000);
+	};
 });
 
 // Hamburger menu
