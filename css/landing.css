@@ -109,3 +109,34 @@
         font-size: 118.88px; }
       .landing .main_heading .pink_dot {
         margin-left: -25px; } }
+  @media only screen and (min-width: 1900px) {
+    .landing .image_wrapper {
+      height: 51vh;
+      width: 59vw; }
+      .landing .image_wrapper .single_words {
+        top: -25%;
+        height: 110%;
+        width: 86vw; }
+        .landing .image_wrapper .single_words h2 {
+          font-size: 142.66px; }
+        .landing .image_wrapper .single_words .word2 {
+          margin-top: 28vh; }
+    .landing .main_heading {
+      width: 71vw;
+      font-size: 142.66px; }
+      .landing .main_heading .line1,
+      .landing .main_heading .line2,
+      .landing .main_heading .pink_dot {
+        font-size: 142.66px; }
+      .landing .main_heading .pink_dot {
+        margin-left: -30px; } }
+  @media only screen and (min-width: 2560px) {
+    .landing .image_wrapper .single_words {
+      top: -15%;
+      height: 120%;
+      width: 83vw; }
+      .landing .image_wrapper .single_words .word2 {
+        margin-top: 35vh;
+        margin-left: 5%; }
+    .landing .main_heading {
+      width: 50vw; } }

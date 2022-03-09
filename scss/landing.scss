@@ -165,4 +165,54 @@
 			}
 		}
 	}
+
+	@media only screen and (min-width: 1900px) {
+		.image_wrapper {
+			height: 51vh;
+			width: 59vw;
+			.single_words {
+				top: -25%;
+				height: 110%;
+				width: 86vw;
+
+				h2 {
+					font-size: 142.66px;
+				}
+
+				.word2 {
+					margin-top: 28vh;
+				}
+			}
+		}
+		.main_heading {
+			width: 71vw;
+			font-size: 142.66px;
+			.line1,
+			.line2,
+			.pink_dot {
+				font-size: 142.66px;
+			}
+			.pink_dot {
+				margin-left: -30px;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 2560px) {
+		.image_wrapper {
+			.single_words {
+				top: -15%;
+				height: 120%;
+				width: 83vw;
+
+				.word2 {
+					margin-top: 35vh;
+					margin-left: 5%;
+				}
+			}
+		}
+		.main_heading {
+			width: 50vw;
+		}
+	}
 }
