@@ -13,10 +13,10 @@
     width: 60vw; }
     .landing .image_wrapper .single_words {
       position: absolute;
-      top: -6%;
+      top: -7%;
       left: -25%;
       width: 84vw;
-      height: 110%;
+      height: 112%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;

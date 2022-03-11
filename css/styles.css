@@ -60,10 +60,10 @@
     width: 60vw; }
     .landing .image_wrapper .single_words {
       position: absolute;
-      top: -6%;
+      top: -7%;
       left: -25%;
       width: 84vw;
-      height: 110%;
+      height: 112%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -384,6 +384,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  min-height: 640px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -470,26 +471,32 @@
     font-size: 142.66px; } }
 
 .contact {
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 18vh;
+  padding-bottom: 180px; }
   .contact .content_wrapper {
-    height: 50vh; }
+    position: relative;
+    margin-bottom: 10%; }
     .contact .content_wrapper .single_words {
       position: absolute;
-      top: 20%;
+      top: -13%;
       left: -4%;
-      width: 93.3vw;
-      height: 26vh;
+      width: 88vw;
+      height: 125%;
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
       justify-content: space-between;
-      opacity: 0.65;
-      z-index: -2; }
+      align-items: flex-end;
+      z-index: -1; }
+      .contact .content_wrapper .single_words h2 {
+        opacity: 0.65; }
       .contact .content_wrapper .single_words .word1 {
         align-self: start; }
+      .contact .content_wrapper .single_words .word2 {
+        align-self: end; }
     .contact .content_wrapper .main_heading {
-      position: absolute;
-      top: 23%;
       margin-left: 8vw; }
       .contact .content_wrapper .main_heading h1 {
         line-height: 100%;
@@ -502,10 +509,11 @@
         font-size: 47.78px;
         line-height: 64px;
         text-transform: lowercase; }
+        .contact .content_wrapper .main_heading .line3 .pink_dot {
+          margin-left: -10px; }
   .contact .form_wrapper {
-    height: 45vh;
     width: 84vw;
-    margin: 0 auto; }
+    margin: 0 auto 5vh; }
     .contact .form_wrapper form {
       display: flex;
       flex-direction: column; }
@@ -533,110 +541,58 @@
           border-bottom: 1px solid rgba(255, 0, 114, 0.5);
           transition: all 0.5s;
           color: #fafafa; }
+      .contact .form_wrapper form input:-webkit-autofill,
+      .contact .form_wrapper form input:-webkit-autofill:hover,
+      .contact .form_wrapper form input:-webkit-autofill:focus,
+      .contact .form_wrapper form input:-webkit-autofill:active {
+        -webkit-transition-delay: 99999s;
+        transition-delay: 99999s; }
+      .contact .form_wrapper form .message {
+        padding-top: 35px;
+        line-height: 14px;
+        padding-bottom: 0px; }
       .contact .form_wrapper form .submit {
         width: 40px;
         margin: 50px 0px 0px 0px; }
+  .contact .contact_footer {
+    overflow: hidden; }
+    .contact .contact_footer .icons {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 8vw;
+      grid-gap: 30px; }
+    @media only screen and (min-width: 700px) {
+      .contact .contact_footer {
+        margin-bottom: 100px; } }
+  @media only screen and (min-width: 500px) {
+    .contact .content_wrapper .single_words {
+      width: 74vw; } }
   @media only screen and (min-width: 700px) {
     .contact .content_wrapper .single_words {
-      width: 94.7vw;
-      height: 30vh;
-      opacity: 0.5; }
-      .contact .content_wrapper .single_words .word1,
-      .contact .content_wrapper .single_words .word2 {
+      top: -20%;
+      left: -5%;
+      width: 100vw;
+      height: 135%; }
+      .contact .content_wrapper .single_words h2 {
+        opacity: 0.5;
         font-size: 82.56px; }
     .contact .content_wrapper .main_heading {
-      top: 25%; }
+      margin-left: 8vw; }
       .contact .content_wrapper .main_heading h1 {
-        font-size: 82.56px; }
-      .contact .content_wrapper .main_heading .line3 {
+        line-height: 100%;
         font-size: 82.56px;
-        line-height: 100px; }
-    .contact .form_wrapper {
-      width: 350px;
-      height: 40vh;
-      margin: 70px 0px 0px 8vw; } }
-  @media only screen and (min-width: 1440px) and (orientation: landscape) {
-    .contact {
-      height: 90vh;
-      display: flex;
-      align-items: center; }
-      .contact .content_wrapper {
-        height: 0vh; }
-        .contact .content_wrapper .single_words {
-          position: absolute;
-          top: 30%;
-          left: -3%;
-          width: 70vw;
-          height: 52vh; }
-          .contact .content_wrapper .single_words .word1,
-          .contact .content_wrapper .single_words .word2 {
-            font-size: 118.88px; }
-        .contact .content_wrapper .main_heading {
-          position: absolute;
-          top: 35%;
-          margin-left: 8vw; }
-          .contact .content_wrapper .main_heading h1 {
-            line-height: 100%;
-            font-size: 118.88px; }
-          .contact .content_wrapper .main_heading .line3,
-          .contact .content_wrapper .main_heading .pink_dot {
-            font-family: Playfair Display;
-            font-style: italic;
-            font-weight: 700;
-            font-size: 118.88px;
-            line-height: 100%; }
-      .contact .form_wrapper {
-        width: 350px;
-        height: 0;
-        margin: 0px;
-        position: absolute;
-        right: 8vw;
-        top: 35%; } }
-  @media only screen and (min-width: 1900px) {
-    .contact .content_wrapper .single_words {
-      top: 25%;
-      width: 57vw;
-      height: 60vh; }
-      .contact .content_wrapper .single_words .word1,
-      .contact .content_wrapper .single_words .word2 {
-        font-size: 142.66px; }
-    .contact .content_wrapper .main_heading {
-      top: 32%; }
-      .contact .content_wrapper .main_heading h1 {
-        font-size: 142.66px; }
+        font-weight: 700; }
       .contact .content_wrapper .main_heading .line3,
       .contact .content_wrapper .main_heading .pink_dot {
-        font-size: 142.66px; }
+        font-size: 82.56px; }
+        .contact .content_wrapper .main_heading .line3 .pink_dot,
+        .contact .content_wrapper .main_heading .pink_dot .pink_dot {
+          margin-left: -15px; }
     .contact .form_wrapper {
       width: 350px;
-      height: 0;
-      margin: 0px;
-      position: absolute;
-      right: 15vw;
-      top: 35%; } }
-  @media only screen and (min-width: 2560px) {
-    .contact .content_wrapper .single_words {
-      top: 25%;
-      width: 57vw;
-      height: 44vh; }
-    .contact .content_wrapper .form_wrapper {
-      width: 400px;
-      right: 23vw;
-      top: 35%; } }
-
-.contact_footer {
-  overflow: hidden;
-  margin-bottom: 60px; }
-  .contact_footer .icons {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 8vw;
-    grid-gap: 30px; }
-  @media only screen and (min-width: 700px) {
-    .contact_footer {
-      margin-bottom: 100px; } }
+      margin: 70px 0px 80px 8vw; } }
 
 * {
   margin: 0;
