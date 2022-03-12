@@ -1006,6 +1006,73 @@ p {
   @media only screen and (min-width: 1360px) {
     .contact .content_wrapper .single_words {
       width: 58vw; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .contact {
+      height: 100vh;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      padding: 0; }
+      .contact .content_wrapper {
+        top: -5%;
+        margin-bottom: 0; }
+        .contact .content_wrapper .single_words {
+          top: -15%;
+          width: 72vw;
+          height: 125%; }
+          .contact .content_wrapper .single_words h2 {
+            font-size: 118.88px; }
+        .contact .content_wrapper .main_heading {
+          margin-left: 8vw; }
+          .contact .content_wrapper .main_heading h1 {
+            font-size: 118.88px; }
+          .contact .content_wrapper .main_heading .line3,
+          .contact .content_wrapper .main_heading .pink_dot {
+            font-size: 118.88px; }
+            .contact .content_wrapper .main_heading .line3 .pink_dot,
+            .contact .content_wrapper .main_heading .pink_dot .pink_dot {
+              margin-left: -25px; }
+      .contact .form_wrapper {
+        top: -6%;
+        width: 350px;
+        margin: 0px;
+        margin: 0px 0px 200px 100px; }
+      .contact .contact_footer {
+        position: absolute;
+        bottom: 20%; } }
+  @media only screen and (min-width: 1900px) {
+    .contact .content_wrapper {
+      top: -5%;
+      margin-bottom: 0; }
+      .contact .content_wrapper .single_words {
+        top: -15%;
+        width: 65vw;
+        height: 130%; }
+        .contact .content_wrapper .single_words h2 {
+          font-size: 142.66px; }
+      .contact .content_wrapper .main_heading {
+        margin-left: 8vw; }
+        .contact .content_wrapper .main_heading h1 {
+          font-size: 142.66px; }
+        .contact .content_wrapper .main_heading .line3,
+        .contact .content_wrapper .main_heading .pink_dot {
+          font-size: 142.66px; }
+    .contact .form_wrapper {
+      margin: 0px 0px 250px 150px; }
+    .contact .contact_footer {
+      position: absolute;
+      bottom: 20%; } }
+  @media only screen and (min-width: 2560px) {
+    .contact .content_wrapper .single_words {
+      width: 53vw; }
+      .contact .content_wrapper .single_words h2 {
+        font-size: 142.66px; }
+    .contact .form_wrapper {
+      width: 400px;
+      margin: 0px 0px 300px 300px; }
+    .contact .contact_footer {
+      position: absolute;
+      bottom: 20%; } }
 
 * {
   margin: 0;
