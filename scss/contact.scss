@@ -1,17 +1,16 @@
 .contact {
-	// height: 100vh;
-	// width: 100vw;
-
 	position: relative;
+
 	display: flex;
 	flex-direction: column;
-	// grid-gap: 10%;
+
 	padding-top: 18vh;
-	padding-bottom: 180px;
+	padding-bottom: 20vh;
 
 	.content_wrapper {
 		position: relative;
-		margin-bottom: 10%;
+		margin-bottom: 20%;
+
 		.single_words {
 			position: absolute;
 			top: -13%;
@@ -36,13 +35,12 @@
 			}
 			.word2 {
 				align-self: end;
-				// margin-top: 15vh;
 			}
 		}
 
 		.main_heading {
 			margin-left: 8vw;
-			// padding: 15vh 0px 12vh 0px;
+
 			h1 {
 				line-height: 100%;
 				font-size: 47.78px;
@@ -64,8 +62,8 @@
 
 	.form_wrapper {
 		width: 84vw;
-		// margin: 0 auto 100px;
-		margin: 0 auto 5vh;
+
+		margin: 0 auto 20%;
 		form {
 			display: flex;
 			flex-direction: column;
@@ -114,33 +112,20 @@
 				padding-bottom: 0px;
 			}
 			.submit {
-				// height: 60px;
 				width: 40px;
-				// padding: 30px 2px 10px;
 				margin: 50px 0px 0px 0px;
 			}
 		}
 	}
 
 	.contact_footer {
-		// height: 10vh;
-		// position: absolute;
-		// bottom: 0;
-		// left: 5%;
-		// transform: translate(-5%);
-		overflow: hidden;
-		// margin-bottom: 60px;
 		.icons {
 			height: 100%;
-			// width: 100%;
 			display: flex;
 			align-items: center;
 			justify-content: flex-start;
 			margin-left: 8vw;
 			grid-gap: 30px;
-		}
-		@media only screen and (min-width: 700px) {
-			margin-bottom: 100px;
 		}
 	}
 
@@ -152,7 +137,11 @@
 		}
 	}
 	@media only screen and (min-width: 700px) {
+		padding-top: 25vh;
+		padding-bottom: 20vh;
+
 		.content_wrapper {
+			margin-bottom: 8%;
 			.single_words {
 				top: -20%;
 				left: -5%;
@@ -183,7 +172,41 @@
 		}
 		.form_wrapper {
 			width: 350px;
-			margin: 70px 0px 80px 8vw;
+			margin: 0px 0px 80px 8vw;
 		}
+	}
+	@media only screen and (min-width: 850px) {
+		.content_wrapper {
+			.single_words {
+				width: 70vw;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		padding-top: 25vh;
+		padding-bottom: 20vh;
+
+		.content_wrapper {
+			margin-bottom: 12%;
+			.single_words {
+				left: -3%;
+				width: 80vw;
+			}
+		}
+		.form_wrapper {
+			margin-bottom: 120px;
+		}
+	}
+
+	@media only screen and (min-width: 1360px) {
+		.content_wrapper {
+			.single_words {
+				width: 58vw;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 	}
 }
