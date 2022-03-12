@@ -475,10 +475,10 @@
   display: flex;
   flex-direction: column;
   padding-top: 18vh;
-  padding-bottom: 180px; }
+  padding-bottom: 20vh; }
   .contact .content_wrapper {
     position: relative;
-    margin-bottom: 10%; }
+    margin-bottom: 20%; }
     .contact .content_wrapper .single_words {
       position: absolute;
       top: -13%;
@@ -513,7 +513,7 @@
           margin-left: -10px; }
   .contact .form_wrapper {
     width: 84vw;
-    margin: 0 auto 5vh; }
+    margin: 0 auto 20%; }
     .contact .form_wrapper form {
       display: flex;
       flex-direction: column; }
@@ -554,45 +554,62 @@
       .contact .form_wrapper form .submit {
         width: 40px;
         margin: 50px 0px 0px 0px; }
-  .contact .contact_footer {
-    overflow: hidden; }
-    .contact .contact_footer .icons {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin-left: 8vw;
-      grid-gap: 30px; }
-    @media only screen and (min-width: 700px) {
-      .contact .contact_footer {
-        margin-bottom: 100px; } }
+  .contact .contact_footer .icons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 8vw;
+    grid-gap: 30px; }
   @media only screen and (min-width: 500px) {
     .contact .content_wrapper .single_words {
       width: 74vw; } }
   @media only screen and (min-width: 700px) {
+    .contact {
+      padding-top: 25vh;
+      padding-bottom: 20vh; }
+      .contact .content_wrapper {
+        margin-bottom: 8%; }
+        .contact .content_wrapper .single_words {
+          top: -20%;
+          left: -5%;
+          width: 100vw;
+          height: 135%; }
+          .contact .content_wrapper .single_words h2 {
+            opacity: 0.5;
+            font-size: 82.56px; }
+        .contact .content_wrapper .main_heading {
+          margin-left: 8vw; }
+          .contact .content_wrapper .main_heading h1 {
+            line-height: 100%;
+            font-size: 82.56px;
+            font-weight: 700; }
+          .contact .content_wrapper .main_heading .line3,
+          .contact .content_wrapper .main_heading .pink_dot {
+            font-size: 82.56px; }
+            .contact .content_wrapper .main_heading .line3 .pink_dot,
+            .contact .content_wrapper .main_heading .pink_dot .pink_dot {
+              margin-left: -15px; }
+      .contact .form_wrapper {
+        width: 350px;
+        margin: 0px 0px 80px 8vw; } }
+  @media only screen and (min-width: 850px) {
     .contact .content_wrapper .single_words {
-      top: -20%;
-      left: -5%;
-      width: 100vw;
-      height: 135%; }
-      .contact .content_wrapper .single_words h2 {
-        opacity: 0.5;
-        font-size: 82.56px; }
-    .contact .content_wrapper .main_heading {
-      margin-left: 8vw; }
-      .contact .content_wrapper .main_heading h1 {
-        line-height: 100%;
-        font-size: 82.56px;
-        font-weight: 700; }
-      .contact .content_wrapper .main_heading .line3,
-      .contact .content_wrapper .main_heading .pink_dot {
-        font-size: 82.56px; }
-        .contact .content_wrapper .main_heading .line3 .pink_dot,
-        .contact .content_wrapper .main_heading .pink_dot .pink_dot {
-          margin-left: -15px; }
-    .contact .form_wrapper {
-      width: 350px;
-      margin: 70px 0px 80px 8vw; } }
+      width: 70vw; } }
+  @media only screen and (min-width: 1024px) {
+    .contact {
+      padding-top: 25vh;
+      padding-bottom: 20vh; }
+      .contact .content_wrapper {
+        margin-bottom: 12%; }
+        .contact .content_wrapper .single_words {
+          left: -3%;
+          width: 80vw; }
+      .contact .form_wrapper {
+        margin-bottom: 120px; } }
+  @media only screen and (min-width: 1360px) {
+    .contact .content_wrapper .single_words {
+      width: 58vw; } }
 
 * {
   margin: 0;
