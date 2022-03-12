@@ -32,8 +32,8 @@ html::-webkit-scrollbar-thumb:hover {
   align-items: center;
   justify-content: center; }
   #preloader img {
-    width: 125.49px;
-    height: 84.53px; }
+    width: 33.3vw;
+    height: 7.1vh; }
 
 body {
   margin: 0;
@@ -101,7 +101,8 @@ p {
     background: #ff0072; }
 
 .footer {
-  margin-bottom: 60px; }
+  position: absolute;
+  bottom: 10%; }
   .footer .icons {
     overflow: hidden;
     display: flex;

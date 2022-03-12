@@ -13,8 +13,6 @@ window.addEventListener("load", function () {
 	};
 });
 
-// Hamburger menu
-
 // When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 let lastScrollTop;
 const navbar = document.getElementById("navbar");
@@ -34,6 +32,16 @@ window.addEventListener("scroll", function () {
 		navbar.style.top = "0";
 	}
 	lastScrollTop = scrollTop; //New Position Stored
+});
+
+// hamburger menu
+
+const hamburger = document.querySelector(".hamburger_open");
+const navMenu = document.querySelector(".hamburger_container");
+
+hamburger_open.addEventListener("click", () => {
+	hamburger_open.classlist.toggle("active");
+	hamburger_container.classlist.toggle("active");
 });
 
 // landing page- 100vh

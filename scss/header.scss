@@ -22,14 +22,35 @@
 				height: 28.77px;
 			}
 		}
+		// .hamburger_open {
+		// 	margin-left: auto;
+		// 	img {
+		// 		width: 17.95px;
+		// 		height: 6.23px;
+		// 	}
+		// }
+
 		.hamburger_open {
+			cursor: pointer;
 			margin-left: auto;
-			img {
-				width: 17.95px;
-				height: 6.23px;
+			.bar {
+				display: block;
+				width: 18px;
+				height: 1px;
+				background-color: #fff;
+				margin: 6px auto;
+				opacity: 0.8;
+				transition: all 0.3s ease-in-out;
+			}
+			.hamburger_open .active .bar:nth-child(1) {
+				transform: translateY(6px) rotate(45deg);
+			}
+			.hamburger_open .active .bar:nth-child(2) {
+				transform: translateY(-6px) rotate(-45deg);
 			}
 		}
 	}
+
 	@media only screen and (min-width: 700px) {
 		nav {
 			// margin: 5vh 6vw 2vh;
