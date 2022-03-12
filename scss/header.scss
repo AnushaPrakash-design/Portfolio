@@ -6,7 +6,7 @@
 	left: 0;
 	transition: 0.5s;
 	// background: #0a0908;
-	z-index: 999;
+	z-index: 99;
 	nav {
 		display: flex;
 		align-items: center;
@@ -17,36 +17,38 @@
 		z-index: 999;
 
 		.logo {
+			z-index: 2;
 			img {
 				width: 89.73px;
 				height: 28.77px;
 			}
 		}
-		// .hamburger_open {
-		// 	margin-left: auto;
-		// 	img {
-		// 		width: 17.95px;
-		// 		height: 6.23px;
-		// 	}
-		// }
 
 		.hamburger_open {
 			cursor: pointer;
 			margin-left: auto;
+			opacity: 0.8;
+			transition: all 0.2s ease-out;
+
+			&:hover,
+			:focus {
+				cursor: pointer;
+				opacity: 1;
+			}
 			.bar {
 				display: block;
 				width: 18px;
 				height: 1px;
 				background-color: #fff;
 				margin: 6px auto;
-				opacity: 0.8;
-				transition: all 0.3s ease-in-out;
+
+				transition: all 0.25s ease-out;
 			}
-			.hamburger_open .active .bar:nth-child(1) {
-				transform: translateY(6px) rotate(45deg);
+			&.active .bar:nth-child(1) {
+				transform: translateY(3.45px) rotate(45deg);
 			}
-			.hamburger_open .active .bar:nth-child(2) {
-				transform: translateY(-6px) rotate(-45deg);
+			&.active .bar:nth-child(2) {
+				transform: translateY(-3.45px) rotate(-45deg);
 			}
 		}
 	}

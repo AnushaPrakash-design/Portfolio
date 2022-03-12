@@ -6,31 +6,38 @@
   top: 0;
   left: 0;
   transition: 0.5s;
-  z-index: 999; }
+  z-index: 99; }
   #navbar nav {
     display: flex;
     align-items: center;
     padding: 4.92vh 8vw 2.4vh;
     background: #0a0908;
     z-index: 999; }
-    #navbar nav .logo img {
-      width: 89.73px;
-      height: 28.77px; }
+    #navbar nav .logo {
+      z-index: 2; }
+      #navbar nav .logo img {
+        width: 89.73px;
+        height: 28.77px; }
     #navbar nav .hamburger_open {
       cursor: pointer;
-      margin-left: auto; }
+      margin-left: auto;
+      opacity: 0.8;
+      transition: all 0.2s ease-out; }
+      #navbar nav .hamburger_open:hover,
+      #navbar nav .hamburger_open :focus {
+        cursor: pointer;
+        opacity: 1; }
       #navbar nav .hamburger_open .bar {
         display: block;
         width: 18px;
         height: 1px;
         background-color: #fff;
         margin: 6px auto;
-        opacity: 0.8;
-        transition: all 0.3s ease-in-out; }
-      #navbar nav .hamburger_open .hamburger_open .active .bar:nth-child(1) {
-        transform: translateY(6px) rotate(45deg); }
-      #navbar nav .hamburger_open .hamburger_open .active .bar:nth-child(2) {
-        transform: translateY(-6px) rotate(-45deg); }
+        transition: all 0.25s ease-out; }
+      #navbar nav .hamburger_open.active .bar:nth-child(1) {
+        transform: translateY(3.45px) rotate(45deg); }
+      #navbar nav .hamburger_open.active .bar:nth-child(2) {
+        transform: translateY(-3.45px) rotate(-45deg); }
   @media only screen and (min-width: 700px) {
     #navbar nav .logo img {
       width: 99.23px;
@@ -823,15 +830,17 @@ p {
 
 .hamburger_container {
   position: fixed;
+  top: 0;
   left: -100%;
-  transition: 0.3s;
+  transition: 0.25s ease-out;
+  background: #0a0908;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .hamburger_container .hamburger_container .active {
+  .hamburger_container.active {
     left: 0; }
   .hamburger_container h2 {
     font-size: 47.78px; }

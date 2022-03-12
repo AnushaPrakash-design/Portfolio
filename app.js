@@ -39,9 +39,9 @@ window.addEventListener("scroll", function () {
 const hamburger = document.querySelector(".hamburger_open");
 const navMenu = document.querySelector(".hamburger_container");
 
-hamburger_open.addEventListener("click", () => {
-	hamburger_open.classlist.toggle("active");
-	hamburger_container.classlist.toggle("active");
+hamburger.addEventListener("click", () => {
+	hamburger.classList.toggle("active");
+	navMenu.classList.toggle("active");
 });
 
 // landing page- 100vh

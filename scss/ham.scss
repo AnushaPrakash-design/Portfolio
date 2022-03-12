@@ -43,10 +43,12 @@
 
 .hamburger_container {
 	position: fixed;
+	top: 0;
 	left: -100%;
-	transition: 0.3s;
 
-	.hamburger_container .active {
+	transition: 0.25s ease-out;
+	background: #0a0908;
+	&.active {
 		left: 0;
 	}
 	height: 100vh;
