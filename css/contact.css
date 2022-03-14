@@ -93,8 +93,18 @@
     align-items: center;
     justify-content: flex-start;
     margin-left: 8vw;
-    grid-gap: 30px; }
+    grid-gap: 30px;
+    opacity: 0.4; }
+    .contact_wrapper .contact_footer .icons:hover, .contact_wrapper .contact_footer .icons:focus {
+      opacity: 1; }
   @media only screen and (min-width: 330px) {
+    .contact_wrapper .content_wrapper .single_words {
+      top: -16%;
+      width: 95vw;
+      height: 130%; }
+      .contact_wrapper .content_wrapper .single_words h2 {
+        opacity: 0.65;
+        font-size: 47.78px; }
     .contact_wrapper .content_wrapper .main_heading {
       margin-left: 8vw; }
       .contact_wrapper .content_wrapper .main_heading h1 {

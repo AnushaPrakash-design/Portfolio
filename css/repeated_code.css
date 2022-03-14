@@ -119,4 +119,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-gap: 30px; }
+    grid-gap: 30px;
+    opacity: 0.4; }
+    .footer .icons a:hover, .footer .icons a:focus {
+      opacity: 1; }
