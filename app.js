@@ -44,6 +44,12 @@ hamburger.addEventListener("click", () => {
 	navMenu.classList.toggle("active");
 });
 
+// document.querySelector(".nav_links").forEach((n) =>
+// 	n.addEventListener("click", () => {
+// 		hamburger.classList.remove("active");
+// 		navMenu.classList.remove("active");
+// 	})
+// );
 // landing page- 100vh
 
 const landSection = document.querySelector(".landing");

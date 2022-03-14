@@ -10,8 +10,6 @@
 	nav {
 		display: flex;
 		align-items: center;
-		// width: 100%;
-		// height: 90px;
 		padding: 4.92vh 8vw 2.4vh;
 		background: #0a0908;
 		z-index: 999;
@@ -55,37 +53,31 @@
 
 	@media only screen and (min-width: 700px) {
 		nav {
-			// margin: 5vh 6vw 2vh;
 			.logo {
 				img {
 					width: 99.23px;
 					height: 30.71px;
 				}
 			}
-			.hamburger_open {
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+		nav {
+			.logo {
 				img {
-					width: 19.18px;
-					height: 6.66px;
+					width: 121.84px;
+					height: 37.7px;
 				}
 			}
 		}
 	}
-	@media only screen and (min-width: 1024px) {
-	}
 
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 		nav {
-			// margin: 6.8vh 6.9vw 3vh;
 			.logo {
 				img {
 					width: 113.56px;
 					height: 36.22px;
-				}
-			}
-			.hamburger_open {
-				img {
-					width: 27px;
-					height: 9px;
 				}
 			}
 		}
@@ -93,19 +85,11 @@
 
 	@media only screen and (min-width: 1900px) {
 		nav {
-			// margin: 7.4vh 6.7vw 3.2vh;
 			.logo {
 				img {
 					margin-left: -20px;
 					width: 141.1px;
 					height: 45.25px;
-				}
-			}
-			.hamburger_open {
-				img {
-					margin-right: -20px;
-					width: 30px;
-					height: 10px;
 				}
 			}
 		}

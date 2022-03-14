@@ -40,23 +40,17 @@
   @media only screen and (min-width: 700px) {
     #navbar nav .logo img {
       width: 99.23px;
-      height: 30.71px; }
-    #navbar nav .hamburger_open img {
-      width: 19.18px;
-      height: 6.66px; } }
+      height: 30.71px; } }
+  @media only screen and (min-width: 1024px) {
+    #navbar nav .logo img {
+      width: 121.84px;
+      height: 37.7px; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     #navbar nav .logo img {
       width: 113.56px;
-      height: 36.22px; }
-    #navbar nav .hamburger_open img {
-      width: 27px;
-      height: 9px; } }
+      height: 36.22px; } }
   @media only screen and (min-width: 1900px) {
     #navbar nav .logo img {
       margin-left: -20px;
       width: 141.1px;
-      height: 45.25px; }
-    #navbar nav .hamburger_open img {
-      margin-right: -20px;
-      width: 30px;
-      height: 10px; } }
+      height: 45.25px; } }

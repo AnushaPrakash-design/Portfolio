@@ -1,69 +1,31 @@
-#navbar {
-	nav {
-		.hamburger_close {
-			margin-left: auto;
-			img {
-				width: 10.85px;
-				height: 10.85px;
-			}
-		}
-	}
-	@media only screen and (min-width: 700px) {
-		nav {
-			.hamburger_close {
-				img {
-					width: 12.85px;
-					height: 12.85px;
-				}
-			}
-		}
-	}
-	@media only screen and (min-width: 1024px) {
-		nav {
-			.hamburger_close {
-				img {
-					width: 15.85px;
-					height: 15.85px;
-				}
-			}
-		}
-	}
-
-	@media only screen and (min-width: 1440px) and (orientation: landscape) {
-		nav {
-			.hamburger_close {
-				img {
-					width: 18.85px;
-					height: 18.85px;
-				}
-			}
-		}
-	}
-}
-
 .hamburger_container {
+	height: 100vh;
+	width: 100vw;
+
 	position: fixed;
 	top: 0;
-	left: -100%;
+	left: -102%;
 
 	transition: 0.25s ease-out;
 	background: #0a0908;
 	&.active {
 		left: 0;
 	}
-	height: 100vh;
-	width: 100vw;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
 	h2 {
 		font-size: 47.78px;
 	}
+
 	.main_nav {
 		text-align: -webkit-center;
 		list-style-type: none;
 		margin-top: -23px;
+		margin-bottom: 50px;
 		z-index: 2;
 		li {
 			margin-bottom: 20px;
@@ -87,7 +49,6 @@
 
 					color: #ff0072;
 					opacity: 0.5;
-					// margin-right: 12px;
 				}
 				.part1,
 				.part2 {
@@ -99,7 +60,6 @@
 				.part1 {
 					font-family: Playfair Display;
 					font-style: italic;
-					// margin-right: 5px;
 				}
 				.part2 {
 					font-family: Poppins;
@@ -113,13 +73,11 @@
 				grid-gap: 14px;
 				margin-left: -15px;
 			}
-			// position: absolute;
 		}
 		.word2 {
 			.nav_links {
 				display: flex;
 				align-items: flex-end;
-				// grid-gap: 5px;
 				margin-right: -30px;
 			}
 		}
@@ -130,11 +88,16 @@
 			margin-right: -22px;
 		}
 	}
+	.footer {
+		position: absolute;
+		bottom: 13%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
 
 @media only screen and (min-width: 700px) {
 	.hamburger_container {
-		height: 90vh;
 		h2 {
 			font-size: 99.07px;
 			opacity: 0.5;
@@ -148,25 +111,11 @@
 				.nav_links {
 					line-height: 240%;
 					.number {
-						font-family: Lato;
-						font-style: italic;
-						font-weight: 600;
 						font-size: 19.2px;
 					}
 					.part1,
 					.part2 {
-						font-style: normal;
-						font-weight: 600;
 						font-size: 99.07px;
-						color: #fafafa;
-					}
-					.part1 {
-						font-family: Playfair Display;
-						font-style: italic;
-						// margin-right: 5px;
-					}
-					.part2 {
-						font-family: Poppins;
 					}
 				}
 			}
@@ -176,11 +125,13 @@
 				}
 			}
 		}
+		.footer {
+			bottom: 5%;
+		}
 	}
 }
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
 	.hamburger_container {
-		height: 88vh;
 		h2 {
 			font-size: 118.88px;
 		}
@@ -196,25 +147,11 @@
 				.nav_links {
 					line-height: 330%;
 					.number {
-						font-family: Lato;
-						font-style: italic;
-						font-weight: 600;
 						font-size: 23.04px;
 					}
 					.part1,
 					.part2 {
-						font-style: normal;
-						font-weight: 600;
 						font-size: 118.88px;
-						color: #fafafa;
-					}
-					.part1 {
-						font-family: Playfair Display;
-						font-style: italic;
-						// margin-right: 5px;
-					}
-					.part2 {
-						font-family: Poppins;
 					}
 				}
 			}
@@ -224,7 +161,6 @@
 
 @media only screen and (min-width: 1900px) {
 	.hamburger_container {
-		height: 88vh;
 		h2 {
 			font-size: 142.66px;
 		}
@@ -240,24 +176,11 @@
 				.nav_links {
 					line-height: 330%;
 					.number {
-						font-family: Lato;
-						font-style: italic;
-						font-weight: 600;
 						font-size: 27.65px;
 					}
 					.part1,
 					.part2 {
-						font-style: normal;
-						font-weight: 600;
 						font-size: 142.66px;
-						color: #fafafa;
-					}
-					.part1 {
-						font-family: Playfair Display;
-						font-style: italic;
-					}
-					.part2 {
-						font-family: Poppins;
 					}
 				}
 			}
