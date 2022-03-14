@@ -1020,13 +1020,13 @@ p {
       margin-left: 8vw; }
       .contact_wrapper .content_wrapper .main_heading h1 {
         line-height: 100%;
-        font-size: 47.78px;
+        font-size: 39.81px;
         font-weight: 700; }
       .contact_wrapper .content_wrapper .main_heading .line3 {
         font-family: Playfair Display;
         font-style: italic;
         font-weight: 700;
-        font-size: 47.78px;
+        font-size: 39.81px;
         line-height: 64px;
         text-transform: lowercase; }
         .contact_wrapper .content_wrapper .main_heading .line3 .pink_dot {
@@ -1054,11 +1054,13 @@ p {
         caret-color: #ff0072;
         resize: none;
         outline: none; }
-        .contact_wrapper .form_wrapper form .name:focus,
+        .contact_wrapper .form_wrapper form .name:hover, .contact_wrapper .form_wrapper form .name:focus,
+        .contact_wrapper .form_wrapper form .email:hover,
         .contact_wrapper .form_wrapper form .email:focus,
+        .contact_wrapper .form_wrapper form .message:hover,
         .contact_wrapper .form_wrapper form .message:focus {
           background: #0a0908;
-          border-bottom: 1px solid rgba(255, 0, 114, 0.5);
+          border-bottom: 1.5px solid #ff0072;
           transition: all 0.5s;
           color: #fafafa; }
       .contact_wrapper .form_wrapper form input:-webkit-autofill,
@@ -1073,7 +1075,10 @@ p {
         padding-bottom: 0px; }
       .contact_wrapper .form_wrapper form .submit {
         width: 40px;
-        margin: 50px 0px 0px 0px; }
+        margin: 50px 0px 0px 0px;
+        opacity: 0.3; }
+        .contact_wrapper .form_wrapper form .submit:hover, .contact_wrapper .form_wrapper form .submit:focus {
+          opacity: 1; }
   .contact_wrapper .contact_footer .icons {
     height: 100%;
     display: flex;
@@ -1081,6 +1086,15 @@ p {
     justify-content: flex-start;
     margin-left: 8vw;
     grid-gap: 30px; }
+  @media only screen and (min-width: 330px) {
+    .contact_wrapper .content_wrapper .main_heading {
+      margin-left: 8vw; }
+      .contact_wrapper .content_wrapper .main_heading h1 {
+        font-size: 47.78px; }
+      .contact_wrapper .content_wrapper .main_heading .line3 {
+        font-size: 47.78px; }
+        .contact_wrapper .content_wrapper .main_heading .line3 .pink_dot {
+          margin-left: -10px; } }
   @media only screen and (min-width: 500px) {
     .contact_wrapper .content_wrapper .single_words {
       width: 74vw; } }
@@ -1093,7 +1107,7 @@ p {
         .contact_wrapper .content_wrapper .single_words {
           top: -20%;
           left: -5%;
-          width: 100vw;
+          width: 95vw;
           height: 135%; }
           .contact_wrapper .content_wrapper .single_words h2 {
             opacity: 0.5;
@@ -1124,9 +1138,12 @@ p {
         margin-bottom: 12%; }
         .contact_wrapper .content_wrapper .single_words {
           left: -3%;
-          width: 80vw; }
+          width: 75vw; }
       .contact_wrapper .form_wrapper {
         margin-bottom: 120px; } }
+  @media only screen and (min-width: 1200px) {
+    .contact_wrapper .content_wrapper .single_words {
+      width: 65vw; } }
   @media only screen and (min-width: 1360px) {
     .contact_wrapper .content_wrapper .single_words {
       width: 58vw; } }
@@ -1142,8 +1159,8 @@ p {
         margin-bottom: 0; }
         .contact_wrapper .content_wrapper .single_words {
           top: -15%;
-          width: 72vw;
-          height: 125%; }
+          width: 70vw;
+          height: 130%; }
           .contact_wrapper .content_wrapper .single_words h2 {
             font-size: 118.88px; }
         .contact_wrapper .content_wrapper .main_heading {
@@ -1186,6 +1203,12 @@ p {
     .contact_wrapper .contact_footer {
       position: absolute;
       bottom: 20%; } }
+  @media only screen and (min-width: 2100px) {
+    .contact_wrapper .content_wrapper .single_words {
+      width: 55vw; }
+    .contact_wrapper .content_wrapper .form_wrapper {
+      width: 400px;
+      margin: 0px 0px 300px 400px; } }
   @media only screen and (min-width: 2560px) {
     .contact_wrapper .content_wrapper .single_words {
       width: 53vw; }
@@ -1193,7 +1216,7 @@ p {
         font-size: 142.66px; }
     .contact_wrapper .form_wrapper {
       width: 400px;
-      margin: 0px 0px 300px 300px; }
+      margin: 0px 0px 300px 500px; }
     .contact_wrapper .contact_footer {
       position: absolute;
       bottom: 20%; } }

@@ -43,14 +43,14 @@
 
 			h1 {
 				line-height: 100%;
-				font-size: 47.78px;
+				font-size: 39.81px;
 				font-weight: 700;
 			}
 			.line3 {
 				font-family: Playfair Display;
 				font-style: italic;
 				font-weight: 700;
-				font-size: 47.78px;
+				font-size: 39.81px;
 				line-height: 64px;
 				text-transform: lowercase;
 				.pink_dot {
@@ -90,9 +90,10 @@
 				resize: none;
 				outline: none;
 
+				&:hover,
 				&:focus {
 					background: #0a0908;
-					border-bottom: 1px solid rgba(255, 0, 114, 0.5);
+					border-bottom: 1.5px solid rgba(255, 0, 114, 1);
 					transition: all 0.5s;
 					color: #fafafa;
 				}
@@ -114,6 +115,11 @@
 			.submit {
 				width: 40px;
 				margin: 50px 0px 0px 0px;
+				opacity: 0.3;
+				&:hover,
+				&:focus {
+					opacity: 1;
+				}
 			}
 		}
 	}
@@ -126,6 +132,23 @@
 			justify-content: flex-start;
 			margin-left: 8vw;
 			grid-gap: 30px;
+		}
+	}
+
+	@media only screen and (min-width: 330px) {
+		.content_wrapper {
+			.main_heading {
+				margin-left: 8vw;
+				h1 {
+					font-size: 47.78px;
+				}
+				.line3 {
+					font-size: 47.78px;
+					.pink_dot {
+						margin-left: -10px;
+					}
+				}
+			}
 		}
 	}
 
@@ -146,7 +169,7 @@
 				top: -20%;
 				left: -5%;
 
-				width: 100vw;
+				width: 95vw;
 				height: 135%;
 
 				h2 {
@@ -191,11 +214,19 @@
 			margin-bottom: 12%;
 			.single_words {
 				left: -3%;
-				width: 80vw;
+				width: 75vw;
 			}
 		}
 		.form_wrapper {
 			margin-bottom: 120px;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		.content_wrapper {
+			.single_words {
+				width: 65vw;
+			}
 		}
 	}
 
@@ -220,8 +251,8 @@
 			.single_words {
 				top: -15%;
 
-				width: 72vw;
-				height: 125%;
+				width: 70vw;
+				height: 130%;
 
 				h2 {
 					font-size: 118.88px;
@@ -290,6 +321,19 @@
 			bottom: 20%;
 		}
 	}
+	@media only screen and (min-width: 2100px) {
+		.content_wrapper {
+			.single_words {
+				width: 55vw;
+			}
+
+			.form_wrapper {
+				width: 400px;
+				margin: 0px 0px 300px 400px;
+			}
+		}
+	}
+
 	@media only screen and (min-width: 2560px) {
 		.content_wrapper {
 			.single_words {
@@ -300,12 +344,10 @@
 				}
 			}
 		}
-
 		.form_wrapper {
 			width: 400px;
-			margin: 0px 0px 300px 300px;
+			margin: 0px 0px 300px 500px;
 		}
-
 		.contact_footer {
 			position: absolute;
 			bottom: 20%;
