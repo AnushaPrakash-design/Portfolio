@@ -4,12 +4,18 @@
 
 	position: fixed;
 	top: 0;
-	left: -102%;
+	// left: -102%;
+	left: 0;
+	opacity: 0;
 
-	transition: 0.25s ease-out;
+	transform: scale(1.1);
+
+	transition: all 0.3s ease-out;
 	background: #0a0908;
 	&.active {
 		left: 0;
+		opacity: 1;
+		transform: scale(1);
 	}
 
 	display: flex;

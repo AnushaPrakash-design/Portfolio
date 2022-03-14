@@ -36,20 +36,26 @@ window.addEventListener("scroll", function () {
 
 // hamburger menu
 
+const bodyDom = document.querySelector("body");
 const hamburger = document.querySelector(".hamburger_open");
 const navMenu = document.querySelector(".hamburger_container");
 
-hamburger.addEventListener("click", () => {
+const handleHamClick = () => {
+	bodyDom.classList.toggle("no-scroll");
 	hamburger.classList.toggle("active");
 	navMenu.classList.toggle("active");
-});
+	console.log("hello ");
+};
+hamburger.addEventListener("click", handleHamClick);
 
-// document.querySelector(".nav_links").forEach((n) =>
-// 	n.addEventListener("click", () => {
-// 		hamburger.classList.remove("active");
-// 		navMenu.classList.remove("active");
-// 	})
-// );
+document.querySelectorAll(".nav_links").forEach((n) =>
+	n.addEventListener("click", () => {
+		bodyDom.classList.remove("no-scroll");
+		hamburger.classList.remove("active");
+		navMenu.classList.remove("active");
+	})
+);
+
 // landing page- 100vh
 
 const landSection = document.querySelector(".landing");

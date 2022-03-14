@@ -74,6 +74,11 @@ body {
 	}
 	font-family: sans-serif;
 	overflow-x: hidden;
+
+	&.no-scroll {
+		height: 100%;
+		overflow: hidden;
+	}
 }
 
 //   SINGLE WORDS

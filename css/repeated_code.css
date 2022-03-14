@@ -51,6 +51,9 @@ body {
   body h6,
   body a {
     color: #fafafa; }
+  body.no-scroll {
+    height: 100%;
+    overflow: hidden; }
 
 .single_words h2 {
   font-family: Sainte Colombe;
