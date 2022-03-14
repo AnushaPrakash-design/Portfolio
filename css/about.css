@@ -51,7 +51,7 @@
       align-items: center;
       margin-bottom: 220px; }
       .about_section .top .content_wrapper .main_heading {
-        width: 96vw;
+        width: 89vw;
         display: flex;
         flex-direction: column;
         align-items: flex-start; }
@@ -70,6 +70,19 @@
     .about_section .bottom p {
       opacity: 0.5;
       font-size: 14px; }
+  @media only screen and (min-width: 340px) {
+    .about_section .top .content_wrapper .main_heading {
+      width: 96vw; } }
+  @media only screen and (min-width: 500px) {
+    .about_section .top .content_wrapper .main_heading {
+      width: 80vw; }
+    .about_section .top .content_wrapper p {
+      width: 65vw; } }
+  @media only screen and (min-width: 620px) {
+    .about_section .top .content_wrapper .main_heading {
+      width: 65vw; }
+    .about_section .top .content_wrapper p {
+      width: 60vw; } }
   @media only screen and (min-width: 700px) {
     .about_section {
       padding-top: 0px;
@@ -86,7 +99,8 @@
           height: 480px; }
           .about_section .top .image_wrapper .single_words {
             top: 0;
-            left: 0; }
+            left: 0;
+            width: 120%; }
             .about_section .top .image_wrapper .single_words h2 {
               opacity: 0.5;
               font-size: 68.8px; }
@@ -103,31 +117,57 @@
           justify-content: flex-end;
           margin-top: auto; }
           .about_section .top .content_wrapper .main_heading {
-            width: 62vw;
-            margin-left: -80%; }
+            width: 80vw;
+            margin-left: -105%; }
             .about_section .top .content_wrapper .main_heading h1,
             .about_section .top .content_wrapper .main_heading .pink_dot {
               font-size: 68.8px; }
           .about_section .top .content_wrapper p {
-            width: 26vw;
+            width: 32vw;
             margin-left: 35px; } }
+  @media only screen and (min-width: 800px) {
+    .about_section .top .image_wrapper .single_words {
+      width: 118%; }
+    .about_section .top .content_wrapper .main_heading {
+      width: 73vw;
+      margin-left: -90%; }
+      .about_section .top .content_wrapper .main_heading h1,
+      .about_section .top .content_wrapper .main_heading .pink_dot {
+        margin-left: -12px; } }
+  @media only screen and (min-width: 1024px) {
+    .about_section .top .image_wrapper .single_words {
+      width: 110%; }
+    .about_section .top .content_wrapper .main_heading {
+      width: 62vw; }
+    .about_section .top .content_wrapper p {
+      width: 30vw; } }
+  @media only screen and (min-width: 1300px) {
+    .about_section .top .image_wrapper .single_words {
+      width: 100%; }
+    .about_section .top .content_wrapper .main_heading {
+      width: 45vw;
+      margin-left: -60%; }
+    .about_section .top .content_wrapper p {
+      width: 28vw; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .about_section .top .image_wrapper {
       width: 24vw;
       height: 480px;
       margin-left: -5%; }
-      .about_section .top .image_wrapper .single_words h2 {
-        font-size: 99.07px; }
-      .about_section .top .image_wrapper .single_words .word1 {
-        margin-right: -52%; }
-      .about_section .top .image_wrapper .single_words .word2 {
-        align-self: start;
-        margin-bottom: 0%;
-        margin-left: -30%; }
+      .about_section .top .image_wrapper .single_words {
+        width: 108%; }
+        .about_section .top .image_wrapper .single_words h2 {
+          font-size: 99.07px; }
+        .about_section .top .image_wrapper .single_words .word1 {
+          margin-right: -52%; }
+        .about_section .top .image_wrapper .single_words .word2 {
+          align-self: start;
+          margin-bottom: 0%;
+          margin-left: -30%; }
     .about_section .top .content_wrapper {
       width: 34vw; }
       .about_section .top .content_wrapper .main_heading {
-        width: 64vw;
+        width: 60vw;
         margin-left: -45%; }
         .about_section .top .content_wrapper .main_heading h1,
         .about_section .top .content_wrapper .main_heading .pink_dot {
@@ -135,20 +175,23 @@
         .about_section .top .content_wrapper .main_heading .pink_dot {
           margin-left: -18px; }
       .about_section .top .content_wrapper p {
-        margin-left: 40px; } }
+        margin-left: 40px;
+        width: 25vw; } }
   @media only screen and (min-width: 1900px) {
     .about_section .top .image_wrapper {
       width: 21vw;
       height: 555px;
       margin-left: -5%; }
-      .about_section .top .image_wrapper .single_words h2 {
-        font-size: 118.88px; }
-      .about_section .top .image_wrapper .single_words .word1 {
-        margin-right: -52%; }
-      .about_section .top .image_wrapper .single_words .word2 {
-        align-self: start;
-        margin-bottom: 0%;
-        margin-left: -30%; }
+      .about_section .top .image_wrapper .single_words {
+        width: 112%; }
+        .about_section .top .image_wrapper .single_words h2 {
+          font-size: 118.88px; }
+        .about_section .top .image_wrapper .single_words .word1 {
+          margin-right: -52%; }
+        .about_section .top .image_wrapper .single_words .word2 {
+          align-self: start;
+          margin-bottom: 0%;
+          margin-left: -30%; }
     .about_section .top .content_wrapper {
       width: 34vw; }
       .about_section .top .content_wrapper .main_heading {
@@ -163,15 +206,25 @@
       .about_section .top .content_wrapper p {
         width: 19vw;
         margin-left: 40px; } }
+  @media only screen and (min-width: 2100px) {
+    .about_section .top .image_wrapper .single_words {
+      width: 105%; }
+    .about_section .top .content_wrapper .main_heading {
+      width: 45vw;
+      margin-left: -40%; }
+    .about_section .top .content_wrapper p {
+      width: 15vw; } }
   @media only screen and (min-width: 2560px) {
     .about_section .top .image_wrapper {
       width: 23vw;
       height: 650px;
       margin-left: 0%; }
-      .about_section .top .image_wrapper .single_words .word1 {
-        margin-right: -35%; }
-      .about_section .top .image_wrapper .single_words .word2 {
-        margin-left: -20%; }
+      .about_section .top .image_wrapper .single_words {
+        width: 110%; }
+        .about_section .top .image_wrapper .single_words .word1 {
+          margin-right: -35%; }
+        .about_section .top .image_wrapper .single_words .word2 {
+          margin-left: -20%; }
     .about_section .top .content_wrapper {
       width: 34vw;
       grid-gap: 50px; }

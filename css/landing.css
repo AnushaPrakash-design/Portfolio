@@ -52,6 +52,9 @@
   @media only screen and (min-width: 500px) {
     .landing .main_heading {
       width: 75vw; } }
+  @media only screen and (min-width: 600px) {
+    .landing .main_heading {
+      width: 55vw; } }
   @media only screen and (min-width: 700px) {
     .landing {
       margin-top: 0; }
@@ -76,7 +79,7 @@
   @media only screen and (min-width: 1024px) {
     .landing .main_heading {
       width: 70vw; } }
-  @media only screen and (min-width: 1360px) {
+  @media only screen and (min-width: 1300px) {
     .landing .main_heading {
       width: 50vw; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
@@ -130,6 +133,9 @@
         font-size: 142.66px; }
       .landing .main_heading .pink_dot {
         margin-left: -30px; } }
+  @media only screen and (min-width: 2200px) {
+    .landing .main_heading {
+      width: 55vw; } }
   @media only screen and (min-width: 2560px) {
     .landing .image_wrapper .single_words {
       top: -15%;
