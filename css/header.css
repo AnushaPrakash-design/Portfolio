@@ -44,7 +44,16 @@
   @media only screen and (min-width: 1024px) {
     #navbar nav .logo img {
       width: 121.84px;
-      height: 37.7px; } }
+      height: 37.7px; }
+    #navbar nav .hamburger_open .bar {
+      width: 22px;
+      height: 1px;
+      margin: 8px auto;
+      transition: all 0.25s ease-out; }
+    #navbar nav .hamburger_open.active .bar:nth-child(1) {
+      transform: translateY(4.35px) rotate(45deg); }
+    #navbar nav .hamburger_open.active .bar:nth-child(2) {
+      transform: translateY(-4.35px) rotate(-45deg); } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     #navbar nav .logo img {
       width: 113.56px;
@@ -54,3 +63,6 @@
       margin-left: -20px;
       width: 141.1px;
       height: 45.25px; } }
+  @media only screen and (min-width: 2560px) {
+    #navbar nav {
+      padding: 4.92vh 9.5vw 2.4vh; } }

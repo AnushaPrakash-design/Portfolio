@@ -69,6 +69,21 @@
 					height: 37.7px;
 				}
 			}
+			.hamburger_open {
+				.bar {
+					width: 22px;
+					height: 1px;
+					margin: 8px auto;
+
+					transition: all 0.25s ease-out;
+				}
+				&.active .bar:nth-child(1) {
+					transform: translateY(4.35px) rotate(45deg);
+				}
+				&.active .bar:nth-child(2) {
+					transform: translateY(-4.35px) rotate(-45deg);
+				}
+			}
 		}
 	}
 
@@ -92,6 +107,11 @@
 					height: 45.25px;
 				}
 			}
+		}
+	}
+	@media only screen and (min-width: 2560px) {
+		nav {
+			padding: 4.92vh 9.5vw 2.4vh;
 		}
 	}
 }
