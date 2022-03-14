@@ -8,14 +8,20 @@
 	left: 0;
 	opacity: 0;
 
+	pointer-events: none;
 	transform: scale(1.1);
 
-	transition: all 0.3s ease-out;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 	background: #0a0908;
+
 	&.active {
 		left: 0;
 		opacity: 1;
 		transform: scale(1);
+
+		.main_nav {
+			pointer-events: all;
+		}
 	}
 
 	display: flex;
@@ -28,11 +34,15 @@
 	}
 
 	.main_nav {
-		text-align: -webkit-center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
 		list-style-type: none;
 		margin-top: -23px;
 		margin-bottom: 50px;
 		z-index: 2;
+		pointer-events: none;
 		li {
 			margin-bottom: 20px;
 			position: relative;
@@ -46,6 +56,8 @@
 				line-height: 160%;
 				text-align: center;
 				letter-spacing: -0.06em;
+
+				// pointer-events: all;
 
 				.number {
 					font-family: Lato;

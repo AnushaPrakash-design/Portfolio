@@ -44,7 +44,7 @@ const handleHamClick = () => {
 	bodyDom.classList.toggle("no-scroll");
 	hamburger.classList.toggle("active");
 	navMenu.classList.toggle("active");
-	console.log("hello ");
+	console.log("hello");
 };
 hamburger.addEventListener("click", handleHamClick);
 

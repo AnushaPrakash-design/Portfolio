@@ -42,6 +42,11 @@
 
 				transition: all 0.25s ease-out;
 			}
+
+			// &.active {
+			// 	padding: 0 13px;
+			// }
+
 			&.active .bar:nth-child(1) {
 				transform: translateY(3.45px) rotate(45deg);
 			}

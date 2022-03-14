@@ -823,8 +823,9 @@ p {
   top: 0;
   left: 0;
   opacity: 0;
+  pointer-events: none;
   transform: scale(1.1);
-  transition: all 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   background: #0a0908;
   display: flex;
   flex-direction: column;
@@ -834,14 +835,19 @@ p {
     left: 0;
     opacity: 1;
     transform: scale(1); }
+    .hamburger_container.active .main_nav {
+      pointer-events: all; }
   .hamburger_container h2 {
     font-size: 47.78px; }
   .hamburger_container .main_nav {
-    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style-type: none;
     margin-top: -23px;
     margin-bottom: 50px;
-    z-index: 2; }
+    z-index: 2;
+    pointer-events: none; }
     .hamburger_container .main_nav li {
       margin-bottom: 20px;
       position: relative;
