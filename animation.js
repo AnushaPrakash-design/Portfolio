@@ -33,7 +33,7 @@ const setAnim = () => {
 					end: `+=${viewHeight * 0.5 + itemHalfHeight}`,
 					scrub: 0,
 					pin: false,
-					markers: true,
+					// markers: true,
 				},
 			});
 		} else {
@@ -61,7 +61,7 @@ const setAnim = () => {
 					end: endVal,
 					scrub: 0,
 					pin: false,
-					markers: true,
+					// markers: true,
 				},
 			});
 		}

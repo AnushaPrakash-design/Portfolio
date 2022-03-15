@@ -366,10 +366,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-gap: 30px;
-    opacity: 0.4; }
-    .footer .icons a:hover, .footer .icons a:focus {
-      opacity: 1; }
+    grid-gap: 10px; }
+    .footer .icons a {
+      opacity: 0.4;
+      transition: opacity 0.25s ease-out;
+      padding: 10px; }
+      .footer .icons a:hover, .footer .icons a:focus {
+        opacity: 1; }
 
 #navbar {
   min-height: 90px;
@@ -904,6 +907,7 @@ p {
 .project_section .food,
 .project_section .torii,
 .project_section .firewatch {
+  overflow-y: hidden;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -1049,6 +1053,7 @@ p {
         background: #0a0908;
         border: none;
         border-bottom: 1px solid rgba(255, 0, 114, 0.5);
+        margin-bottom: 0.5px;
         font-family: Montserrat;
         font-weight: 400;
         font-size: 16px;
@@ -1065,7 +1070,8 @@ p {
           background: #0a0908;
           border-bottom: 1.5px solid #ff0072;
           transition: all 0.5s;
-          color: #fafafa; }
+          color: #fafafa;
+          margin-bottom: 0px; }
       .contact_wrapper .form_wrapper form input:-webkit-autofill,
       .contact_wrapper .form_wrapper form input:-webkit-autofill:hover,
       .contact_wrapper .form_wrapper form input:-webkit-autofill:focus,
@@ -1079,7 +1085,8 @@ p {
       .contact_wrapper .form_wrapper form .submit {
         width: 40px;
         margin: 50px 0px 0px 0px;
-        opacity: 0.3; }
+        opacity: 0.3;
+        transition: opacity 0.3s ease-out; }
         .contact_wrapper .form_wrapper form .submit:hover, .contact_wrapper .form_wrapper form .submit:focus {
           opacity: 1; }
   .contact_wrapper .contact_footer .icons {
@@ -1088,10 +1095,15 @@ p {
     align-items: center;
     justify-content: flex-start;
     margin-left: 8vw;
-    grid-gap: 30px;
-    opacity: 0.4; }
-    .contact_wrapper .contact_footer .icons:hover, .contact_wrapper .contact_footer .icons:focus {
-      opacity: 1; }
+    grid-gap: 10px; }
+    .contact_wrapper .contact_footer .icons a {
+      opacity: 0.4;
+      transition: opacity 0.25s ease-out;
+      padding: 10px; }
+      .contact_wrapper .contact_footer .icons a:hover, .contact_wrapper .contact_footer .icons a:focus {
+        opacity: 1; }
+  .contact_wrapper .contact_footer p {
+    display: none; }
   @media only screen and (min-width: 330px) {
     .contact_wrapper .content_wrapper .single_words {
       top: -16%;
@@ -1193,7 +1205,24 @@ p {
         margin: 0px 0px 200px 100px; }
       .contact_wrapper .contact_footer {
         position: absolute;
-        bottom: 20%; } }
+        bottom: 15%; }
+        .contact_wrapper .contact_footer .email_alternate {
+          display: block;
+          font-family: "Montserrat", sans-serif;
+          letter-spacing: -0.02em;
+          margin-left: 8.5vw;
+          margin-top: 1rem; }
+          .contact_wrapper .contact_footer .email_alternate .phrase1 {
+            opacity: 0.5;
+            color: #fafafa;
+            font-size: 14px;
+            font-weight: 400; }
+          .contact_wrapper .contact_footer .email_alternate .phrase2 {
+            color: #ff0072;
+            font-size: 14px;
+            margin-left: 3px;
+            font-weight: 400;
+            opacity: 0.8; } }
   @media only screen and (min-width: 1900px) {
     .contact_wrapper .content_wrapper {
       top: -5%;
@@ -1215,7 +1244,7 @@ p {
       margin: 0px 0px 250px 150px; }
     .contact_wrapper .contact_footer {
       position: absolute;
-      bottom: 20%; } }
+      bottom: 15%; } }
   @media only screen and (min-width: 2100px) {
     .contact_wrapper .content_wrapper .single_words {
       width: 55vw; }
@@ -1355,10 +1384,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-gap: 30px;
-    opacity: 0.4; }
-    .footer .icons a:hover, .footer .icons a:focus {
-      opacity: 1; }
+    grid-gap: 10px; }
+    .footer .icons a {
+      opacity: 0.4;
+      transition: opacity 0.25s ease-out;
+      padding: 10px; }
+      .footer .icons a:hover, .footer .icons a:focus {
+        opacity: 1; }
 
 .hamburger_container {
   height: 100vh;
@@ -1439,7 +1471,15 @@ p {
     position: absolute;
     bottom: 13%;
     left: 50%;
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+    grid-gap: 10px;
+    pointer-events: all; }
+    .hamburger_container .footer a {
+      opacity: 0.4;
+      transition: opacity 0.25s ease-out;
+      padding: 10px; }
+      .hamburger_container .footer a:hover, .hamburger_container .footer a:focus {
+        opacity: 1; }
 
 @media only screen and (min-width: 700px) {
   .hamburger_container h2 {

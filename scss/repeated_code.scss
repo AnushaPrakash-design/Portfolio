@@ -159,7 +159,6 @@ p {
 // FOOTER
 
 .footer {
-	// margin-bottom: 60px;
 	position: absolute;
 	bottom: 10%;
 	.icons {
@@ -167,9 +166,11 @@ p {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		grid-gap: 30px;
-		opacity: 0.4;
+		grid-gap: 10px;
 		a {
+			opacity: 0.4;
+			transition: opacity 0.25s ease-out;
+			padding: 10px;
 			&:hover,
 			&:focus {
 				opacity: 1;
