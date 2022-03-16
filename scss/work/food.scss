@@ -16,7 +16,6 @@
 		align-items: flex-end;
 		justify-content: space-between;
 		opacity: 0.65;
-		// z-index: 5;
 		h2 {
 			width: min-content;
 			font-size: 47.78px;
@@ -64,8 +63,6 @@
 		}
 	}
 	.content_wrapper {
-		// position: absolute;
-		// top: 94%;
 		align-self: end;
 		display: flex;
 		align-items: center;
@@ -73,19 +70,16 @@
 		grid-gap: 8px;
 		p {
 			opacity: 0.5;
+			font-size: 14px;
 		}
-		// img {
-		// 	// margin-bottom: 10px;
-		// }
 	}
 }
 
 .project_details {
-	width: 100vw;
 	width: 88vw;
 	margin: 100px auto 100px;
 	.about_food {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 	.year,
 	.tech,
@@ -121,16 +115,16 @@
 		border-radius: 3px;
 	}
 
-	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+	@media only screen and (min-width: 1024px) and (orientation: landscape) {
 		grid-template-columns: 1fr 1fr;
 		padding: 0 19%;
-		grid-gap: 1rem 0.8rem;
+		grid-gap: 1rem 1rem;
 	}
 }
 
 .next_project {
 	position: relative;
-	height: 100vh;
+	height: 70vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -139,21 +133,27 @@
 	h4 {
 		text-decoration: underline solid #fafafa 0.5px;
 		text-underline-offset: 5px;
-		margin-bottom: 90px;
+		margin-bottom: 100px;
+		font-family: Montserrat;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 100%;
+		letter-spacing: -0.02em;
 	}
 	.single_words {
 		position: absolute;
 		// top: 50%;
 		.word1 {
 			font-size: 47.78px;
+			opacity: 0.65;
 		}
 	}
+
 	.next {
 		position: absolute;
 		z-index: 4;
 		a {
 			font-family: Montserrat;
-			font-style: normal;
 			font-weight: 800;
 			font-size: 39.81px;
 			line-height: 90.9%;
@@ -162,13 +162,33 @@
 			text-decoration: none;
 		}
 	}
+	.footer {
+		position: absolute;
+		bottom: 7%;
+		.icons {
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			grid-gap: 10px;
+			a {
+				opacity: 0.4;
+				transition: opacity 0.25s ease-out;
+				padding: 10px;
+				&:hover,
+				&:focus {
+					opacity: 1;
+				}
+			}
+		}
+	}
 }
 @media only screen and (min-width: 700px) {
 	.work_landing {
 		height: 100vh;
 		.single_words {
-			top: 18%;
-			height: 63vh;
+			top: 19%;
+			height: 60vh;
 			width: 84vw;
 			opacity: 0.5;
 			h2 {
@@ -189,14 +209,19 @@
 			}
 		}
 		.content_wrapper {
-			margin-bottom: 60px;
+			position: absolute;
+			bottom: 4%;
 		}
 	}
 	.project_details {
 		width: 450px;
 		margin: 120px auto 120px;
+		.about_food {
+			margin-bottom: 60px;
+		}
 	}
 	.next_project {
+		height: 80vh;
 		h4 {
 			margin-bottom: 150px;
 			font-size: 19.2px;
@@ -204,6 +229,7 @@
 		.single_words {
 			.word1 {
 				font-size: 82.56px;
+				opacity: 0.5;
 			}
 		}
 		.next {
@@ -211,12 +237,14 @@
 				font-size: 68.8px;
 			}
 		}
-	}
-	.footer {
-		margin-bottom: 80px;
+
+		.footer {
+			bottom: 5%;
+		}
 	}
 }
-
+@media only screen and (min-width: 1024px) {
+}
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
 	.work_landing {
 		.single_words {
@@ -254,6 +282,14 @@
 		// 	// top: 92%;
 		// }
 	}
+	.project_details {
+		.about_food {
+			margin-bottom: 80px;
+		}
+	}
+	.image_wrapper {
+		padding: 0 15%;
+	}
 	.next_project {
 		h4 {
 			margin-bottom: 180px;
@@ -269,9 +305,10 @@
 				font-size: 99.07px;
 			}
 		}
-	}
-	.footer {
-		margin-bottom: 80px;
+
+		.footer {
+			bottom: 7%;
+		}
 	}
 }
 @media only screen and (min-width: 1900px) {
@@ -293,8 +330,9 @@
 				font-size: 142.66px;
 			}
 		}
-		// .content_wrapper {
-		// }
+	}
+	.image_wrapper {
+		padding: 0 13%;
 	}
 	.next_project {
 		h4 {
