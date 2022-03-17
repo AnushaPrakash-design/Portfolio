@@ -826,6 +826,9 @@
   * img {
     display: block; }
 
+html {
+  scroll-behavior: smooth; }
+
 html::-webkit-scrollbar {
   width: 6px; }
 
