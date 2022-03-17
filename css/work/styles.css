@@ -1476,6 +1476,8 @@ p {
     letter-spacing: -0.02em; }
   .next_project .single_words {
     position: absolute; }
+    .next_project .single_words h2:hover {
+      -webkit-text-fill-color: #ff0072; }
     .next_project .single_words .word1 {
       font-size: 47.78px;
       opacity: 0.65; }
