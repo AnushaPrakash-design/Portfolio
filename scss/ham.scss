@@ -40,7 +40,7 @@
 
 		list-style-type: none;
 		margin-top: -23px;
-		margin-bottom: 50px;
+		// margin-bottom: 50px;
 		z-index: 2;
 		pointer-events: none;
 		li {
@@ -104,24 +104,6 @@
 		}
 		.word4 {
 			margin-right: -22px;
-		}
-	}
-	.footer {
-		position: absolute;
-		bottom: 13%;
-		left: 50%;
-		transform: translateX(-50%);
-		grid-gap: 10px;
-		pointer-events: all;
-
-		a {
-			opacity: 0.4;
-			transition: opacity 0.25s ease-out;
-			padding: 10px;
-			&:hover,
-			&:focus {
-				opacity: 1;
-			}
 		}
 	}
 }

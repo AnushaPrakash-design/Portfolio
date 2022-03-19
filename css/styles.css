@@ -980,7 +980,6 @@ p {
     align-items: center;
     list-style-type: none;
     margin-top: -23px;
-    margin-bottom: 50px;
     z-index: 2;
     pointer-events: none; }
     .hamburger_container .main_nav li {
@@ -1026,19 +1025,6 @@ p {
       margin-left: -10px; }
     .hamburger_container .main_nav .word4 {
       margin-right: -22px; }
-  .hamburger_container .footer {
-    position: absolute;
-    bottom: 13%;
-    left: 50%;
-    transform: translateX(-50%);
-    grid-gap: 10px;
-    pointer-events: all; }
-    .hamburger_container .footer a {
-      opacity: 0.4;
-      transition: opacity 0.25s ease-out;
-      padding: 10px; }
-      .hamburger_container .footer a:hover, .hamburger_container .footer a:focus {
-        opacity: 1; }
 
 @media only screen and (min-width: 700px) {
   .hamburger_container h2 {
