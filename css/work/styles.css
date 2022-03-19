@@ -1638,8 +1638,24 @@ p {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: red;
+  background: #0a0908;
   z-index: 999; }
+  .swiper_container .swiper-wrapper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .swiper_container .swiper-wrapper .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      object-fit: contain; }
+  .swiper_container .swiper-close {
+    position: absolute;
+    top: 5rem;
+    right: 5rem; }
+    .swiper_container .swiper-close img {
+      width: 16px;
+      opacity: 0.8; }
 
 .hamburger_container {
   height: 100vh;
