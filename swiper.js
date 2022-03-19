@@ -1,13 +1,12 @@
-var swiper = new Swiper(".swiper_wrapper", {
-	slidesPerView: 1,
+var swiper = new Swiper(".swiper_container", {
 	spaceBetween: 30,
-	loop: true,
-	pagination: {
-		el: ".swiper-pagination",
-		clickable: true,
-	},
+	effect: "fade",
 	navigation: {
 		nextEl: ".swiper-button-next",
 		prevEl: ".swiper-button-prev",
+	},
+	pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
 	},
 });
