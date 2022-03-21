@@ -1652,7 +1652,8 @@ p {
   .swiper_container .swiper-close {
     position: absolute;
     top: 5rem;
-    right: 5rem; }
+    right: 5rem;
+    cursor: pointer; }
     .swiper_container .swiper-close img {
       width: 16px;
       opacity: 0.8; }
