@@ -141,17 +141,17 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: -0.02em; }
-  .next_project .single_words {
+  .next_project .content_wrapper .single_words {
     position: absolute; }
-    .next_project .single_words h2:hover {
+    .next_project .content_wrapper .single_words a:hover + h2 {
       -webkit-text-fill-color: #ff0072; }
-    .next_project .single_words .word1 {
+    .next_project .content_wrapper .single_words .word1 {
       font-size: 47.78px;
       opacity: 0.65; }
-  .next_project .next {
+  .next_project .content_wrapper .next {
     position: absolute;
     z-index: 4; }
-    .next_project .next a {
+    .next_project .content_wrapper .next a {
       font-family: Montserrat;
       font-weight: 800;
       font-size: 39.81px;

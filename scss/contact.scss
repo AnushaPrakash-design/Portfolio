@@ -90,6 +90,8 @@
 				resize: none;
 				outline: none;
 
+				user-select: none;
+
 				&:hover,
 				&:focus {
 					background: #0a0908;
@@ -118,6 +120,7 @@
 				margin: 50px 0px 0px 0px;
 				opacity: 0.3;
 				transition: opacity 0.3s ease-out;
+				user-select: none;
 
 				&:hover,
 				&:focus {
@@ -135,6 +138,8 @@
 			justify-content: flex-start;
 			margin-left: 8vw;
 			grid-gap: 10px;
+			user-select: none;
+
 			a {
 				opacity: 0.4;
 				transition: opacity 0.25s ease-out;
@@ -284,6 +289,8 @@
 			}
 			.main_heading {
 				margin-left: 8vw;
+				user-select: none;
+
 				h1 {
 					font-size: 118.88px;
 				}
@@ -314,18 +321,20 @@
 				letter-spacing: -0.02em;
 				margin-left: 8.5vw;
 				margin-top: 1rem;
+				display: flex;
 				.phrase1 {
 					opacity: 0.5;
 					color: #fafafa;
 					font-size: 14px;
 
 					font-weight: 400;
+					user-select: none;
 				}
 
 				.phrase2 {
 					color: #ff0072;
 					font-size: 14px;
-					margin-left: 3px;
+					margin-left: 6px;
 					font-weight: 400;
 					opacity: 0.8;
 					// cursor: pointer;

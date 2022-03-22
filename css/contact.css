@@ -62,7 +62,8 @@
         color: #fafafa;
         caret-color: #ff0072;
         resize: none;
-        outline: none; }
+        outline: none;
+        user-select: none; }
         .contact_wrapper .form_wrapper form .name:hover, .contact_wrapper .form_wrapper form .name:focus,
         .contact_wrapper .form_wrapper form .email:hover,
         .contact_wrapper .form_wrapper form .email:focus,
@@ -87,7 +88,8 @@
         width: 40px;
         margin: 50px 0px 0px 0px;
         opacity: 0.3;
-        transition: opacity 0.3s ease-out; }
+        transition: opacity 0.3s ease-out;
+        user-select: none; }
         .contact_wrapper .form_wrapper form .submit:hover, .contact_wrapper .form_wrapper form .submit:focus {
           opacity: 1; }
   .contact_wrapper .contact_footer .icons {
@@ -96,7 +98,8 @@
     align-items: center;
     justify-content: flex-start;
     margin-left: 8vw;
-    grid-gap: 10px; }
+    grid-gap: 10px;
+    user-select: none; }
     .contact_wrapper .contact_footer .icons a {
       opacity: 0.4;
       transition: opacity 0.25s ease-out;
@@ -190,7 +193,8 @@
           .contact_wrapper .content_wrapper .single_words h2 {
             font-size: 118.88px; }
         .contact_wrapper .content_wrapper .main_heading {
-          margin-left: 8vw; }
+          margin-left: 8vw;
+          user-select: none; }
           .contact_wrapper .content_wrapper .main_heading h1 {
             font-size: 118.88px; }
           .contact_wrapper .content_wrapper .main_heading .line3,
@@ -212,16 +216,18 @@
           font-family: "Montserrat", sans-serif;
           letter-spacing: -0.02em;
           margin-left: 8.5vw;
-          margin-top: 1rem; }
+          margin-top: 1rem;
+          display: flex; }
           .contact_wrapper .contact_footer .email_alternate .phrase1 {
             opacity: 0.5;
             color: #fafafa;
             font-size: 14px;
-            font-weight: 400; }
+            font-weight: 400;
+            user-select: none; }
           .contact_wrapper .contact_footer .email_alternate .phrase2 {
             color: #ff0072;
             font-size: 14px;
-            margin-left: 3px;
+            margin-left: 6px;
             font-weight: 400;
             opacity: 0.8; } }
   @media only screen and (min-width: 1900px) {

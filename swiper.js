@@ -1,14 +1,16 @@
 const workBody = document.querySelector("body");
-const image = document.querySelectorAll(".swiper-slide");
+const imagesArr = document.querySelectorAll(".small_image");
 const swiperWrap = document.querySelector(".swiper_container");
 const close = document.querySelector(".swiper-close");
 
+console.log("imagesArr", imagesArr);
+
 const imageClick = () => {
-	image.classList.toggle(".swiper_container");
-	image.addEventListner("click", imageClick);
+	imagesArr.classList.toggle(".swiper_container");
+	imagesArr.addEventListner("click", imageClick);
 };
 
-image.forEach((el, index) => {
+imagesArr.forEach((el, index) => {
 	el.addEventListener("click", imageClick);
 });
 

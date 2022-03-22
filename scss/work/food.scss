@@ -163,32 +163,33 @@
 		line-height: 100%;
 		letter-spacing: -0.02em;
 	}
-	.single_words {
-		position: absolute;
-		h2 {
-			&:hover {
+	.content_wrapper {
+		.single_words {
+			position: absolute;
+			a:hover + h2 {
 				-webkit-text-fill-color: #ff0072;
 			}
+			.word1 {
+				font-size: 47.78px;
+				opacity: 0.65;
+			}
 		}
-		.word1 {
-			font-size: 47.78px;
-			opacity: 0.65;
+
+		.next {
+			position: absolute;
+			z-index: 4;
+			a {
+				font-family: Montserrat;
+				font-weight: 800;
+				font-size: 39.81px;
+				line-height: 90.9%;
+				letter-spacing: -0.02em;
+				color: #fafafa;
+				text-decoration: none;
+			}
 		}
 	}
 
-	.next {
-		position: absolute;
-		z-index: 4;
-		a {
-			font-family: Montserrat;
-			font-weight: 800;
-			font-size: 39.81px;
-			line-height: 90.9%;
-			letter-spacing: -0.02em;
-			color: #fafafa;
-			text-decoration: none;
-		}
-	}
 	.footer {
 		position: absolute;
 		bottom: 7%;
