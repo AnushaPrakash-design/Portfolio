@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   transition: 0.5s;
-  z-index: 99; }
+  z-index: 10; }
   #navbar nav {
     display: flex;
     align-items: center;
@@ -1261,7 +1261,7 @@ p {
   top: 0;
   left: 0;
   transition: 0.5s;
-  z-index: 99; }
+  z-index: 10; }
   #navbar nav {
     display: flex;
     align-items: center;
@@ -1468,8 +1468,6 @@ p {
     letter-spacing: -0.02em; }
   .next_project .content_wrapper .single_words {
     position: absolute; }
-    .next_project .content_wrapper .single_words a:hover + h2 {
-      -webkit-text-fill-color: #ff0072; }
     .next_project .content_wrapper .single_words .word1 {
       font-size: 47.78px;
       opacity: 0.65; }
@@ -1645,7 +1643,10 @@ p {
   width: 100vw;
   height: 100vh;
   background: #0a0908;
-  z-index: 999; }
+  z-index: 15;
+  display: none; }
+  .swiper_container.active {
+    display: block; }
   .swiper_container .swiper-close {
     position: absolute;
     top: 5rem;

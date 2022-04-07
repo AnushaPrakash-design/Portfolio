@@ -1,13 +1,15 @@
 const workBody = document.querySelector("body");
 const imagesArr = document.querySelectorAll(".small_image");
 const swiperWrap = document.querySelector(".swiper_container");
-const close = document.querySelector(".swiper-close");
+const closeBtn = document.querySelector(".swiper-close");
 
 console.log("imagesArr", imagesArr);
+// console.log("workBody", workBody);
 
 const imageClick = () => {
-	imagesArr.classList.toggle(".swiper_container");
-	imagesArr.addEventListner("click", imageClick);
+	workBody.classList.toggle("no-scroll");
+	swiperWrap.classList.toggle("active");
+	console.log("hello");
 };
 
 imagesArr.forEach((el, index) => {
@@ -31,9 +33,10 @@ var swiper = new Swiper(".swiper_container", {
 });
 
 const closeClick = () => {
-	close.classList.remove(".swiper_container");
-	close.addEventListner("click", closeClick);
+	workBody.classList.remove("no-scroll");
+	swiperWrap.classList.remove("active");
 };
+closeBtn.addEventListener("click", closeClick);
 
 // close.addEventListner("click", () => {
 // 	close.classList.remove(".swiper_container");

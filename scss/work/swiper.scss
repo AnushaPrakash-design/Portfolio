@@ -24,7 +24,12 @@
 	width: 100vw;
 	height: 100vh;
 	background: #0a0908;
-	z-index: 999;
+	z-index: 15;
+	display: none;
+
+	&.active {
+		display: block;
+	}
 
 	.swiper-close {
 		position: absolute;

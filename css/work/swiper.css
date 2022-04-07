@@ -5,7 +5,10 @@
   width: 100vw;
   height: 100vh;
   background: #0a0908;
-  z-index: 999; }
+  z-index: 15;
+  display: none; }
+  .swiper_container.active {
+    display: block; }
   .swiper_container .swiper-close {
     position: absolute;
     top: 5rem;
