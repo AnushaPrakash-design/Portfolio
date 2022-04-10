@@ -1442,7 +1442,8 @@ p {
   grid-gap: 12px; }
   .image_wrapper img {
     width: 100%;
-    border-radius: 3px; }
+    border-radius: 3px;
+    cursor: pointer; }
   @media only screen and (min-width: 1024px) and (orientation: landscape) {
     .image_wrapper {
       grid-template-columns: 1fr 1fr;

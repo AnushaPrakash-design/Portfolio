@@ -3,7 +3,7 @@ const imagesArr = document.querySelectorAll(".small_image");
 const swiperWrap = document.querySelector(".swiper_container");
 const closeBtn = document.querySelector(".swiper-close");
 
-console.log("imagesArr", imagesArr);
+// console.log("imagesArr", imagesArr);
 // console.log("workBody", workBody);
 
 const imageClick = () => {
@@ -32,12 +32,22 @@ var swiper = new Swiper(".swiper_container", {
 	},
 });
 
+
+
+
 const closeClick = () => {
 	workBody.classList.remove("no-scroll");
 	swiperWrap.classList.remove("active");
 };
 closeBtn.addEventListener("click", closeClick);
 
-// close.addEventListner("click", () => {
-// 	close.classList.remove(".swiper_container");
+// const updateImage = () => {
+// 	swiperWrap.updateSlides();
+// };
+// imagesArr.forEach((el, index) => {
+// 	el.addEventListener("click", updateImage);
 // });
+
+mySwiper.on("slideChange", function (e) {
+	console.log("*** mySwiper.activeIndex", mySwiper.activeIndex);
+});

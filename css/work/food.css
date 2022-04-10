@@ -117,7 +117,8 @@
   grid-gap: 12px; }
   .image_wrapper img {
     width: 100%;
-    border-radius: 3px; }
+    border-radius: 3px;
+    cursor: pointer; }
   @media only screen and (min-width: 1024px) and (orientation: landscape) {
     .image_wrapper {
       grid-template-columns: 1fr 1fr;
@@ -143,8 +144,6 @@
     letter-spacing: -0.02em; }
   .next_project .content_wrapper .single_words {
     position: absolute; }
-    .next_project .content_wrapper .single_words a:hover + h2 {
-      -webkit-text-fill-color: #ff0072; }
     .next_project .content_wrapper .single_words .word1 {
       font-size: 47.78px;
       opacity: 0.65; }
