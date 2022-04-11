@@ -155,6 +155,9 @@
 			display: none;
 		}
 	}
+	.email_alternate{
+		display: none;
+	}
 
 	@media only screen and (min-width: 330px) {
 		.content_wrapper {
@@ -250,6 +253,7 @@
 		.form_wrapper {
 			margin-bottom: 120px;
 		}
+		
 	}
 
 	@media only screen and (min-width: 1200px) {

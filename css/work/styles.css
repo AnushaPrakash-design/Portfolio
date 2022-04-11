@@ -664,6 +664,8 @@
         opacity: 1; }
   .contact_wrapper .contact_footer p {
     display: none; }
+  .contact_wrapper .email_alternate {
+    display: none; }
   @media only screen and (min-width: 330px) {
     .contact_wrapper .content_wrapper .single_words {
       top: -16%;
