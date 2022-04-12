@@ -21,6 +21,7 @@ var swiper = new Swiper(".swiper_container", {
 	effect: "fade",
 	loop: true,
 	speed: 400,
+	grabCursor: true,
 	spaceBetween: 100,
 	navigation: {
 		nextEl: ".swiper-button-next",
@@ -30,10 +31,14 @@ var swiper = new Swiper(".swiper_container", {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
+	keyboard: {
+		enabled: true,
+		onlyInViewport: false,
+	},
 });
 
-
-
+// const imageClick
+// swiper.activeIndex();
 
 const closeClick = () => {
 	workBody.classList.remove("no-scroll");
@@ -48,6 +53,6 @@ closeBtn.addEventListener("click", closeClick);
 // 	el.addEventListener("click", updateImage);
 // });
 
-mySwiper.on("slideChange", function (e) {
-	console.log("*** mySwiper.activeIndex", mySwiper.activeIndex);
-});
+// imagesArr.on("slideChange", function (e) {
+// 	console.log("imagesArr.activeIndex", imagesArr.activeIndex);
+// });

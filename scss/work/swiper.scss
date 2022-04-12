@@ -22,7 +22,7 @@
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	background: #0a0908;
 	z-index: 15;
 	display: none;
@@ -33,13 +33,22 @@
 
 	.swiper-close {
 		position: absolute;
-		top: 5rem;
-		right: 5rem;
+		top: 40px;
+		right: 30px;
 		cursor: pointer;
 		z-index: 2;
+		
 		img {
+			margin: 15px;
 			width: 16px;
-			opacity: 0.8;
+			opacity: 0.5;
+			&:hover{
+				opacity: 1;
+			}
+		}
+		@media only screen and (min-width: 1024px) and (orientation: landscape) {
+			top: 50px;
+			right: 50px;
 		}
 	}
 
@@ -79,17 +88,17 @@
 			bottom: 20px !important;
 		}
 		.swiper-pagination-bullet {
-			background: #333;
+			background: rgb(74, 73, 73);
 		}
 		.swiper-pagination-bullet-active {
-			background: #fcfcfc;
+			background: #d7d7d7;
 		}
 		.swiper-button-next,
 		.swiper-button-prev {
 			opacity: 0;
 			pointer-events: none;
 			@media only screen and (min-width: 1024px) and (orientation: landscape) {
-				opacity: 0.2;
+				opacity: 0.5;
 				pointer-events: all;
 			}
 

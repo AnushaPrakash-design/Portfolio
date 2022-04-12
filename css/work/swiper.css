@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: #0a0908;
   z-index: 15;
   display: none; }
@@ -11,13 +11,20 @@
     display: block; }
   .swiper_container .swiper-close {
     position: absolute;
-    top: 5rem;
-    right: 5rem;
+    top: 40px;
+    right: 30px;
     cursor: pointer;
     z-index: 2; }
     .swiper_container .swiper-close img {
+      margin: 15px;
       width: 16px;
-      opacity: 0.8; }
+      opacity: 0.5; }
+      .swiper_container .swiper-close img:hover {
+        opacity: 1; }
+    @media only screen and (min-width: 1024px) and (orientation: landscape) {
+      .swiper_container .swiper-close {
+        top: 50px;
+        right: 50px; } }
   .swiper_container .swiper-wrapper .swiper-slide {
     display: flex;
     justify-content: center;
@@ -30,9 +37,9 @@
   .swiper_container .swiper-wrapper .swiper-pagination {
     bottom: 20px !important; }
   .swiper_container .swiper-wrapper .swiper-pagination-bullet {
-    background: #333; }
+    background: #4a4949; }
   .swiper_container .swiper-wrapper .swiper-pagination-bullet-active {
-    background: #fcfcfc; }
+    background: #d7d7d7; }
   .swiper_container .swiper-wrapper .swiper-button-next,
   .swiper_container .swiper-wrapper .swiper-button-prev {
     opacity: 0;
@@ -42,7 +49,7 @@
     @media only screen and (min-width: 1024px) and (orientation: landscape) {
       .swiper_container .swiper-wrapper .swiper-button-next,
       .swiper_container .swiper-wrapper .swiper-button-prev {
-        opacity: 0.2;
+        opacity: 0.5;
         pointer-events: all; } }
     .swiper_container .swiper-wrapper .swiper-button-next:hover, .swiper_container .swiper-wrapper .swiper-button-next:focus,
     .swiper_container .swiper-wrapper .swiper-button-prev:hover,
