@@ -115,7 +115,8 @@
           margin: 0;
           align-items: flex-start;
           justify-content: flex-end;
-          margin-top: auto; }
+          margin-top: auto;
+          grid-gap: 28px; }
           .about_section .top .content_wrapper .main_heading {
             width: 80vw;
             margin-left: -105%; }

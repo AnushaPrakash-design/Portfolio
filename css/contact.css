@@ -1,10 +1,9 @@
 .contact_wrapper {
   position: relative;
-  max-height: 100%;
+  min-height: 750px;
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 100px; }
+  padding-top: 200px; }
   .contact_wrapper .content_wrapper {
     position: relative;
     margin-bottom: 20%; }
@@ -93,22 +92,24 @@
         user-select: none; }
         .contact_wrapper .form_wrapper form .submit:hover, .contact_wrapper .form_wrapper form .submit:focus {
           opacity: 1; }
-  .contact_wrapper .contact_footer .icons {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 8vw;
-    grid-gap: 10px;
-    user-select: none; }
-    .contact_wrapper .contact_footer .icons a {
-      opacity: 0.4;
-      transition: opacity 0.25s ease-out;
-      padding: 10px; }
-      .contact_wrapper .contact_footer .icons a:hover, .contact_wrapper .contact_footer .icons a:focus {
-        opacity: 1; }
-  .contact_wrapper .contact_footer p {
-    display: none; }
+  .contact_wrapper .contact_footer {
+    padding-bottom: 20%; }
+    .contact_wrapper .contact_footer .icons {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 8vw;
+      grid-gap: 10px;
+      user-select: none; }
+      .contact_wrapper .contact_footer .icons a {
+        opacity: 0.4;
+        transition: opacity 0.25s ease-out;
+        padding: 10px; }
+        .contact_wrapper .contact_footer .icons a:hover, .contact_wrapper .contact_footer .icons a:focus {
+          opacity: 1; }
+    .contact_wrapper .contact_footer p {
+      display: none; }
   .contact_wrapper .email_alternate {
     display: none; }
   @media only screen and (min-width: 330px) {
@@ -158,7 +159,9 @@
               margin-left: -15px; }
       .contact_wrapper .form_wrapper {
         width: 350px;
-        margin: 0px 0px 80px 8vw; } }
+        margin: 0px 0px 80px 8vw; }
+      .contact_wrapper .contact_footer {
+        padding-bottom: 0; } }
   @media only screen and (min-width: 850px) {
     .contact_wrapper .content_wrapper .single_words {
       width: 70vw; } }
