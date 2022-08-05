@@ -1,3 +1,85 @@
+.swiper_container {
+  width: 100vw;
+  height: 100%;
+  background: #0a0908;
+  z-index: 15;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  .swiper-close {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+
+    img {
+      margin: 15px;
+      width: 16px;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    @media only screen and (min-width: 1024px) and (orientation: landscape) {
+      top: 50px;
+      right: 50px;
+    }
+  }
+
+  .swiper-wrapper {
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      // padding: 5rem;
+      img {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        object-fit: contain;
+      }
+    }
+
+    .swiper-pagination {
+      bottom: 20px !important;
+    }
+    .swiper-pagination-bullet {
+      background: rgb(74, 73, 73);
+    }
+    .swiper-pagination-bullet-active {
+      background: #d7d7d7;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      opacity: 0;
+      pointer-events: none;
+      @media only screen and (min-width: 1024px) and (orientation: landscape) {
+        opacity: 0.5;
+        pointer-events: all;
+        cursor: pointer;
+      }
+
+      transition: opacity 200ms ease-out;
+      padding: 1rem 2rem;
+      &:hover,
+      &:focus {
+        opacity: 1;
+      }
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+      color: white;
+      font-size: 1.44rem;
+    }
+  }
+}
+
 .work_landing {
   .image_wrapper {
     .landing_image {

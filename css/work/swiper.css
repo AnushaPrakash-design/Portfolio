@@ -50,7 +50,8 @@
       .swiper_container .swiper-wrapper .swiper-button-next,
       .swiper_container .swiper-wrapper .swiper-button-prev {
         opacity: 0.5;
-        pointer-events: all; } }
+        pointer-events: all;
+        cursor: pointer; } }
     .swiper_container .swiper-wrapper .swiper-button-next:hover, .swiper_container .swiper-wrapper .swiper-button-next:focus,
     .swiper_container .swiper-wrapper .swiper-button-prev:hover,
     .swiper_container .swiper-wrapper .swiper-button-prev:focus {
