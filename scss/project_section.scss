@@ -44,6 +44,11 @@
         display: none;
       }
     }
+    .ui_ux_image {
+      img {
+        opacity: 0.7;
+      }
+    }
     .main_text {
       position: absolute;
       font-family: Montserrat;

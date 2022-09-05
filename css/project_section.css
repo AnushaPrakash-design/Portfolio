@@ -158,6 +158,13 @@
   .project_section .rapid_wireless .food_image .large_img,
   .project_section .ui_ux .food_image .large_img {
     display: none; }
+  .project_section .food .ui_ux_image img,
+  .project_section .torii .ui_ux_image img,
+  .project_section .firewatch .ui_ux_image img,
+  .project_section .resetdata .ui_ux_image img,
+  .project_section .rapid_wireless .ui_ux_image img,
+  .project_section .ui_ux .ui_ux_image img {
+    opacity: 0.7; }
   .project_section .food .main_text,
   .project_section .torii .main_text,
   .project_section .firewatch .main_text,
