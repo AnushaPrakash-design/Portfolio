@@ -794,8 +794,8 @@
         padding: 10px; }
         .contact_wrapper .contact_footer .icons a:hover, .contact_wrapper .contact_footer .icons a:focus {
           opacity: 1; }
-    .contact_wrapper .contact_footer p {
-      display: none; }
+      .contact_wrapper .contact_footer .icons .mail {
+        padding-left: 0; }
   .contact_wrapper .email_alternate {
     display: none; }
   @media only screen and (min-width: 330px) {
@@ -907,7 +907,7 @@
           display: block;
           font-family: "Montserrat", sans-serif;
           letter-spacing: -0.02em;
-          margin-left: 8.5vw;
+          margin-left: 8vw;
           margin-top: 1rem;
           display: flex; }
           .contact_wrapper .contact_footer .email_alternate .phrase1 {
@@ -1093,6 +1093,19 @@ p {
       padding: 10px; }
       .footer .icons a:hover, .footer .icons a:focus {
         opacity: 1; }
+
+.copyright {
+  margin-left: 8vw;
+  position: absolute;
+  bottom: 30px; }
+  .copyright p {
+    user-select: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.2px;
+    letter-spacing: -0.02em;
+    opacity: 0.4; }
 
 .hamburger_container {
   height: 100vh;

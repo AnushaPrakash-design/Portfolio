@@ -136,6 +136,7 @@
 
   .contact_footer {
     padding-bottom: 20%;
+
     .icons {
       height: 100%;
       display: flex;
@@ -154,10 +155,13 @@
           opacity: 1;
         }
       }
+      .mail {
+        padding-left: 0;
+      }
     }
-    p {
-      display: none;
-    }
+    // p {
+    //   display: none;
+    // }
   }
   .email_alternate {
     display: none;
@@ -330,7 +334,7 @@
         display: block;
         font-family: "Montserrat", sans-serif;
         letter-spacing: -0.02em;
-        margin-left: 8.5vw;
+        margin-left: 8vw;
         margin-top: 1rem;
         display: flex;
         .phrase1 {
