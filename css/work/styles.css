@@ -1000,16 +1000,16 @@ html::-webkit-scrollbar-thumb:hover {
   align-items: center;
   justify-content: center; }
   #preloader img {
-    width: 33.3vw; }
+    width: 25vw; }
     @media only screen and (min-width: 700px) {
       #preloader img {
-        width: 22vw; } }
+        width: 18vw; } }
     @media only screen and (min-width: 1440px) and (orientation: landscape) {
       #preloader img {
-        width: 12vw; } }
+        width: 8vw; } }
     @media only screen and (min-width: 1900px) {
       #preloader img {
-        width: 10vw; } }
+        width: 6vw; } }
 
 body {
   margin: 0;
@@ -1295,16 +1295,16 @@ html::-webkit-scrollbar-thumb:hover {
   align-items: center;
   justify-content: center; }
   #preloader img {
-    width: 33.3vw; }
+    width: 25vw; }
     @media only screen and (min-width: 700px) {
       #preloader img {
-        width: 22vw; } }
+        width: 18vw; } }
     @media only screen and (min-width: 1440px) and (orientation: landscape) {
       #preloader img {
-        width: 12vw; } }
+        width: 8vw; } }
     @media only screen and (min-width: 1900px) {
       #preloader img {
-        width: 10vw; } }
+        width: 6vw; } }
 
 body {
   margin: 0;
