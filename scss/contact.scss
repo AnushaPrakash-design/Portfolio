@@ -136,13 +136,13 @@
 
   .contact_footer {
     padding-bottom: 20%;
+    margin-left: 8vw;
 
     .icons {
       height: 100%;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin-left: 8vw;
       grid-gap: 10px;
       user-select: none;
 
@@ -164,6 +164,14 @@
     // }
   }
   .email_alternate {
+    display: none;
+  }
+  .copyright_phone {
+    p {
+      padding-top: 10px;
+    }
+  }
+  .copyright_laptop {
     display: none;
   }
 
@@ -334,7 +342,6 @@
         display: block;
         font-family: "Montserrat", sans-serif;
         letter-spacing: -0.02em;
-        margin-left: 8vw;
         margin-top: 1rem;
         display: flex;
         .phrase1 {
@@ -355,6 +362,15 @@
           // cursor: pointer;
         }
       }
+      .copyright_phone {
+        display: none;
+      }
+    }
+    .copyright_laptop {
+      margin-left: 8vw;
+      display: block;
+      position: absolute;
+      bottom: 30px;
     }
   }
   @media only screen and (min-width: 1900px) {

@@ -93,13 +93,13 @@
         .contact_wrapper .form_wrapper form .submit:hover, .contact_wrapper .form_wrapper form .submit:focus {
           opacity: 1; }
   .contact_wrapper .contact_footer {
-    padding-bottom: 20%; }
+    padding-bottom: 20%;
+    margin-left: 8vw; }
     .contact_wrapper .contact_footer .icons {
       height: 100%;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin-left: 8vw;
       grid-gap: 10px;
       user-select: none; }
       .contact_wrapper .contact_footer .icons a {
@@ -111,6 +111,10 @@
       .contact_wrapper .contact_footer .icons .mail {
         padding-left: 0; }
   .contact_wrapper .email_alternate {
+    display: none; }
+  .contact_wrapper .copyright_phone p {
+    padding-top: 10px; }
+  .contact_wrapper .copyright_laptop {
     display: none; }
   @media only screen and (min-width: 330px) {
     .contact_wrapper .content_wrapper .single_words {
@@ -221,7 +225,6 @@
           display: block;
           font-family: "Montserrat", sans-serif;
           letter-spacing: -0.02em;
-          margin-left: 8vw;
           margin-top: 1rem;
           display: flex; }
           .contact_wrapper .contact_footer .email_alternate .phrase1 {
@@ -235,7 +238,14 @@
             font-size: 14px;
             margin-left: 6px;
             font-weight: 400;
-            opacity: 0.8; } }
+            opacity: 0.8; }
+        .contact_wrapper .contact_footer .copyright_phone {
+          display: none; }
+      .contact_wrapper .copyright_laptop {
+        margin-left: 8vw;
+        display: block;
+        position: absolute;
+        bottom: 30px; } }
   @media only screen and (min-width: 1900px) {
     .contact_wrapper .content_wrapper {
       top: -5%;
