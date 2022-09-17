@@ -1971,15 +1971,19 @@ p {
       .swiper_container .swiper-wrapper .swiper-button-prev {
         opacity: 0.5;
         pointer-events: all;
-        cursor: pointer; } }
+        cursor: pointer; }
+        .swiper_container .swiper-wrapper .swiper-button-next img,
+        .swiper_container .swiper-wrapper .swiper-button-prev img {
+          top: 50%;
+          width: 14px;
+          margin: -15px; } }
     .swiper_container .swiper-wrapper .swiper-button-next:hover, .swiper_container .swiper-wrapper .swiper-button-next:focus,
     .swiper_container .swiper-wrapper .swiper-button-prev:hover,
     .swiper_container .swiper-wrapper .swiper-button-prev:focus {
       opacity: 1; }
   .swiper_container .swiper-wrapper .swiper-button-next:after,
   .swiper_container .swiper-wrapper .swiper-button-prev:after {
-    color: white;
-    font-size: 1.44rem; }
+    opacity: 0; }
 
 .hamburger_container {
   height: 100vh;

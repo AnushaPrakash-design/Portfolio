@@ -93,6 +93,7 @@
     .swiper-pagination-bullet-active {
       background: #d7d7d7;
     }
+
     .swiper-button-next,
     .swiper-button-prev {
       opacity: 0;
@@ -101,6 +102,24 @@
         opacity: 0.5;
         pointer-events: all;
         cursor: pointer;
+        // display: block;
+        // font-size: 1rem;
+        // padding: 20px;
+        img {
+          top: 50%;
+          width: 14px;
+          margin: -15px;
+
+          // padding: 10px;
+        }
+        // border: 2px solid black;
+        // background-color: white;
+        // background-color: rgba(255, 255, 255, 0.5);
+        // right: 10px;
+        // padding: 30px;
+        // color: #000 !important;
+        // fill: black !important;
+        // stroke: black !important;
       }
 
       transition: opacity 200ms ease-out;
@@ -110,10 +129,17 @@
         opacity: 1;
       }
     }
+    // .swiper-button-next {
+    //   display: block;
+    //   background-image: image();
+    // }
+    // .swiper-button-prev {
+    //   background-image: url("previous.svg");
+    // }
+
     .swiper-button-next:after,
     .swiper-button-prev:after {
-      color: white;
-      font-size: 1.44rem;
+      opacity: 0;
     }
   }
 }
