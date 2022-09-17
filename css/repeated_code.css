@@ -69,6 +69,7 @@ body {
 .single_words h2 {
   font-family: Sainte Colombe;
   font-style: italic;
+  font-weight: 400;
   font-size: 39.81px;
   line-height: 100%;
   letter-spacing: -0.02em;

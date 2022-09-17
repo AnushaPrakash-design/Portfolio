@@ -228,7 +228,7 @@
     flex-direction: column; }
     .about_section .top .image_wrapper {
       position: relative;
-      width: 76%;
+      width: 84%;
       height: 455px; }
       .about_section .top .image_wrapper .single_words {
         position: absolute;
@@ -258,8 +258,8 @@
           position: absolute;
           width: 100%;
           height: 100%;
-          background: #7b2243;
-          opacity: 0.3;
+          background: #0a0908;
+          opacity: 0.5;
           border-radius: 15px; }
     .about_section .top .content_wrapper {
       margin-top: -17%;
@@ -273,11 +273,18 @@
         width: 89vw;
         display: flex;
         flex-direction: column;
-        align-items: flex-start; }
+        align-items: center; }
         .about_section .top .content_wrapper .main_heading h1 {
-          line-height: 90%; }
+          line-height: 90%;
+          font-family: Sainte Colombe;
+          font-weight: 700;
+          align-self: flex-start; }
+        .about_section .top .content_wrapper .main_heading .line1 {
+          font-style: italic;
+          font-size: 27.65px; }
         .about_section .top .content_wrapper .main_heading .line2 {
-          align-self: end; }
+          font-style: bold;
+          font-size: 39.81px; }
       .about_section .top .content_wrapper p {
         width: 84vw; }
   .about_section .bottom {
@@ -1043,6 +1050,7 @@ body {
 .single_words h2 {
   font-family: Sainte Colombe;
   font-style: italic;
+  font-weight: 400;
   font-size: 39.81px;
   line-height: 100%;
   letter-spacing: -0.02em;
@@ -1271,4 +1279,9 @@ p {
 @font-face {
   font-family: Sainte Colombe;
   src: url("../fonts/Sainte Colombe Italic.otf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: Sainte Colombe;
+  src: url("../../fonts/Sainte Colombe Bold.otf");
   font-weight: normal; }
