@@ -9,7 +9,7 @@
     flex-direction: column; }
     .about_section .top .image_wrapper {
       position: relative;
-      width: 84%;
+      width: 100%;
       height: 455px; }
       .about_section .top .image_wrapper .single_words {
         position: absolute;
@@ -42,6 +42,22 @@
           background: #0a0908;
           opacity: 0.5;
           border-radius: 15px; }
+      .about_section .top .image_wrapper .main_heading_mobile {
+        display: block;
+        position: absolute;
+        bottom: 10%; }
+        .about_section .top .image_wrapper .main_heading_mobile .line1,
+        .about_section .top .image_wrapper .main_heading_mobile .line2 {
+          line-height: 90%;
+          font-family: Sainte Colombe;
+          font-weight: 700;
+          align-self: flex-start; }
+        .about_section .top .image_wrapper .main_heading_mobile .line1 {
+          font-style: italic;
+          font-size: 27.65px; }
+        .about_section .top .image_wrapper .main_heading_mobile .line2 {
+          font-style: bold;
+          font-size: 39.81px; }
     .about_section .top .content_wrapper {
       margin-top: -17%;
       z-index: 1;
@@ -50,22 +66,12 @@
       grid-gap: 35px;
       align-items: center;
       margin-bottom: 220px; }
-      .about_section .top .content_wrapper .main_heading {
-        width: 89vw;
+      .about_section .top .content_wrapper .main_heading_laptop {
+        visibility: hidden;
+        width: 84vw;
         display: flex;
         flex-direction: column;
         align-items: center; }
-        .about_section .top .content_wrapper .main_heading h1 {
-          line-height: 90%;
-          font-family: Sainte Colombe;
-          font-weight: 700;
-          align-self: flex-start; }
-        .about_section .top .content_wrapper .main_heading .line1 {
-          font-style: italic;
-          font-size: 27.65px; }
-        .about_section .top .content_wrapper .main_heading .line2 {
-          font-style: bold;
-          font-size: 39.81px; }
       .about_section .top .content_wrapper p {
         width: 84vw; }
   .about_section .bottom {
@@ -77,19 +83,6 @@
     .about_section .bottom p {
       opacity: 0.5;
       font-size: 14px; }
-  @media only screen and (min-width: 340px) {
-    .about_section .top .content_wrapper .main_heading {
-      width: 96vw; } }
-  @media only screen and (min-width: 500px) {
-    .about_section .top .content_wrapper .main_heading {
-      width: 80vw; }
-    .about_section .top .content_wrapper p {
-      width: 65vw; } }
-  @media only screen and (min-width: 620px) {
-    .about_section .top .content_wrapper .main_heading {
-      width: 65vw; }
-    .about_section .top .content_wrapper p {
-      width: 60vw; } }
   @media only screen and (min-width: 700px) {
     .about_section {
       padding-top: 0px;
