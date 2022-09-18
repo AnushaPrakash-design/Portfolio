@@ -1,148 +1,52 @@
-.landing {
-  height: 100vh;
-  width: 100vw;
+.main_landing {
+  height: 90vh;
+  width: 100%;
   overflow: hidden;
-  margin-top: 4%;
+  position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column; }
-  .landing .image_wrapper {
+  justify-content: center; }
+  .main_landing .image_wrapper {
     position: relative;
-    height: 57vh;
-    width: 60vw; }
-    .landing .image_wrapper .single_words {
+    height: 72.6%;
+    width: 84%; }
+    .main_landing .image_wrapper .landing_image {
       position: absolute;
-      top: -7%;
-      left: -25%;
-      width: 84vw;
-      height: 112%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-end;
-      z-index: -1; }
-      .landing .image_wrapper .single_words h2 {
-        opacity: 0.65; }
-      .landing .image_wrapper .single_words .word2 {
-        align-self: start;
-        margin-top: 17vh; }
-    .landing .image_wrapper .landing_image {
       height: 100%;
       width: 100%; }
-      .landing .image_wrapper .landing_image .large_img {
-        display: none; }
-      .landing .image_wrapper .landing_image .small_img {
-        display: block;
-        opacity: 0.8;
-        border-radius: 20px;
+      .main_landing .image_wrapper .landing_image .landing_hero {
+        border-radius: 18px;
         width: 100%;
         height: 100%;
         object-fit: cover; }
-  .landing .main_heading {
+      .main_landing .image_wrapper .landing_image .image_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: #000;
+        opacity: 0.6;
+        border-radius: 18px; }
+  .main_landing .main_heading {
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     top: 50%;
     transform: translateY(-50%);
-    width: 88vw; }
-    .landing .main_heading .line2 {
-      align-self: end; }
-  @media only screen and (min-width: 500px) {
-    .landing .main_heading {
-      width: 75vw; } }
-  @media only screen and (min-width: 600px) {
-    .landing .main_heading {
-      width: 55vw; } }
-  @media only screen and (min-width: 700px) {
-    .landing {
-      margin-top: 0; }
-      .landing .image_wrapper {
-        height: 65vh;
-        width: 56vw; }
-        .landing .image_wrapper .single_words {
-          top: -8%;
-          height: 115%; }
-          .landing .image_wrapper .single_words h2 {
-            opacity: 0.5;
-            font-size: 82.56px; }
-      .landing .main_heading {
-        width: 84vw;
-        font-size: 82.56px; }
-        .landing .main_heading .line1,
-        .landing .main_heading .line2,
-        .landing .main_heading .pink_dot {
-          font-size: 82.56px; }
-        .landing .main_heading .pink_dot {
-          margin-left: -13px; } }
-  @media only screen and (min-width: 1024px) {
-    .landing .main_heading {
-      width: 70vw; } }
-  @media only screen and (min-width: 1300px) {
-    .landing .main_heading {
-      width: 50vw; } }
-  @media only screen and (min-width: 1440px) and (orientation: landscape) {
-    .landing .image_wrapper {
-      height: 54vh;
-      width: 59vw; }
-      .landing .image_wrapper .single_words {
-        top: -20%;
-        height: 120%;
-        width: 86vw; }
-        .landing .image_wrapper .single_words h2 {
-          font-size: 118.88px; }
-        .landing .image_wrapper .single_words .word2 {
-          margin-top: 35vh; }
-      .landing .image_wrapper .landing_image .small_img {
-        display: none; }
-      .landing .image_wrapper .landing_image .large_img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-        border-radius: 20px;
-        object-fit: cover; }
-    .landing .main_heading {
-      width: 75vw;
-      font-size: 118.88px; }
-      .landing .main_heading .line1,
-      .landing .main_heading .line2,
-      .landing .main_heading .pink_dot {
-        font-size: 118.88px; }
-      .landing .main_heading .pink_dot {
-        margin-left: -25px; } }
-  @media only screen and (min-width: 1900px) {
-    .landing .image_wrapper {
-      height: 51vh;
-      width: 59vw; }
-      .landing .image_wrapper .single_words {
-        top: -25%;
-        height: 110%;
-        width: 86vw; }
-        .landing .image_wrapper .single_words h2 {
-          font-size: 142.66px; }
-        .landing .image_wrapper .single_words .word2 {
-          margin-top: 28vh; }
-    .landing .main_heading {
-      width: 71vw;
-      font-size: 142.66px; }
-      .landing .main_heading .line1,
-      .landing .main_heading .line2,
-      .landing .main_heading .pink_dot {
-        font-size: 142.66px; }
-      .landing .main_heading .pink_dot {
-        margin-left: -30px; } }
-  @media only screen and (min-width: 2200px) {
-    .landing .main_heading {
-      width: 55vw; } }
-  @media only screen and (min-width: 2560px) {
-    .landing .image_wrapper .single_words {
-      top: -15%;
-      height: 120%;
-      width: 83vw; }
-      .landing .image_wrapper .single_words .word2 {
-        margin-top: 35vh;
-        margin-left: 5%; }
-    .landing .main_heading {
-      width: 50vw; } }
+    text-align: center;
+    z-index: 5; }
+    .main_landing .main_heading h1 {
+      font-size: 47.78px;
+      font-family: "Montserrat";
+      font-weight: 800;
+      font-size: 47.78px;
+      line-height: 101.4%;
+      text-align: center;
+      letter-spacing: -0.02em;
+      align-self: flex-start; }
+  .main_landing .bottom {
+    position: absolute;
+    bottom: 5%; }
