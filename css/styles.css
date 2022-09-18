@@ -95,8 +95,8 @@
         width: 100%;
         height: 100%;
         top: 0;
-        background: #000;
-        opacity: 0.6;
+        background: #0a0908;
+        opacity: 0.7;
         border-radius: 18px; }
   .main_landing .main_heading {
     position: absolute;
@@ -1199,10 +1199,15 @@ p {
 
 @font-face {
   font-family: Sainte Colombe;
-  src: url("../fonts/Sainte/ Colombe/Italic.otf");
-  font-weight: normal; }
+  src: url("../fonts/Sainte Colombe Bold Italic.otf");
+  font-weight: 700; }
 
 @font-face {
   font-family: Sainte Colombe;
-  src: url("../fonts/Sainte/ Colombe/ Bold.otf");
-  font-weight: normal; }
+  src: url("../fonts/Sainte Colombe Bold.otf");
+  font-weight: 700; }
+
+@font-face {
+  font-family: Sainte Colombe;
+  src: url("../fonts/Sainte Colombe Italic.otf");
+  font-weight: 400; }
