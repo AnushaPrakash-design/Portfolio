@@ -392,6 +392,57 @@
     .about_section .bottom p {
       font-size: 16px; } }
 
+.services {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .services .service_landing .image_wrapper {
+    position: relative;
+    height: 40vh;
+    width: 84vw; }
+    .services .service_landing .image_wrapper .single_words {
+      position: absolute;
+      top: -10%;
+      left: 0%;
+      width: 84vw;
+      height: 120%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      z-index: -1; }
+      .services .service_landing .image_wrapper .single_words h2 {
+        opacity: 0.65;
+        width: min-content;
+        font-size: 47.78px; }
+      .services .service_landing .image_wrapper .single_words .word2 {
+        align-self: start;
+        margin-top: 17vh;
+        margin-left: -14%; }
+    .services .service_landing .image_wrapper .landing_image {
+      position: absolute;
+      height: 100%;
+      width: 100%; }
+      .services .service_landing .image_wrapper .landing_image .large_img {
+        display: none; }
+      .services .service_landing .image_wrapper .landing_image img {
+        border-radius: 18px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .services .service_landing .image_wrapper .landing_image .image_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: #0a0908;
+        opacity: 0.7;
+        border-radius: 18px; }
+
 .project_section .food,
 .project_section .torii,
 .project_section .firewatch,
