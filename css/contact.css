@@ -12,7 +12,7 @@
       top: -13%;
       left: -4%;
       width: 88vw;
-      height: 125%;
+      height: 130%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -27,6 +27,7 @@
     .contact_wrapper .content_wrapper .main_heading {
       margin-left: 8vw; }
       .contact_wrapper .content_wrapper .main_heading h1 {
+        font-family: "Montserrat";
         line-height: 100%;
         font-size: 39.81px;
         font-weight: 700; }
@@ -145,19 +146,20 @@
           top: -20%;
           left: -5%;
           width: 95vw;
-          height: 135%; }
+          height: 130%; }
           .contact_wrapper .content_wrapper .single_words h2 {
             opacity: 0.5;
             font-size: 82.56px; }
         .contact_wrapper .content_wrapper .main_heading {
           margin-left: 8vw; }
           .contact_wrapper .content_wrapper .main_heading h1 {
-            line-height: 100%;
+            line-height: 90%;
             font-size: 82.56px;
             font-weight: 700; }
           .contact_wrapper .content_wrapper .main_heading .line3,
           .contact_wrapper .content_wrapper .main_heading .pink_dot {
-            font-size: 82.56px; }
+            font-size: 82.56px;
+            line-height: 130%; }
             .contact_wrapper .content_wrapper .main_heading .line3 .pink_dot,
             .contact_wrapper .content_wrapper .main_heading .pink_dot .pink_dot {
               margin-left: -15px; }
@@ -199,7 +201,7 @@
         .contact_wrapper .content_wrapper .single_words {
           top: -15%;
           width: 70vw;
-          height: 130%; }
+          height: 125%; }
           .contact_wrapper .content_wrapper .single_words h2 {
             font-size: 118.88px; }
         .contact_wrapper .content_wrapper .main_heading {
@@ -252,8 +254,7 @@
       margin-bottom: 0; }
       .contact_wrapper .content_wrapper .single_words {
         top: -15%;
-        width: 65vw;
-        height: 130%; }
+        width: 65vw; }
         .contact_wrapper .content_wrapper .single_words h2 {
           font-size: 142.66px; }
       .contact_wrapper .content_wrapper .main_heading {

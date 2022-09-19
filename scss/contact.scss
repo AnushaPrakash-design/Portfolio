@@ -20,7 +20,7 @@
       left: -4%;
 
       width: 88vw;
-      height: 125%;
+      height: 130%;
 
       display: flex;
       flex-direction: column;
@@ -45,6 +45,7 @@
       margin-left: 8vw;
 
       h1 {
+        font-family: "Montserrat";
         line-height: 100%;
         font-size: 39.81px;
         font-weight: 700;
@@ -219,7 +220,7 @@
         left: -5%;
 
         width: 95vw;
-        height: 135%;
+        height: 130%;
 
         h2 {
           opacity: 0.5;
@@ -229,13 +230,15 @@
       .main_heading {
         margin-left: 8vw;
         h1 {
-          line-height: 100%;
+          line-height: 90%;
           font-size: 82.56px;
           font-weight: 700;
         }
         .line3,
         .pink_dot {
           font-size: 82.56px;
+          line-height: 130%;
+
           .pink_dot {
             margin-left: -15px;
           }
@@ -304,7 +307,7 @@
         top: -15%;
 
         width: 70vw;
-        height: 130%;
+        height: 125%;
 
         h2 {
           font-size: 118.88px;
@@ -381,8 +384,6 @@
         top: -15%;
 
         width: 65vw;
-        height: 130%;
-
         h2 {
           font-size: 142.66px;
         }

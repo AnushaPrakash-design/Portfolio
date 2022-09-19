@@ -51,15 +51,21 @@
     transform: translateY(-50%);
     text-align: center;
     z-index: 5;
-    h1 {
-      font-size: 47.78px;
-      font-family: "Montserrat";
-      font-weight: 800;
-      font-size: 47.78px;
-      line-height: 101.4%;
-      text-align: center;
-      letter-spacing: -0.02em;
+
+    .line1,
+    .line2 {
+      line-height: 110%;
+      font-family: Sainte Colombe;
+      font-weight: 700;
       align-self: flex-start;
+    }
+    .line1 {
+      font-style: italic;
+      font-size: 27.65px;
+    }
+    .line2 {
+      font-style: bold;
+      font-size: 39.81px;
     }
   }
 

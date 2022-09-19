@@ -38,15 +38,18 @@
     transform: translateY(-50%);
     text-align: center;
     z-index: 5; }
-    .main_landing .main_heading h1 {
-      font-size: 47.78px;
-      font-family: "Montserrat";
-      font-weight: 800;
-      font-size: 47.78px;
-      line-height: 101.4%;
-      text-align: center;
-      letter-spacing: -0.02em;
+    .main_landing .main_heading .line1,
+    .main_landing .main_heading .line2 {
+      line-height: 110%;
+      font-family: Sainte Colombe;
+      font-weight: 700;
       align-self: flex-start; }
+    .main_landing .main_heading .line1 {
+      font-style: italic;
+      font-size: 27.65px; }
+    .main_landing .main_heading .line2 {
+      font-style: bold;
+      font-size: 39.81px; }
   .main_landing .bottom {
     position: absolute;
     bottom: 5%; }
