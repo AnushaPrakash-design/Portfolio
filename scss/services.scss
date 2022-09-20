@@ -173,8 +173,12 @@
         .line1 {
           font-size: 47.78px;
         }
-        .line2 {
+        .line2,
+        .pink_dot {
           font-size: 68.8px;
+        }
+        .pink_dot {
+          margin-left: -12px;
         }
       }
     }
@@ -241,8 +245,12 @@
         .line1 {
           font-size: 68.8px;
         }
-        .line2 {
+        .line2,
+        .pink_dot {
           font-size: 99.07px;
+        }
+        .pink_dot {
+          margin-left: -20px;
         }
       }
     }
@@ -275,8 +283,12 @@
         .line1 {
           font-size: 82.56px;
         }
-        .line2 {
+        .line2,
+        .pink_dot {
           font-size: 118.88px;
+        }
+        .pink_dot {
+          margin-left: -25px;
         }
       }
     }
