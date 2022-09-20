@@ -564,7 +564,6 @@
       height: 50vh;
       width: 53vw; }
       .services .service_landing .image_wrapper .single_words {
-        position: absolute;
         top: -20%;
         left: 0%;
         width: 55vw;
@@ -577,6 +576,17 @@
         font-size: 118.88px; }
     .services .services_content {
       margin: 220px 0 120px; } }
+  @media only screen and (min-width: 2560px) {
+    .services .service_landing {
+      height: 48vh;
+      width: 50vw; }
+      .services .service_landing .image_wrapper .single_words {
+        top: -15%;
+        left: 0%;
+        width: 50vw;
+        height: 128%; }
+    .services .services_content {
+      margin: 220px 0 140px; } }
 
 .project_section .food,
 .project_section .torii,
