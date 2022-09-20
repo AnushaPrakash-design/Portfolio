@@ -488,7 +488,7 @@
       font-size: 16px; }
     .services .services_content h3 {
       opacity: 0.5;
-      margin-bottom: 10px; }
+      margin-bottom: 2px; }
     .services .services_content ul li {
       list-style: none;
       color: #fafafa;
@@ -502,6 +502,82 @@
     .services .content_wrapper p {
       opacity: 0.5;
       font-size: 14px; }
+  @media only screen and (min-width: 700px) {
+    .services {
+      padding-top: 180px; }
+      .services .service_landing {
+        height: 50vh;
+        width: 70vw; }
+        .services .service_landing .image_wrapper .single_words {
+          position: absolute;
+          top: -13%;
+          left: 0%;
+          width: 70vw;
+          height: 125%; }
+          .services .service_landing .image_wrapper .single_words h2 {
+            opacity: 0.5;
+            width: min-content;
+            font-size: 68.8px; }
+        .services .service_landing .heading_wrapper .line1 {
+          font-size: 47.78px; }
+        .services .service_landing .heading_wrapper .line2 {
+          font-size: 68.8px; }
+      .services .services_content {
+        margin: 170px 0 130px; }
+        .services .services_content .content-list-items ul {
+          display: flex;
+          flex-direction: row; }
+          .services .services_content .content-list-items ul .list-group2b {
+            margin-left: 162px; }
+          .services .services_content .content-list-items ul .list-group2d {
+            margin-left: 107px; } }
+  @media only screen and (min-width: 1024px) {
+    .services .service_landing {
+      height: 46vh;
+      width: 55vw; }
+      .services .service_landing .image_wrapper .single_words {
+        width: 55vw;
+        height: 125%; }
+    .services .services_content {
+      margin: 170px 0 150px; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .services {
+      padding-top: 220px; }
+      .services .service_landing {
+        height: 50vh;
+        width: 55vw; }
+        .services .service_landing .image_wrapper .single_words {
+          position: absolute;
+          top: -17%;
+          left: 0%;
+          width: 55vw;
+          height: 132%; }
+          .services .service_landing .image_wrapper .single_words h2 {
+            font-size: 99.07px; }
+        .services .service_landing .heading_wrapper .line1 {
+          font-size: 68.8px; }
+        .services .service_landing .heading_wrapper .line2 {
+          font-size: 99.07px; }
+      .services .services_content {
+        margin: 200px 0 150px; } }
+  @media only screen and (min-width: 1900px) {
+    .services .service_landing {
+      height: 50vh;
+      width: 53vw; }
+      .services .service_landing .image_wrapper .single_words {
+        position: absolute;
+        top: -20%;
+        left: 0%;
+        width: 55vw;
+        height: 140%; }
+        .services .service_landing .image_wrapper .single_words h2 {
+          font-size: 118.88px; }
+      .services .service_landing .heading_wrapper .line1 {
+        font-size: 82.56px; }
+      .services .service_landing .heading_wrapper .line2 {
+        font-size: 118.88px; }
+    .services .services_content {
+      margin: 220px 0 120px; } }
 
 .project_section .food,
 .project_section .torii,

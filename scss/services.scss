@@ -122,7 +122,7 @@
     }
     h3 {
       opacity: 0.5;
-      margin-bottom: 10px;
+      margin-bottom: 2px;
     }
 
     ul {
@@ -143,6 +143,147 @@
     p {
       opacity: 0.5;
       font-size: 14px;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding-top: 180px;
+    .service_landing {
+      height: 50vh;
+      width: 70vw;
+
+      .image_wrapper {
+        .single_words {
+          position: absolute;
+          top: -13%;
+          left: 0%;
+
+          width: 70vw;
+          height: 125%;
+
+          h2 {
+            opacity: 0.5;
+            width: min-content;
+            font-size: 68.8px;
+          }
+        }
+      }
+
+      .heading_wrapper {
+        .line1 {
+          font-size: 47.78px;
+        }
+        .line2 {
+          font-size: 68.8px;
+        }
+      }
+    }
+
+    .services_content {
+      margin: 170px 0 130px;
+
+      .content-list-items {
+        ul {
+          display: flex;
+          flex-direction: row;
+
+          .list-group2b {
+            margin-left: 162px;
+          }
+          .list-group2d {
+            margin-left: 107px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .service_landing {
+      height: 46vh;
+      width: 55vw;
+
+      .image_wrapper {
+        .single_words {
+          width: 55vw;
+          height: 125%;
+        }
+      }
+    }
+
+    .services_content {
+      margin: 170px 0 150px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    padding-top: 220px;
+    .service_landing {
+      height: 50vh;
+      width: 55vw;
+
+      .image_wrapper {
+        .single_words {
+          position: absolute;
+          top: -17%;
+          left: 0%;
+
+          width: 55vw;
+          height: 132%;
+
+          h2 {
+            font-size: 99.07px;
+          }
+        }
+      }
+
+      .heading_wrapper {
+        .line1 {
+          font-size: 68.8px;
+        }
+        .line2 {
+          font-size: 99.07px;
+        }
+      }
+    }
+
+    .services_content {
+      margin: 200px 0 150px;
+    }
+  }
+
+  @media only screen and (min-width: 1900px) {
+    .service_landing {
+      height: 50vh;
+      width: 53vw;
+
+      .image_wrapper {
+        .single_words {
+          position: absolute;
+          top: -20%;
+          left: 0%;
+
+          width: 55vw;
+          height: 140%;
+
+          h2 {
+            font-size: 118.88px;
+          }
+        }
+      }
+
+      .heading_wrapper {
+        .line1 {
+          font-size: 82.56px;
+        }
+        .line2 {
+          font-size: 118.88px;
+        }
+      }
+    }
+
+    .services_content {
+      margin: 220px 0 120px;
     }
   }
 }
