@@ -123,7 +123,8 @@
       font-size: 27.65px;
       margin-left: 3px;
       transition: all 0.25s ease-in-out; }
-    .main_landing .main_heading .line2 {
+    .main_landing .main_heading .line2,
+    .main_landing .main_heading .pink_dot {
       font-style: bold;
       font-size: 39.81px; }
   .main_landing .bottom {
@@ -138,9 +139,12 @@
       line-height: 120%; }
     .main_landing .main_heading .typed-cursor {
       font-size: 57.33px; }
-    .main_landing .main_heading .line2 {
+    .main_landing .main_heading .line2,
+    .main_landing .main_heading .pink_dot {
       font-size: 82.56px;
-      line-height: 120%; } }
+      line-height: 120%; }
+    .main_landing .main_heading .pink_dot {
+      margin-left: -12px; } }
   @media only screen and (min-width: 1440px) {
     .main_landing .image_wrapper {
       height: 73%; }
@@ -149,9 +153,12 @@
       line-height: 110%; }
     .main_landing .main_heading .typed-cursor {
       font-size: 82.56px; }
-    .main_landing .main_heading .line2 {
+    .main_landing .main_heading .line2,
+    .main_landing .main_heading .pink_dot {
       font-size: 118.88px;
-      line-height: 110%; } }
+      line-height: 110%; }
+    .main_landing .main_heading .pink_dot {
+      margin-left: -20px; } }
   @media only screen and (min-width: 1900px) {
     .main_landing .image_wrapper {
       height: 73%;
@@ -160,8 +167,11 @@
       font-size: 99.07px; }
     .main_landing .main_heading .typed-cursor {
       font-size: 99.07px; }
-    .main_landing .main_heading .line2 {
-      font-size: 142.66px; } }
+    .main_landing .main_heading .line2,
+    .main_landing .main_heading .pink_dot {
+      font-size: 142.66px; }
+    .main_landing .main_heading .pink_dot {
+      margin-left: -25px; } }
   @media only screen and (min-width: 2560px) {
     .main_landing .image_wrapper {
       width: 82%; }

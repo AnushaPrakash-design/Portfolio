@@ -74,7 +74,8 @@
       margin-left: 3px;
       transition: all 0.25s ease-in-out;
     }
-    .line2 {
+    .line2,
+    .pink_dot {
       font-style: bold;
       font-size: 39.81px;
     }
@@ -99,9 +100,13 @@
       .typed-cursor {
         font-size: 57.33px;
       }
-      .line2 {
+      .line2,
+      .pink_dot {
         font-size: 82.56px;
         line-height: 120%;
+      }
+      .pink_dot {
+        margin-left: -12px;
       }
     }
   }
@@ -118,9 +123,13 @@
       .typed-cursor {
         font-size: 82.56px;
       }
-      .line2 {
+      .line2,
+      .pink_dot {
         font-size: 118.88px;
         line-height: 110%;
+      }
+      .pink_dot {
+        margin-left: -20px;
       }
     }
   }
@@ -137,8 +146,12 @@
       .typed-cursor {
         font-size: 99.07px;
       }
-      .line2 {
+      .line2,
+      .pink_dot {
         font-size: 142.66px;
+      }
+      .pink_dot {
+        margin-left: -25px;
       }
     }
   }
