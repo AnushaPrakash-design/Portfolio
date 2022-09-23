@@ -18,6 +18,7 @@
   "homepage": "https://github.com/AnushaPrakash-design/Portfolio#readme",
   "description": "",
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "typed.js": "^2.0.12"
   }
 }
