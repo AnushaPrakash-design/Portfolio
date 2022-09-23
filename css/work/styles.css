@@ -117,17 +117,59 @@
       font-style: italic;
       font-size: 27.65px;
       color: #fafafa;
-      letter-spacing: 0em;
-      margin-left: 3px; }
+      margin-left: 3px;
+      transition: all 0.25s ease-in-out; }
     .main_landing .main_heading .typed-cursor {
       color: #ff0072;
-      font-size: 27.65px; }
+      font-size: 27.65px;
+      margin-left: 3px;
+      transition: all 0.25s ease-in-out; }
     .main_landing .main_heading .line2 {
       font-style: bold;
       font-size: 39.81px; }
   .main_landing .bottom {
     position: absolute;
     bottom: 5%; }
+  @media only screen and (min-width: 700px) {
+    .main_landing .image_wrapper {
+      height: 75%;
+      width: 84%; }
+    .main_landing .main_heading .typed {
+      font-size: 57.33px;
+      line-height: 120%; }
+    .main_landing .main_heading .typed-cursor {
+      font-size: 57.33px; }
+    .main_landing .main_heading .line2 {
+      font-size: 82.56px;
+      line-height: 120%; } }
+  @media only screen and (min-width: 1440px) {
+    .main_landing .image_wrapper {
+      height: 73%; }
+    .main_landing .main_heading .typed {
+      font-size: 82.56px;
+      line-height: 110%; }
+    .main_landing .main_heading .typed-cursor {
+      font-size: 82.56px; }
+    .main_landing .main_heading .line2 {
+      font-size: 118.88px;
+      line-height: 110%; } }
+  @media only screen and (min-width: 1900px) {
+    .main_landing .image_wrapper {
+      height: 73%;
+      width: 85%; }
+    .main_landing .main_heading .typed {
+      font-size: 99.07px; }
+    .main_landing .main_heading .typed-cursor {
+      font-size: 99.07px; }
+    .main_landing .main_heading .line2 {
+      font-size: 142.66px; } }
+  @media only screen and (min-width: 2560px) {
+    .main_landing .image_wrapper {
+      width: 82%; }
+    .main_landing .main_heading .typed {
+      line-height: 120%; }
+    .main_landing .main_heading .line2 {
+      line-height: 120%; } }
 
 .about_section {
   padding-top: 130px;
@@ -526,7 +568,7 @@
           font-size: 47.78px; }
         .services .service_landing .heading_wrapper .line2,
         .services .service_landing .heading_wrapper .pink_dot {
-          font-size: 68.8px; }
+          font-size: 47.78px; }
         .services .service_landing .heading_wrapper .pink_dot {
           margin-left: -12px; }
       .services .services_content {
