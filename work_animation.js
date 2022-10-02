@@ -51,7 +51,7 @@ tl3.from(".down_arrow", {
 
 const tl4 = gsap.timeline({
   defaults: {
-    duration: 0.8,
+    duration: 0.5,
     y: -20,
     stagger: 0.2,
     opacity: 0,
@@ -65,7 +65,9 @@ const tl4 = gsap.timeline({
 });
 
 tl4
-  .from(".about_food", {})
+  .from(".about_food", {
+    delay: 0.5,
+  })
 
   .from(".year", {}, "-=0.2")
   .from(".tech", {}, "-=0.2")
@@ -73,3 +75,27 @@ tl4
   .from(".code", {}, "-=0.2");
 
 // project images animation
+
+const tl5 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".work_images",
+    markers: true,
+  },
+});
+
+ScrollTrigger.batch(".small_image", {
+  onEnter: (batch) => {
+    batch.forEach((small_image, index) =>
+      gsap.from(small_image, {
+        duration: 0.8,
+        opacity: 0,
+        // y: 0,
+        scale: 0.9,
+        stagger: 0.5,
+        delay: index * 0.3,
+        ease: "power2.easeOut",
+      })
+    );
+  },
+  once: true,
+});
