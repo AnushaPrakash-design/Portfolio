@@ -15,11 +15,6 @@ landingAnimation
     // x: -30,
     stagger: 0.2,
     ease: "power2.easeOut",
-  })
-  .from(".content_wrapper", {
-    duration: 0.05,
-    scale: 1.05,
-    opacity: 0,
   });
 
 const tl2 = gsap.timeline();

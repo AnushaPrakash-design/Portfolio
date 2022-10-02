@@ -622,25 +622,27 @@
       .services .services_content {
         margin: 200px 0 150px; } }
   @media only screen and (min-width: 1900px) {
-    .services .service_landing {
-      height: 50vh;
-      width: 53vw; }
-      .services .service_landing .image_wrapper .single_words {
-        top: -20%;
-        left: 0%;
-        width: 55vw;
-        height: 140%; }
-        .services .service_landing .image_wrapper .single_words h2 {
+    .services {
+      padding-top: 280px; }
+      .services .service_landing {
+        height: 50vh;
+        width: 53vw; }
+        .services .service_landing .image_wrapper .single_words {
+          top: -20%;
+          left: 0%;
+          width: 55vw;
+          height: 140%; }
+          .services .service_landing .image_wrapper .single_words h2 {
+            font-size: 118.88px; }
+        .services .service_landing .heading_wrapper .line1 {
+          font-size: 82.56px; }
+        .services .service_landing .heading_wrapper .line2,
+        .services .service_landing .heading_wrapper .pink_dot {
           font-size: 118.88px; }
-      .services .service_landing .heading_wrapper .line1 {
-        font-size: 82.56px; }
-      .services .service_landing .heading_wrapper .line2,
-      .services .service_landing .heading_wrapper .pink_dot {
-        font-size: 118.88px; }
-      .services .service_landing .heading_wrapper .pink_dot {
-        margin-left: -25px; }
-    .services .services_content {
-      margin: 220px 0 120px; } }
+        .services .service_landing .heading_wrapper .pink_dot {
+          margin-left: -25px; }
+      .services .services_content {
+        margin: 220px 0 120px; } }
   @media only screen and (min-width: 2560px) {
     .services .service_landing {
       height: 48vh;
