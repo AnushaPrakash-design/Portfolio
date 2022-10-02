@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 const landingAnimation = gsap.timeline();
 
-// Landing section Animation
+// Work Landing section Animation
 
 landingAnimation
   .from(".landing_image", {
@@ -24,16 +24,29 @@ tl2
     duration: 0.8,
     opacity: 0,
     y: -20,
-    ease: "power1.easeOut",
+    ease: "power2.easeOut",
     delay: 0.3,
   })
   .from(
     ".line2",
     {
-      duration: 0.8,
+      duration: 1,
       opacity: 0,
       y: -20,
-      ease: "power1.easeOut",
+      ease: "power2.easeOut",
     },
     "-=0.5"
   );
+
+const tl3 = gsap.timeline();
+
+tl3.from(".down_arrow", {
+  duration: 2,
+  opacity: 0,
+  y: -10,
+  repeat: 1000,
+  yolo: true,
+  stagger: 0.2,
+  // ease: "power2.easeOut",
+  ease: "elastic.out(1, 0.3)",
+});
