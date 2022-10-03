@@ -103,17 +103,38 @@ ScrollTrigger.batch(".small_image", {
 // Next Project content animation
 
 const tl6 = gsap.timeline({
+  defaults: {
+    duration: 0.5,
+    x: -30,
+    stagger: 0.2,
+    opacity: 0,
+    ease: "power2.easeOut",
+  },
+
   scrollTrigger: {
     trigger: ".next",
     // markers: true,
   },
 });
 
-tl6.from(".next_link", {
-  duration: 1,
-  opacity: 0,
-  x: -30,
-  ease: "power2.easeOut",
+tl6.from("h4", {
+  delay: 0.3,
+});
+tl6.from(".next_link", {}, "-=0.1");
 
-  delay: 0.5,
+// Social media icons animation
+
+const tl7 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".footer",
+    // markers: true,
+  },
+});
+
+tl7.from(".icons a img", {
+  duration: 0.8,
+  x: -10,
+  stagger: 0.2,
+  opacity: 0,
+  ease: "power2.easeOut",
 });
