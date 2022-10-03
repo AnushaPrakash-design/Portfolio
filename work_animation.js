@@ -49,30 +49,29 @@ tl3.from(".down_arrow", {
 
 // Project detail animation
 
-const tl4 = gsap.timeline({
-  defaults: {
-    duration: 0.5,
-    y: -20,
-    stagger: 0.2,
-    opacity: 0,
-    ease: "power2.easeOut",
-  },
+// const tl4 = gsap.timeline({
+//   defaults: {
+//     duration: 0.5,
+//     y: -20,
+//     stagger: 0.2,
+//     opacity: 0,
+//     ease: "power2.easeOut",
+//   },
 
-  scrollTrigger: {
-    trigger: ".project_details",
-    // markers: true,
-  },
-});
+//   scrollTrigger: {
+//     trigger: ".project_details",
+//     // markers: true,
+//   },
+// });
 
-tl4
-  .from(".about_food", {
-    delay: 0.5,
-  })
+// tl4.from(".about_food", {
+//   delay: 0.5,
+// });
 
-  .from(".year", {}, "-=0.2")
-  .from(".tech", {}, "-=0.2")
-  .from(".livesite", {}, "-=0.2")
-  .from(".code", {}, "-=0.2");
+// .from(".year", {}, "-=0.2");
+// .from(".tech", {}, "-=0.2")
+// .from(".livesite", {}, "-=0.2")
+// .from(".code", {}, "-=0.2");
 
 // project images animation
 
@@ -124,17 +123,17 @@ tl6.from(".next_link", {}, "-=0.1");
 
 // Social media icons animation
 
-const tl7 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".footer",
-    // markers: true,
-  },
-});
+// const tl7 = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".footer",
+//     // markers: true,
+//   },
+// });
 
-tl7.from(".icons a img", {
-  duration: 0.8,
-  x: -10,
-  stagger: 0.2,
-  opacity: 0,
-  ease: "power2.easeOut",
-});
+// tl7.from(".icons a img", {
+//   duration: 0.8,
+//   x: -10,
+//   stagger: 0.2,
+//   opacity: 0,
+//   ease: "power2.easeOut",
+// });
