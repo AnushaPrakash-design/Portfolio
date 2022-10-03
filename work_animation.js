@@ -79,7 +79,7 @@ tl4
 const tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".work_images",
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -91,11 +91,29 @@ ScrollTrigger.batch(".small_image", {
         opacity: 0,
         // y: 0,
         scale: 0.9,
-        stagger: 0.5,
+        stagger: 0.2,
         delay: index * 0.3,
-        ease: "power2.easeOut",
+        ease: "power2.out",
       })
     );
   },
   once: true,
+});
+
+// Next Project content animation
+
+const tl6 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".next",
+    // markers: true,
+  },
+});
+
+tl6.from(".next_link", {
+  duration: 1,
+  opacity: 0,
+  x: -30,
+  ease: "power2.easeOut",
+
+  delay: 0.5,
 });
