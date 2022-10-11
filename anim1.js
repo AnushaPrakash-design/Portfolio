@@ -34,7 +34,7 @@ tl3.from(".down_arrow", {
 const tl4 = gsap.timeline({
   scrollTrigger: {
     trigger: ".about_section",
-    markers: true,
+    // markers: true,
   },
 });
 

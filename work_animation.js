@@ -8,7 +8,7 @@ WorkAnimation.from(".landing_image", {
   scale: 1.05,
   opacity: 0,
 }).from(".single_words h2", {
-  duration: 1,
+  duration: 1.2,
   opacity: 0,
   // x: -30,
   stagger: 0.2,

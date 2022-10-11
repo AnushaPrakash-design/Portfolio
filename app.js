@@ -1,12 +1,15 @@
 // PRELOADER
+const bodyDomPre = document.querySelector("body");
 
 document.onreadystatechange = function () {
   if (document.readyState !== "complete") {
     document.querySelector("body").style.visibility = "hidden";
     document.querySelector("#preloader").style.visibility = "visible";
+    bodyDomPre.classList.toggle("no-scroll");
   } else {
     document.querySelector("#preloader").style.display = "none";
     document.querySelector("body").style.visibility = "visible";
+    bodyDomPre.classList.remove("no-scroll");
   }
 };
 
