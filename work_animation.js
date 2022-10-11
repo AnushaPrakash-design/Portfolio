@@ -103,8 +103,8 @@ ScrollTrigger.batch(".small_image", {
 
 const tl6 = gsap.timeline({
   defaults: {
-    duration: 0.5,
-    x: -30,
+    // duration: 0.5,
+    // x: -30,
     stagger: 0.2,
     opacity: 0,
     ease: "power2.easeOut",
@@ -117,9 +117,17 @@ const tl6 = gsap.timeline({
 });
 
 tl6.from("h4", {
-  delay: 0.3,
+  y: -20,
+  duration: 0.8,
 });
-tl6.from(".next_link", {}, "-=0.1");
+tl6.from(
+  ".next_link",
+  {
+    // delay: 0.1,
+    duration: 1,
+  },
+  "-=0.1"
+);
 
 // Social media icons animation
 
@@ -137,3 +145,16 @@ tl6.from(".next_link", {}, "-=0.1");
 //   opacity: 0,
 //   ease: "power2.easeOut",
 // });
+
+const tl8 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".center",
+  },
+});
+tl8.from(".center img", {
+  duration: 2,
+  // y: -30,
+  opacity: 0,
+  ease: "power2.easeOut",
+  repeat: 100,
+});

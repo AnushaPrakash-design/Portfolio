@@ -45,12 +45,13 @@ html::-webkit-scrollbar-thumb:hover {
   top: 0;
   left: 0;
   position: fixed;
-  z-index: 999999;
+  z-index: 100;
   // position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  // background: no-repeat;
   // overflow-y: hidden;
   // overflow: hidden;
   img {
