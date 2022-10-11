@@ -146,6 +146,8 @@ tl6.from(
 //   ease: "power2.easeOut",
 // });
 
+// Preloader animation
+
 const tl8 = gsap.timeline({
   scrollTrigger: {
     trigger: ".center",
