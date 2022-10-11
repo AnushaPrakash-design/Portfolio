@@ -30,3 +30,18 @@ tl3.from(".down_arrow", {
 });
 
 // About section Animation
+
+const tl4 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".about_section",
+    markers: true,
+  },
+});
+
+tl4.from(".about_line1", {
+  duration: 0.8,
+  opacity: 0,
+  x: -50,
+  ease: "power2.easeOut",
+  delay: 0.3,
+});

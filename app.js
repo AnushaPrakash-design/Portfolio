@@ -1,17 +1,27 @@
 // PRELOADER
 
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function () {
-  loader.style.display = "none";
-  // setTimeout(function () {
-  // 	preloader(secs + 1);
-  // }, 3000);
-  window.onload = function () {
-    setInterval(function () {
-      alert("Hello");
-    }, 10000);
-  };
-});
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+    document.querySelector("body").style.visibility = "hidden";
+    document.querySelector("#preloader").style.visibility = "visible";
+  } else {
+    document.querySelector("#preloader").style.display = "none";
+    document.querySelector("body").style.visibility = "visible";
+  }
+};
+
+// var loader = document.getElementById("preloader");
+// window.addEventListener("load", function () {
+//   loader.style.display = "none";
+//   // setTimeout(function () {
+//   // 	preloader(secs + 1);
+//   // }, 3000);
+//   window.onload = function () {
+//     setInterval(function () {
+//       alert("Hello");
+//     }, 10000);
+//   };
+// });
 
 // When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 let lastScrollTop;
@@ -79,6 +89,8 @@ window.addEventListener("resize", () => {
   setHeight(vH);
   // console.log(measureHeight());
 });
+
+// landing page typing effect
 
 const typed = new Typed(".typed", {
   strings: ["Design", "Code", "Life"],

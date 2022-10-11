@@ -23,7 +23,7 @@ tl2
     opacity: 0,
     y: -20,
     ease: "power2.easeOut",
-    delay: 0.3,
+    delay: 0.6,
   })
   .from(
     ".line2",
@@ -32,8 +32,8 @@ tl2
       opacity: 0,
       y: -20,
       ease: "power2.easeOut",
-    },
-    "-=0.5"
+    }
+    // "-=1"
   );
 
 const tl3 = gsap.timeline();
