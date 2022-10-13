@@ -97,7 +97,7 @@ window.addEventListener("resize", () => {
 
 const typed = new Typed(".typed", {
   strings: ["Design", "Code", "Life"],
-  typeSpeed: 80,
+  typeSpeed: 100,
   backspeed: 120,
   loop: true,
   smartBackspace: true,

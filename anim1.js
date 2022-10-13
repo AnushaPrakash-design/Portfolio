@@ -1,13 +1,15 @@
 gsap.registerPlugin(ScrollTrigger);
-const landingAnimation = gsap.timeline();
 
-// Landing section Animation
+// <!-- LANDING ANIMATION-->
 
-landingAnimation.from(".landing_image", {
+const tl1 = gsap.timeline();
+
+tl1.from(".landing_image", {
   duration: 0.8,
-  scale: 1.05,
+  scale: 1.2,
   opacity: 0,
   ease: "power2.easeOut",
+  // delay: 0.3,
 });
 
 const tl2 = gsap.timeline({
@@ -18,11 +20,12 @@ const tl2 = gsap.timeline({
 });
 
 tl2.from(".landing_line2", {
-  duration: 1.5,
+  duration: 1,
   opacity: 0,
-  scale: 0.95,
-  // x: -50,
+  scale: 0.8,
+  // y: 50,
   ease: "power2.easeOut",
+  delay: 0.3,
 });
 
 const tl3 = gsap.timeline();
@@ -30,18 +33,36 @@ const tl3 = gsap.timeline();
 tl3.from(".down_arrow", {
   duration: 1.5,
   opacity: 0,
-  y: -20,
+  y: -30,
   repeat: 1000,
-  stagger: 0.2,
+  // stagger: 0.2,
   ease: "back.out(1.7)",
 });
 
-// About section Animation
+// // <!-- ABOUT ANIMATION-->
 
-const tl4 = gsap.timeline({
+// const tl4 = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".about_section",
+//     // markers: true,
+//     start: "top center",
+//   },
+// });
+
+// tl4
+//   .from(".about_image", {
+//     duration: 0.8,
+//     opacity: 0,
+//     // scale: 0.9,
+//     // y: 50,
+//     ease: "power2.easeOut",
+//     // delay: 0.3,
+//   });
+
+const tl5 = gsap.timeline({
   defaults: {
     duration: 0.8,
-    y: -20,
+    y: 25,
     // stagger: 0.2,
     opacity: 0,
     ease: "power2.easeOut",
@@ -52,16 +73,23 @@ const tl4 = gsap.timeline({
   },
 });
 
-tl4
+tl5
   .from(".about_line1 ", {
-    delay: 0.2,
+    delay: 0.5,
   })
-  .from(".about_line2", {});
+  .from(
+    ".about_line2",
+    {
+      delay: 0.3,
+    },
+    "-=0.2"
+  );
+
 // .from(".single_words h2", {}, "-=1.5");
 
-// Service section Animation
+// // Service section Animation
 
-const tl5 = gsap.timeline({
+const tl6 = gsap.timeline({
   defaults: {
     duration: 0.8,
     opacity: 0,
@@ -69,73 +97,73 @@ const tl5 = gsap.timeline({
   },
   scrollTrigger: {
     trigger: ".services .image_wrapper ",
-    // markers: true,
+    markers: true,
   },
 });
 
-tl5
-  .from(".service_img img", {
-    scale: 0.9,
+tl6
+  .from(".service_img img  ", {
+    scale: 0.8,
   })
-  .from(".service_line1", { y: -20 })
-  .from(".service_line2", { y: -20 });
+  .from(".service_line1", { y: 25 })
+  .from(".service_line2", { y: 25 }, "-=0.4");
 
-const tl6 = gsap.timeline({
-  defaults: {
-    duration: 0.8,
-    x: -20,
-    opacity: 0,
-    stagger: 0.05,
-    ease: "power2.easeOut",
-  },
-  scrollTrigger: {
-    trigger: ".services_content",
-    // markers: true,
-  },
-});
+// const tl7 = gsap.timeline({
+//   defaults: {
+//     duration: 0.8,
+//     x: -20,
+//     opacity: 0,
+//     stagger: 0.05,
+//     ease: "power2.easeOut",
+//   },
+//   scrollTrigger: {
+//     trigger: ".services_content",
+//     // markers: true,
+//   },
+// });
 
-tl6.from(".part1", {}).from(".part2", {}).from(".part3", {});
+// tl7.from(".part1", {}).from(".part2", {}).from(".part3", {});
 
-// Contact section Animation
+// // Contact section Animation
 
-const tl7 = gsap.timeline({
-  defaults: {
-    duration: 0.8,
-    y: -20,
-    opacity: 0,
-    // stagger: 0.2,
-    ease: "power2.easeOut",
-  },
-  scrollTrigger: {
-    trigger: ".contact_content ",
-    // markers: true,
-  },
-});
+// const tl7 = gsap.timeline({
+//   defaults: {
+//     duration: 0.8,
+//     y: -20,
+//     opacity: 0,
+//     // stagger: 0.2,
+//     ease: "power2.easeOut",
+//   },
+//   scrollTrigger: {
+//     trigger: ".contact_content ",
+//     // markers: true,
+//   },
+// });
 
-tl7
-  .from(".contact_line1", {
-    delay: 0.5,
-  })
-  .from(".contact_line2", {}, "-=0.2")
-  .from(".contact_line3", {}, "-=0.2");
+// tl7
+//   .from(".contact_line1", {
+//     delay: 0.5,
+//   })
+//   .from(".contact_line2", {}, "-=0.2")
+//   .from(".contact_line3", {}, "-=0.2");
 
-// Social media icons animation
+// // Social media icons animation
 
-const tl8 = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".contact_footer",
-    // markers: true,
-  },
-});
+// const tl8 = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".contact_footer",
+//     // markers: true,
+//   },
+// });
 
-tl8.from(".icons a img", {
-  // delay: 1,
-  duration: 0.8,
-  x: -10,
-  stagger: 0.2,
-  opacity: 0,
-  ease: "power2.easeOut",
-});
+// tl8.from(".icons a img", {
+//   // delay: 1,
+//   duration: 0.8,
+//   x: -10,
+//   stagger: 0.2,
+//   opacity: 0,
+//   ease: "power2.easeOut",
+// });
 
 // Preloader animation
 
