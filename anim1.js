@@ -136,3 +136,18 @@ tl8.from(".icons a img", {
   opacity: 0,
   ease: "power2.easeOut",
 });
+
+// Preloader animation
+
+const tl9 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".center",
+  },
+});
+tl9.from(".center img", {
+  duration: 2,
+  // y: -30,
+  opacity: 0,
+  ease: "power2.easeOut",
+  repeat: 100,
+});

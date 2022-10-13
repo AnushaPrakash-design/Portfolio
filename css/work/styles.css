@@ -1352,6 +1352,8 @@ p {
           font-size: 16px;
           color: #ff0072;
           opacity: 0.5; }
+        .hamburger_container .main_nav li .nav_links .num_one {
+          margin-right: 8px; }
         .hamburger_container .main_nav li .nav_links .left_word,
         .hamburger_container .main_nav li .nav_links .right_word {
           font-style: normal;
@@ -1393,6 +1395,11 @@ p {
       .hamburger_container .main_nav .word3 .nav_links .numbers,
       .hamburger_container .main_nav .word4 .nav_links .numbers {
         font-size: 19.2px; }
+      .hamburger_container .main_nav .word1 .nav_links .num_one,
+      .hamburger_container .main_nav .word2 .nav_links .num_one,
+      .hamburger_container .main_nav .word3 .nav_links .num_one,
+      .hamburger_container .main_nav .word4 .nav_links .num_one {
+        margin-right: 15px; }
       .hamburger_container .main_nav .word1 .nav_links .left_word,
       .hamburger_container .main_nav .word1 .nav_links .right_word,
       .hamburger_container .main_nav .word2 .nav_links .left_word,
@@ -1425,6 +1432,11 @@ p {
       .hamburger_container .main_nav .word3 .nav_links .numbers,
       .hamburger_container .main_nav .word4 .nav_links .numbers {
         font-size: 23.04px; }
+      .hamburger_container .main_nav .word1 .nav_links .num_one,
+      .hamburger_container .main_nav .word2 .nav_links .num_one,
+      .hamburger_container .main_nav .word3 .nav_links .num_one,
+      .hamburger_container .main_nav .word4 .nav_links .num_one {
+        margin-right: 20px; }
       .hamburger_container .main_nav .word1 .nav_links .left_word,
       .hamburger_container .main_nav .word1 .nav_links .right_word,
       .hamburger_container .main_nav .word2 .nav_links .left_word,
@@ -2205,6 +2217,8 @@ p {
           font-size: 16px;
           color: #ff0072;
           opacity: 0.5; }
+        .hamburger_container .main_nav li .nav_links .num_one {
+          margin-right: 8px; }
         .hamburger_container .main_nav li .nav_links .left_word,
         .hamburger_container .main_nav li .nav_links .right_word {
           font-style: normal;
@@ -2246,6 +2260,11 @@ p {
       .hamburger_container .main_nav .word3 .nav_links .numbers,
       .hamburger_container .main_nav .word4 .nav_links .numbers {
         font-size: 19.2px; }
+      .hamburger_container .main_nav .word1 .nav_links .num_one,
+      .hamburger_container .main_nav .word2 .nav_links .num_one,
+      .hamburger_container .main_nav .word3 .nav_links .num_one,
+      .hamburger_container .main_nav .word4 .nav_links .num_one {
+        margin-right: 15px; }
       .hamburger_container .main_nav .word1 .nav_links .left_word,
       .hamburger_container .main_nav .word1 .nav_links .right_word,
       .hamburger_container .main_nav .word2 .nav_links .left_word,
@@ -2278,6 +2297,11 @@ p {
       .hamburger_container .main_nav .word3 .nav_links .numbers,
       .hamburger_container .main_nav .word4 .nav_links .numbers {
         font-size: 23.04px; }
+      .hamburger_container .main_nav .word1 .nav_links .num_one,
+      .hamburger_container .main_nav .word2 .nav_links .num_one,
+      .hamburger_container .main_nav .word3 .nav_links .num_one,
+      .hamburger_container .main_nav .word4 .nav_links .num_one {
+        margin-right: 20px; }
       .hamburger_container .main_nav .word1 .nav_links .left_word,
       .hamburger_container .main_nav .word1 .nav_links .right_word,
       .hamburger_container .main_nav .word2 .nav_links .left_word,
