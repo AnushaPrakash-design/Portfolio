@@ -11,15 +11,15 @@
   opacity: 0;
 
   pointer-events: none;
-  // transform: scale(1.1);
+  transform: scale(1.1);
 
-  // transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
   // display: none;
 
   &.active {
     left: 0;
     opacity: 1;
-    // transform: scale(1);
+    transform: scale(1);
     // display: block;
     .main_nav {
       pointer-events: all;

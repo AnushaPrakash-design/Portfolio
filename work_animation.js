@@ -105,7 +105,7 @@ const tl6 = gsap.timeline({
   defaults: {
     // duration: 0.5,
     // x: -30,
-    stagger: 0.2,
+    stagger: 0.6,
     opacity: 0,
     ease: "power2.easeOut",
   },
@@ -117,14 +117,15 @@ const tl6 = gsap.timeline({
 });
 
 tl6.from("h4", {
-  y: -20,
-  duration: 0.8,
+  y: 30,
+  duration: 1,
 });
 tl6.from(
   ".next_link",
   {
     // delay: 0.1,
     duration: 1,
+    scale: 0.9,
   },
   "-=0.1"
 );

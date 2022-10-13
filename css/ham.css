@@ -7,13 +7,16 @@
   left: 0;
   opacity: 0;
   pointer-events: none;
+  transform: scale(1.1);
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
   .hamburger_container.active {
     left: 0;
-    opacity: 1; }
+    opacity: 1;
+    transform: scale(1); }
     .hamburger_container.active .main_nav {
       pointer-events: all; }
   .hamburger_container h2 {

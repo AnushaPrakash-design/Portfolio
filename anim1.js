@@ -20,9 +20,9 @@ const tl2 = gsap.timeline({
 });
 
 tl2.from(".landing_line2", {
-  duration: 1,
+  duration: 1.2,
   opacity: 0,
-  scale: 0.8,
+  scale: 0.9,
   // y: 50,
   ease: "power2.easeOut",
   delay: 0.3,
@@ -63,7 +63,6 @@ const tl5 = gsap.timeline({
   defaults: {
     duration: 0.8,
     y: 25,
-    // stagger: 0.2,
     opacity: 0,
     ease: "power2.easeOut",
   },
@@ -75,14 +74,14 @@ const tl5 = gsap.timeline({
 
 tl5
   .from(".about_line1 ", {
-    delay: 0.5,
+    delay: 0.1,
   })
   .from(
     ".about_line2",
     {
-      delay: 0.3,
+      delay: 0.1,
     },
-    "-=0.2"
+    "-=0.4"
   );
 
 // .from(".single_words h2", {}, "-=1.5");
