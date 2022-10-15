@@ -20,12 +20,12 @@ const tl2 = gsap.timeline({
 });
 
 tl2.from(".landing_line2", {
-  duration: 1.2,
+  duration: 1.5,
   opacity: 0,
-  scale: 0.9,
+  // scale: 0.9,
   // y: 50,
   ease: "power2.easeOut",
-  delay: 0.3,
+  delay: 0.5,
 });
 
 const tl3 = gsap.timeline();
@@ -104,8 +104,8 @@ tl6
   .from(".service_img img  ", {
     scale: 0.8,
   })
-  .from(".service_line1", { y: 25 })
-  .from(".service_line2", { y: 25 }, "-=0.4");
+  .from(".service_line1", { y: 10 })
+  .from(".service_line2", { y: 10 }, "-=0.4");
 
 const tl7 = gsap.timeline({
   scrollTrigger: {
@@ -116,7 +116,8 @@ const tl7 = gsap.timeline({
 
 tl7.from(".part1", {
   duration: 0.8,
-  x: -20,
+  y: 10,
+
   opacity: 0,
   stagger: 0.05,
   ease: "power2.easeOut",
@@ -132,7 +133,8 @@ const tl8 = gsap.timeline({
 
 tl8.from(".part2", {
   duration: 0.8,
-  x: -20,
+  y: 10,
+
   opacity: 0,
   stagger: 0.05,
   ease: "power2.easeOut",
@@ -148,7 +150,7 @@ const tl9 = gsap.timeline({
 
 tl9.from(".part3", {
   duration: 0.8,
-  x: -20,
+  y: 10,
   opacity: 0,
   stagger: 0.05,
   ease: "power2.easeOut",
@@ -176,7 +178,7 @@ tl9.from(".part3", {
 const tl10 = gsap.timeline({
   defaults: {
     duration: 0.8,
-    y: -20,
+    y: -10,
     opacity: 0,
     // stagger: 0.2,
     ease: "power2.easeOut",
@@ -191,14 +193,14 @@ tl10
   .from(".contact_line1", {
     delay: 0.5,
   })
-  .from(".contact_line2", {}, "-=0.2")
-  .from(".contact_line3", {}, "-=0.2")
+  .from(".contact_line2", {}, "-=0.4")
+  .from(".contact_line3", {}, "-=0.4")
   .from(
     ".contact_w1",
     {
       y: 0,
     },
-    "-=0.2"
+    "-=0.3"
   );
 
 // // Social media icons animation

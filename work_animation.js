@@ -39,11 +39,11 @@ tl2
 const tl3 = gsap.timeline();
 
 tl3.from(".down_arrow", {
-  duration: 2,
+  duration: 1.5,
   opacity: 0,
-  y: -10,
+  y: -30,
   repeat: 1000,
-  stagger: 0.2,
+  // stagger: 0.2,
   ease: "back.out(1.7)",
 });
 
@@ -105,7 +105,7 @@ const tl6 = gsap.timeline({
   defaults: {
     // duration: 0.5,
     // x: -30,
-    stagger: 0.6,
+    // stagger: 0.6,
     opacity: 0,
     ease: "power2.easeOut",
   },
@@ -125,7 +125,7 @@ tl6.from(
   {
     // delay: 0.1,
     duration: 1,
-    scale: 0.9,
+    // scale: 0.9,
   },
   "-=0.1"
 );
