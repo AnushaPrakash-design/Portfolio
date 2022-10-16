@@ -502,7 +502,7 @@
           height: 100%;
           top: 0;
           background: #0a0908;
-          opacity: 0.7;
+          opacity: 0.65;
           border-radius: 18px; }
     .services .service_landing .heading_wrapper {
       position: absolute;
@@ -819,7 +819,7 @@
   .project_section .resetdata .ui_ux_image img,
   .project_section .rapid_wireless .ui_ux_image img,
   .project_section .ui_ux .ui_ux_image img {
-    opacity: 0.7; }
+    opacity: 0.75; }
   .project_section .food .main_text,
   .project_section .torii .main_text,
   .project_section .firewatch .main_text,
