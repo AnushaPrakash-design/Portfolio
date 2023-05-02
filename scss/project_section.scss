@@ -61,13 +61,15 @@
       line-height: 90%;
       text-align: center;
 
-      a {
+      .text {
         text-decoration: none;
-        padding-right: 16px;
-        width: max-content;
+        padding-right: 10px;
       }
-      img {
-        width: 15px;
+      .arrow {
+        img {
+          width: 8px;
+          padding-top: 5px;
+        }
       }
     }
   }
@@ -80,8 +82,15 @@
     .ui_ux {
       .main_text {
         font-size: 99.07px;
-        a {
+
+        .text {
           padding-right: 24px;
+        }
+        .arrow {
+          img {
+            width: 20px;
+            padding-top: 12px;
+          }
         }
       }
     }
@@ -104,6 +113,16 @@
       }
       .main_text {
         font-size: 118.88px;
+
+        .text {
+          padding-right: 30px;
+        }
+        .arrow {
+          img {
+            // width: 25px;
+            padding-top: 15px;
+          }
+        }
       }
     }
   }
@@ -116,6 +135,16 @@
     .ui_ux {
       .main_text {
         font-size: 142.66px;
+
+        .text {
+          padding-right: 40px;
+        }
+        .arrow {
+          img {
+            // width: 40px;
+            padding-top: 20px;
+          }
+        }
       }
     }
   }

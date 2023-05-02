@@ -266,7 +266,7 @@
     padding-bottom: 30px; }
     .about_section .bottom p {
       opacity: 0.5;
-      font-size: 16px; }
+      font-size: 14px; }
   @media only screen and (min-width: 500px) {
     .about_section .top .content_wrapper p {
       width: 65vw; } }
@@ -836,22 +836,22 @@
     text-decoration: none;
     line-height: 90%;
     text-align: center; }
-    .project_section .food .main_text a,
-    .project_section .torii .main_text a,
-    .project_section .firewatch .main_text a,
-    .project_section .resetdata .main_text a,
-    .project_section .rapid_wireless .main_text a,
-    .project_section .ui_ux .main_text a {
+    .project_section .food .main_text .text,
+    .project_section .torii .main_text .text,
+    .project_section .firewatch .main_text .text,
+    .project_section .resetdata .main_text .text,
+    .project_section .rapid_wireless .main_text .text,
+    .project_section .ui_ux .main_text .text {
       text-decoration: none;
-      padding-right: 16px;
-      width: max-content; }
-    .project_section .food .main_text img,
-    .project_section .torii .main_text img,
-    .project_section .firewatch .main_text img,
-    .project_section .resetdata .main_text img,
-    .project_section .rapid_wireless .main_text img,
-    .project_section .ui_ux .main_text img {
-      width: 15px; }
+      padding-right: 10px; }
+    .project_section .food .main_text .arrow img,
+    .project_section .torii .main_text .arrow img,
+    .project_section .firewatch .main_text .arrow img,
+    .project_section .resetdata .main_text .arrow img,
+    .project_section .rapid_wireless .main_text .arrow img,
+    .project_section .ui_ux .main_text .arrow img {
+      width: 8px;
+      padding-top: 5px; }
 
 @media only screen and (min-width: 700px) {
   .project_section .food .main_text,
@@ -861,13 +861,21 @@
   .project_section .rapid_wireless .main_text,
   .project_section .ui_ux .main_text {
     font-size: 99.07px; }
-    .project_section .food .main_text a,
-    .project_section .torii .main_text a,
-    .project_section .firewatch .main_text a,
-    .project_section .resetdata .main_text a,
-    .project_section .rapid_wireless .main_text a,
-    .project_section .ui_ux .main_text a {
-      padding-right: 24px; } }
+    .project_section .food .main_text .text,
+    .project_section .torii .main_text .text,
+    .project_section .firewatch .main_text .text,
+    .project_section .resetdata .main_text .text,
+    .project_section .rapid_wireless .main_text .text,
+    .project_section .ui_ux .main_text .text {
+      padding-right: 24px; }
+    .project_section .food .main_text .arrow img,
+    .project_section .torii .main_text .arrow img,
+    .project_section .firewatch .main_text .arrow img,
+    .project_section .resetdata .main_text .arrow img,
+    .project_section .rapid_wireless .main_text .arrow img,
+    .project_section .ui_ux .main_text .arrow img {
+      width: 20px;
+      padding-top: 12px; } }
 
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
   .project_section .food .food_image .small_img,
@@ -890,7 +898,21 @@
   .project_section .resetdata .main_text,
   .project_section .rapid_wireless .main_text,
   .project_section .ui_ux .main_text {
-    font-size: 118.88px; } }
+    font-size: 118.88px; }
+    .project_section .food .main_text .text,
+    .project_section .torii .main_text .text,
+    .project_section .firewatch .main_text .text,
+    .project_section .resetdata .main_text .text,
+    .project_section .rapid_wireless .main_text .text,
+    .project_section .ui_ux .main_text .text {
+      padding-right: 30px; }
+    .project_section .food .main_text .arrow img,
+    .project_section .torii .main_text .arrow img,
+    .project_section .firewatch .main_text .arrow img,
+    .project_section .resetdata .main_text .arrow img,
+    .project_section .rapid_wireless .main_text .arrow img,
+    .project_section .ui_ux .main_text .arrow img {
+      padding-top: 15px; } }
 
 @media only screen and (min-width: 1900px) {
   .project_section .food .main_text,
@@ -899,7 +921,21 @@
   .project_section .resetdata .main_text,
   .project_section .rapid_wireless .main_text,
   .project_section .ui_ux .main_text {
-    font-size: 142.66px; } }
+    font-size: 142.66px; }
+    .project_section .food .main_text .text,
+    .project_section .torii .main_text .text,
+    .project_section .firewatch .main_text .text,
+    .project_section .resetdata .main_text .text,
+    .project_section .rapid_wireless .main_text .text,
+    .project_section .ui_ux .main_text .text {
+      padding-right: 40px; }
+    .project_section .food .main_text .arrow img,
+    .project_section .torii .main_text .arrow img,
+    .project_section .firewatch .main_text .arrow img,
+    .project_section .resetdata .main_text .arrow img,
+    .project_section .rapid_wireless .main_text .arrow img,
+    .project_section .ui_ux .main_text .arrow img {
+      padding-top: 20px; } }
 
 .contact_wrapper {
   position: relative;
