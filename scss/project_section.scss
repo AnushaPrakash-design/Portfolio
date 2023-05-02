@@ -50,6 +50,8 @@
       }
     }
     .main_text {
+      display: flex;
+      align-items: center;
       position: absolute;
       font-family: Montserrat;
       font-weight: 800;
@@ -58,6 +60,15 @@
       text-decoration: none;
       line-height: 90%;
       text-align: center;
+
+      a {
+        text-decoration: none;
+        padding-right: 16px;
+        width: max-content;
+      }
+      img {
+        width: 15px;
+      }
     }
   }
   @media only screen and (min-width: 700px) {
@@ -69,6 +80,9 @@
     .ui_ux {
       .main_text {
         font-size: 99.07px;
+        a {
+          padding-right: 24px;
+        }
       }
     }
   }

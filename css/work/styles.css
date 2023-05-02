@@ -267,7 +267,7 @@
     padding-bottom: 30px; }
     .about_section .bottom p {
       opacity: 0.5;
-      font-size: 14px; }
+      font-size: 16px; }
   @media only screen and (min-width: 500px) {
     .about_section .top .content_wrapper p {
       width: 65vw; } }
@@ -827,6 +827,8 @@
   .project_section .resetdata .main_text,
   .project_section .rapid_wireless .main_text,
   .project_section .ui_ux .main_text {
+    display: flex;
+    align-items: center;
     position: absolute;
     font-family: Montserrat;
     font-weight: 800;
@@ -835,6 +837,22 @@
     text-decoration: none;
     line-height: 90%;
     text-align: center; }
+    .project_section .food .main_text a,
+    .project_section .torii .main_text a,
+    .project_section .firewatch .main_text a,
+    .project_section .resetdata .main_text a,
+    .project_section .rapid_wireless .main_text a,
+    .project_section .ui_ux .main_text a {
+      text-decoration: none;
+      padding-right: 16px;
+      width: max-content; }
+    .project_section .food .main_text img,
+    .project_section .torii .main_text img,
+    .project_section .firewatch .main_text img,
+    .project_section .resetdata .main_text img,
+    .project_section .rapid_wireless .main_text img,
+    .project_section .ui_ux .main_text img {
+      width: 15px; }
 
 @media only screen and (min-width: 700px) {
   .project_section .food .main_text,
@@ -843,7 +861,14 @@
   .project_section .resetdata .main_text,
   .project_section .rapid_wireless .main_text,
   .project_section .ui_ux .main_text {
-    font-size: 99.07px; } }
+    font-size: 99.07px; }
+    .project_section .food .main_text a,
+    .project_section .torii .main_text a,
+    .project_section .firewatch .main_text a,
+    .project_section .resetdata .main_text a,
+    .project_section .rapid_wireless .main_text a,
+    .project_section .ui_ux .main_text a {
+      padding-right: 24px; } }
 
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
   .project_section .food .food_image .small_img,
