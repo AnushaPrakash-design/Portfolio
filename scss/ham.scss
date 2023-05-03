@@ -89,6 +89,32 @@
         }
       }
     }
+    .nav_word {
+      position: relative;
+      .line {
+        position: absolute;
+        top: 50%;
+        height: 12px;
+        background: #ff0072;
+        opacity: 0.5;
+        margin-top: -4px;
+        // left: 50%;
+        // transform: translateX(-50%);
+
+        width: 0;
+        transition: all 0.3s cubic-bezier(0.44, 0.02, 0.54, 0.98);
+        // transform-origin: top left;
+        &.left {
+          transform: translateX(12px);
+        }
+      }
+
+      &:hover {
+        .line {
+          width: 100%;
+        }
+      }
+    }
     .word1 {
       .nav_links {
         display: flex;

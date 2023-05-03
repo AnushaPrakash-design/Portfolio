@@ -1428,6 +1428,21 @@ p {
           font-style: italic; }
         .hamburger_container .main_nav li .nav_links .right_word {
           font-family: Poppins; }
+    .hamburger_container .main_nav .nav_word {
+      position: relative; }
+      .hamburger_container .main_nav .nav_word .line {
+        position: absolute;
+        top: 50%;
+        height: 12px;
+        background: #ff0072;
+        opacity: 0.5;
+        margin-top: -4px;
+        width: 0;
+        transition: all 0.3s cubic-bezier(0.44, 0.02, 0.54, 0.98); }
+        .hamburger_container .main_nav .nav_word .line.left {
+          transform: translateX(12px); }
+      .hamburger_container .main_nav .nav_word:hover .line {
+        width: 100%; }
     .hamburger_container .main_nav .word1 .nav_links {
       display: flex;
       align-items: flex-end;
