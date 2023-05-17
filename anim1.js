@@ -4,11 +4,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const tl1 = gsap.timeline();
 
-tl1.from(".landing_image", {
-  duration: 0.8,
-  scale: 1.2,
+tl1.from(".landing_hero_wrapper", {
+  duration: 1,
+  scale: 1.1,
   opacity: 0,
-  ease: "power2.easeOut",
+  ease: "power0.easeOut",
   // delay: 0.3,
 });
 
@@ -91,7 +91,7 @@ tl5
 const tl6 = gsap.timeline({
   defaults: {
     duration: 0.8,
-    opacity: 0,
+    // opacity: 0,
     ease: "power2.easeOut",
   },
   scrollTrigger: {
@@ -101,12 +101,14 @@ const tl6 = gsap.timeline({
 });
 
 tl6
-  .from(".service_img img  ", {
-    scale: 0.8,
-  })
-  .from(".service_line1", { y: 10 })
-  .from(".service_line2", { y: 10 }, "-=0.4");
+.from(".service_img   ", {
+  scale: 1.1,
+})
 
+.from(".service_line1", { y: 10 , opacity: 0,})
+  .from(".service_line2", { y: 10, opacity: 0, }, "-=0.4")
+ 
+  
 const tl7 = gsap.timeline({
   scrollTrigger: {
     trigger: ".services_content .part1 ",

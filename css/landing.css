@@ -6,8 +6,7 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
-  z-index: -100; }
+  justify-content: center; }
   .main_landing .image_wrapper {
     position: relative;
     height: 72.6%;
