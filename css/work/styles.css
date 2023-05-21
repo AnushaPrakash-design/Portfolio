@@ -1861,6 +1861,11 @@ p {
     #navbar nav {
       padding: 4.92vh 9.5vw 2.4vh; } }
 
+.work_landing .image_wrapper .landing_image {
+  opacity: 0.7; }
+  .work_landing .image_wrapper .landing_image .image_overlay {
+    opacity: 0.2; }
+
 .work_landing {
   height: 90vh;
   width: 100%;
@@ -2281,11 +2286,6 @@ p {
 
 .work_landing .image_wrapper .landing_image .image_overlay {
   opacity: 0.2; }
-
-.work_landing .image_wrapper .landing_image {
-  opacity: 0.7; }
-  .work_landing .image_wrapper .landing_image .image_overlay {
-    opacity: 0.2; }
 
 .swiper_container {
   position: fixed;
