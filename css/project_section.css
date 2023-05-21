@@ -1,3 +1,4 @@
+.project_section .reel_finance,
 .project_section .food,
 .project_section .torii,
 .project_section .firewatch,
@@ -12,6 +13,15 @@
   display: flex;
   align-items: center;
   justify-content: center; }
+  .project_section .reel_finance .rf_image,
+  .project_section .reel_finance .food_image,
+  .project_section .reel_finance .torii_image,
+  .project_section .reel_finance .firewatch_image,
+  .project_section .reel_finance .resetdata_image,
+  .project_section .reel_finance .rapid_wireless,
+  .project_section .reel_finance .rd_image,
+  .project_section .reel_finance .ui_ux_image,
+  .project_section .food .rf_image,
   .project_section .food .food_image,
   .project_section .food .torii_image,
   .project_section .food .firewatch_image,
@@ -19,6 +29,7 @@
   .project_section .food .rapid_wireless,
   .project_section .food .rd_image,
   .project_section .food .ui_ux_image,
+  .project_section .torii .rf_image,
   .project_section .torii .food_image,
   .project_section .torii .torii_image,
   .project_section .torii .firewatch_image,
@@ -26,6 +37,7 @@
   .project_section .torii .rapid_wireless,
   .project_section .torii .rd_image,
   .project_section .torii .ui_ux_image,
+  .project_section .firewatch .rf_image,
   .project_section .firewatch .food_image,
   .project_section .firewatch .torii_image,
   .project_section .firewatch .firewatch_image,
@@ -33,6 +45,7 @@
   .project_section .firewatch .rapid_wireless,
   .project_section .firewatch .rd_image,
   .project_section .firewatch .ui_ux_image,
+  .project_section .resetdata .rf_image,
   .project_section .resetdata .food_image,
   .project_section .resetdata .torii_image,
   .project_section .resetdata .firewatch_image,
@@ -40,6 +53,7 @@
   .project_section .resetdata .rapid_wireless,
   .project_section .resetdata .rd_image,
   .project_section .resetdata .ui_ux_image,
+  .project_section .rapid_wireless .rf_image,
   .project_section .rapid_wireless .food_image,
   .project_section .rapid_wireless .torii_image,
   .project_section .rapid_wireless .firewatch_image,
@@ -47,6 +61,7 @@
   .project_section .rapid_wireless .rapid_wireless,
   .project_section .rapid_wireless .rd_image,
   .project_section .rapid_wireless .ui_ux_image,
+  .project_section .ui_ux .rf_image,
   .project_section .ui_ux .food_image,
   .project_section .ui_ux .torii_image,
   .project_section .ui_ux .firewatch_image,
@@ -57,6 +72,15 @@
     position: absolute;
     width: 100%;
     height: 100%; }
+    .project_section .reel_finance .rf_image img,
+    .project_section .reel_finance .food_image img,
+    .project_section .reel_finance .torii_image img,
+    .project_section .reel_finance .firewatch_image img,
+    .project_section .reel_finance .resetdata_image img,
+    .project_section .reel_finance .rapid_wireless img,
+    .project_section .reel_finance .rd_image img,
+    .project_section .reel_finance .ui_ux_image img,
+    .project_section .food .rf_image img,
     .project_section .food .food_image img,
     .project_section .food .torii_image img,
     .project_section .food .firewatch_image img,
@@ -64,6 +88,7 @@
     .project_section .food .rapid_wireless img,
     .project_section .food .rd_image img,
     .project_section .food .ui_ux_image img,
+    .project_section .torii .rf_image img,
     .project_section .torii .food_image img,
     .project_section .torii .torii_image img,
     .project_section .torii .firewatch_image img,
@@ -71,6 +96,7 @@
     .project_section .torii .rapid_wireless img,
     .project_section .torii .rd_image img,
     .project_section .torii .ui_ux_image img,
+    .project_section .firewatch .rf_image img,
     .project_section .firewatch .food_image img,
     .project_section .firewatch .torii_image img,
     .project_section .firewatch .firewatch_image img,
@@ -78,6 +104,7 @@
     .project_section .firewatch .rapid_wireless img,
     .project_section .firewatch .rd_image img,
     .project_section .firewatch .ui_ux_image img,
+    .project_section .resetdata .rf_image img,
     .project_section .resetdata .food_image img,
     .project_section .resetdata .torii_image img,
     .project_section .resetdata .firewatch_image img,
@@ -85,6 +112,7 @@
     .project_section .resetdata .rapid_wireless img,
     .project_section .resetdata .rd_image img,
     .project_section .resetdata .ui_ux_image img,
+    .project_section .rapid_wireless .rf_image img,
     .project_section .rapid_wireless .food_image img,
     .project_section .rapid_wireless .torii_image img,
     .project_section .rapid_wireless .firewatch_image img,
@@ -92,6 +120,7 @@
     .project_section .rapid_wireless .rapid_wireless img,
     .project_section .rapid_wireless .rd_image img,
     .project_section .rapid_wireless .ui_ux_image img,
+    .project_section .ui_ux .rf_image img,
     .project_section .ui_ux .food_image img,
     .project_section .ui_ux .torii_image img,
     .project_section .ui_ux .firewatch_image img,
@@ -103,6 +132,15 @@
       width: 100%;
       height: 100%;
       object-fit: cover; }
+    .project_section .reel_finance .rf_image .image_overlay,
+    .project_section .reel_finance .food_image .image_overlay,
+    .project_section .reel_finance .torii_image .image_overlay,
+    .project_section .reel_finance .firewatch_image .image_overlay,
+    .project_section .reel_finance .resetdata_image .image_overlay,
+    .project_section .reel_finance .rapid_wireless .image_overlay,
+    .project_section .reel_finance .rd_image .image_overlay,
+    .project_section .reel_finance .ui_ux_image .image_overlay,
+    .project_section .food .rf_image .image_overlay,
     .project_section .food .food_image .image_overlay,
     .project_section .food .torii_image .image_overlay,
     .project_section .food .firewatch_image .image_overlay,
@@ -110,6 +148,7 @@
     .project_section .food .rapid_wireless .image_overlay,
     .project_section .food .rd_image .image_overlay,
     .project_section .food .ui_ux_image .image_overlay,
+    .project_section .torii .rf_image .image_overlay,
     .project_section .torii .food_image .image_overlay,
     .project_section .torii .torii_image .image_overlay,
     .project_section .torii .firewatch_image .image_overlay,
@@ -117,6 +156,7 @@
     .project_section .torii .rapid_wireless .image_overlay,
     .project_section .torii .rd_image .image_overlay,
     .project_section .torii .ui_ux_image .image_overlay,
+    .project_section .firewatch .rf_image .image_overlay,
     .project_section .firewatch .food_image .image_overlay,
     .project_section .firewatch .torii_image .image_overlay,
     .project_section .firewatch .firewatch_image .image_overlay,
@@ -124,6 +164,7 @@
     .project_section .firewatch .rapid_wireless .image_overlay,
     .project_section .firewatch .rd_image .image_overlay,
     .project_section .firewatch .ui_ux_image .image_overlay,
+    .project_section .resetdata .rf_image .image_overlay,
     .project_section .resetdata .food_image .image_overlay,
     .project_section .resetdata .torii_image .image_overlay,
     .project_section .resetdata .firewatch_image .image_overlay,
@@ -131,6 +172,7 @@
     .project_section .resetdata .rapid_wireless .image_overlay,
     .project_section .resetdata .rd_image .image_overlay,
     .project_section .resetdata .ui_ux_image .image_overlay,
+    .project_section .rapid_wireless .rf_image .image_overlay,
     .project_section .rapid_wireless .food_image .image_overlay,
     .project_section .rapid_wireless .torii_image .image_overlay,
     .project_section .rapid_wireless .firewatch_image .image_overlay,
@@ -138,6 +180,7 @@
     .project_section .rapid_wireless .rapid_wireless .image_overlay,
     .project_section .rapid_wireless .rd_image .image_overlay,
     .project_section .rapid_wireless .ui_ux_image .image_overlay,
+    .project_section .ui_ux .rf_image .image_overlay,
     .project_section .ui_ux .food_image .image_overlay,
     .project_section .ui_ux .torii_image .image_overlay,
     .project_section .ui_ux .firewatch_image .image_overlay,
@@ -151,6 +194,7 @@
       top: 0;
       background: #7b2243;
       opacity: 0.2; }
+  .project_section .reel_finance .food_image .large_img,
   .project_section .food .food_image .large_img,
   .project_section .torii .food_image .large_img,
   .project_section .firewatch .food_image .large_img,
@@ -158,6 +202,7 @@
   .project_section .rapid_wireless .food_image .large_img,
   .project_section .ui_ux .food_image .large_img {
     display: none; }
+  .project_section .reel_finance .ui_ux_image img,
   .project_section .food .ui_ux_image img,
   .project_section .torii .ui_ux_image img,
   .project_section .firewatch .ui_ux_image img,
@@ -165,6 +210,7 @@
   .project_section .rapid_wireless .ui_ux_image img,
   .project_section .ui_ux .ui_ux_image img {
     opacity: 0.75; }
+  .project_section .reel_finance .main_text,
   .project_section .food .main_text,
   .project_section .torii .main_text,
   .project_section .firewatch .main_text,
@@ -181,6 +227,7 @@
     text-decoration: none;
     line-height: 90%;
     text-align: center; }
+    .project_section .reel_finance .main_text .text,
     .project_section .food .main_text .text,
     .project_section .torii .main_text .text,
     .project_section .firewatch .main_text .text,
@@ -189,6 +236,7 @@
     .project_section .ui_ux .main_text .text {
       text-decoration: none;
       padding-right: 10px; }
+    .project_section .reel_finance .main_text .arrow img,
     .project_section .food .main_text .arrow img,
     .project_section .torii .main_text .arrow img,
     .project_section .firewatch .main_text .arrow img,
