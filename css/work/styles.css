@@ -530,7 +530,7 @@
         font-size: 39.81px;
         overflow-wrap: break-word; }
   .services .services_content {
-    max-width: 405px;
+    max-width: 500px;
     margin: 80px 8vw 130px; }
     .services .services_content .part1,
     .services .services_content .part2,
@@ -585,9 +585,9 @@
           display: flex;
           flex-direction: row; }
           .services .services_content .content-list-items ul .list-group2b {
-            margin-left: 162px; }
+            margin-left: 170px; }
           .services .services_content .content-list-items ul .list-group2d {
-            margin-left: 107px; } }
+            margin-left: 123px; } }
   @media only screen and (min-width: 1024px) {
     .services .service_landing {
       height: 46vh;
