@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
 
-    .rf_image,
+    .reelfinance_image,
     .food_image,
     .torii_image,
     .firewatch_image,
@@ -41,9 +41,18 @@
         opacity: 0.2;
       }
     }
+    .reelfinance_image,
     .food_image {
+      .small_img {
+        display: block;
+      }
       .large_img {
         display: none;
+      }
+    }
+    .reelfinance_image{
+      img{
+        opacity: 0.8;
       }
     }
     .ui_ux_image {
@@ -51,6 +60,7 @@
         opacity: 0.75;
       }
     }
+  
     .main_text {
       display: flex;
       align-items: center;
@@ -75,7 +85,9 @@
       }
     }
   }
+
   @media only screen and (min-width: 700px) {
+    .reel_finance,
     .food,
     .torii,
     .firewatch,
@@ -98,21 +110,39 @@
     }
   }
 
+  @media only screen and (min-width: 1024px){
+    .reel_finance,
+    .food{
+    .reelfinance_image,
+    .food_image {
+      .small_img {
+        display: none;
+      }
+      .large_img {
+        display: block;
+      }
+    }
+  }
+  }
+
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .reel_finance,
     .food,
     .torii,
     .firewatch,
     .resetdata,
     .rapid_wireless,
     .ui_ux {
-      .food_image {
-        .small_img {
-          display: none;
-        }
-        .large_img {
-          display: block;
-        }
-      }
+
+      // .reelfinance_image,
+      // .food_image {
+      //   .small_img {
+      //     display: none;
+      //   }
+      //   .large_img {
+      //     display: block;
+      //   }
+      // }
       .main_text {
         font-size: 118.88px;
 
@@ -128,7 +158,9 @@
       }
     }
   }
+
   @media only screen and (min-width: 1900px) {
+    .reel_finance,
     .food,
     .torii,
     .firewatch,

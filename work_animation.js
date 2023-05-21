@@ -121,7 +121,7 @@ tl6.from("h4", {
   duration: 1,
 });
 tl6.from(
-  ".next_link",
+  ".next_link, .arrow",
   {
     // delay: 0.1,
     duration: 1,
