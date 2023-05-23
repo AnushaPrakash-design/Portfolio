@@ -19,7 +19,7 @@ const tl2 = gsap.timeline();
 
 tl2
   .from(".line1", {
-    duration: 0.8,
+    duration: 0.5,
     opacity: 0,
     y: -20,
     ease: "power2.easeOut",
@@ -28,7 +28,7 @@ tl2
   .from(
     ".line2",
     {
-      duration: 1,
+      duration: 0.8,
       opacity: 0,
       y: -20,
       ease: "power2.easeOut",

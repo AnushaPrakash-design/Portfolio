@@ -51,14 +51,16 @@
           height: 100%;
           object-fit: cover;
           border-radius: 15px;
+          opacity: 0.8;
+
         }
 
         .image_overlay {
           position: absolute;
           width: 100%;
           height: 100%;
-          background: #0a0908;
-          opacity: 0.2;
+          background: linear-gradient(180deg, #0A0908 -12.41%, rgba(10, 9, 8, 0) 105.51%);
+          // opacity: 0.3;
           border-radius: 15px;
         }
       }
