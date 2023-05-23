@@ -50,8 +50,8 @@
         display: none;
       }
     }
-    .reelfinance_image{
-      img{
+    .reelfinance_image {
+      img {
         opacity: 0.8;
       }
     }
@@ -60,28 +60,38 @@
         opacity: 0.75;
       }
     }
-  
+
     .main_text {
       display: flex;
       align-items: center;
+      justify-content: center;
       position: absolute;
       font-family: Montserrat;
       font-weight: 800;
       font-size: 47.78px;
       letter-spacing: -0.02em;
       text-decoration: none;
-      line-height: 90%;
+      line-height: 100%;
       text-align: center;
-      // width: min-content;
 
       // display: grid;
-      // grid-template-columns: min-content auto ;
+      // display: grid;
+      // grid-template-columns: min-content auto;
+
+      // grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+      // grid-template-columns: auto 1fr;
 
       .text {
+        flex: 0;
+        // word-wrap: break-word;
+        // width: auto;
+        // white-space: normal;
+        // height: auto;
         text-decoration: none;
         padding-right: 10px;
       }
       .arrow {
+        // flex: 1;
         img {
           width: 8px;
           padding-top: 5px;
@@ -90,6 +100,21 @@
     }
   }
 
+  @media only screen and (min-width: 390px) {
+    .reel_finance,
+    .food,
+    .torii,
+    .firewatch,
+    .resetdata,
+    .rapid_wireless,
+    .ui_ux {
+      .main_text {
+        .text {
+          flex: 1;
+        }
+      }
+    }
+  }
   @media only screen and (min-width: 700px) {
     .reel_finance,
     .food,
@@ -100,8 +125,8 @@
     .ui_ux {
       .main_text {
         font-size: 99.07px;
-
         .text {
+          flex: 0;
           padding-right: 24px;
         }
         .arrow {
@@ -114,19 +139,35 @@
     }
   }
 
-  @media only screen and (min-width: 1024px){
+  @media only screen and (min-width: 900px) {
     .reel_finance,
-    .food{
-    .reelfinance_image,
-    .food_image {
-      .small_img {
-        display: none;
-      }
-      .large_img {
-        display: block;
+    .food,
+    .torii,
+    .firewatch,
+    .resetdata,
+    .rapid_wireless,
+    .ui_ux {
+      .main_text {
+        .text {
+          flex: 1;
+        }
       }
     }
   }
+
+  @media only screen and (min-width: 1024px) {
+    .reel_finance,
+    .food {
+      .reelfinance_image,
+      .food_image {
+        .small_img {
+          display: none;
+        }
+        .large_img {
+          display: block;
+        }
+      }
+    }
   }
 
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
@@ -137,7 +178,6 @@
     .resetdata,
     .rapid_wireless,
     .ui_ux {
-
       // .reelfinance_image,
       // .food_image {
       //   .small_img {

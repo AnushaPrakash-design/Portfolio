@@ -905,13 +905,14 @@
   .project_section .ui_ux .main_text {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: absolute;
     font-family: Montserrat;
     font-weight: 800;
     font-size: 47.78px;
     letter-spacing: -0.02em;
     text-decoration: none;
-    line-height: 90%;
+    line-height: 100%;
     text-align: center; }
     .project_section .reel_finance .main_text .text,
     .project_section .food .main_text .text,
@@ -920,6 +921,7 @@
     .project_section .resetdata .main_text .text,
     .project_section .rapid_wireless .main_text .text,
     .project_section .ui_ux .main_text .text {
+      flex: 0;
       text-decoration: none;
       padding-right: 10px; }
     .project_section .reel_finance .main_text .arrow img,
@@ -931,6 +933,16 @@
     .project_section .ui_ux .main_text .arrow img {
       width: 8px;
       padding-top: 5px; }
+
+@media only screen and (min-width: 390px) {
+  .project_section .reel_finance .main_text .text,
+  .project_section .food .main_text .text,
+  .project_section .torii .main_text .text,
+  .project_section .firewatch .main_text .text,
+  .project_section .resetdata .main_text .text,
+  .project_section .rapid_wireless .main_text .text,
+  .project_section .ui_ux .main_text .text {
+    flex: 1; } }
 
 @media only screen and (min-width: 700px) {
   .project_section .reel_finance .main_text,
@@ -948,6 +960,7 @@
     .project_section .resetdata .main_text .text,
     .project_section .rapid_wireless .main_text .text,
     .project_section .ui_ux .main_text .text {
+      flex: 0;
       padding-right: 24px; }
     .project_section .reel_finance .main_text .arrow img,
     .project_section .food .main_text .arrow img,
@@ -958,6 +971,16 @@
     .project_section .ui_ux .main_text .arrow img {
       width: 20px;
       padding-top: 12px; } }
+
+@media only screen and (min-width: 900px) {
+  .project_section .reel_finance .main_text .text,
+  .project_section .food .main_text .text,
+  .project_section .torii .main_text .text,
+  .project_section .firewatch .main_text .text,
+  .project_section .resetdata .main_text .text,
+  .project_section .rapid_wireless .main_text .text,
+  .project_section .ui_ux .main_text .text {
+    flex: 1; } }
 
 @media only screen and (min-width: 1024px) {
   .project_section .reel_finance .reelfinance_image .small_img,
@@ -1864,7 +1887,7 @@ p {
 .work_landing .image_wrapper .landing_image {
   opacity: 0.7; }
   .work_landing .image_wrapper .landing_image .image_overlay {
-    opacity: 0.2; }
+    opacity: 0.3; }
 
 .work_landing {
   height: 90vh;
