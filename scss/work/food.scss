@@ -365,7 +365,29 @@
   .project_details {
     .about_food {
       margin-bottom: 80px;
+      p{
+        font-size: 18px;
+      }
     }
+  .year,
+  .tech,
+  .livesite,
+  .code {
+    h2,
+    h3
+    {
+      font-size: 18px;
+    }
+  }
+
+  .code{
+    .btn{
+      
+  padding: 12px 24px;
+  font-size: 18px;
+    }
+  }
+    
   }
   .image_wrapper {
     padding: 0 15%;

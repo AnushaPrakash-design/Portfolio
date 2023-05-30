@@ -2162,6 +2162,20 @@ p {
     font-size: 118.88px; }
   .project_details .about_food {
     margin-bottom: 80px; }
+    .project_details .about_food p {
+      font-size: 18px; }
+  .project_details .year h2,
+  .project_details .year h3,
+  .project_details .tech h2,
+  .project_details .tech h3,
+  .project_details .livesite h2,
+  .project_details .livesite h3,
+  .project_details .code h2,
+  .project_details .code h3 {
+    font-size: 18px; }
+  .project_details .code .btn {
+    padding: 12px 24px;
+    font-size: 18px; }
   .image_wrapper {
     padding: 0 15%; }
   .next_project {
