@@ -282,7 +282,8 @@
   .project_details .code h2,
   .project_details .code h3 {
     font-size: 18px; }
-  .project_details .code .btn {
+  .project_details .code .btn,
+  .project_details .livesite .btn {
     padding: 12px 24px;
     font-size: 18px; }
   .image_wrapper {
